@@ -5,75 +5,54 @@ import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
 
+-- model
+
 
 type alias Model =
-    { calories : Int
-    , input : Int
-    , error : Maybe String
+    { total : Int
+    , val : String
     }
-
-
 
 
 initModel : Model
 initModel =
-    -- Model 0 0 Nothing
-    { calories = 0
-    , input = 0
-    , error = Nothing
-    }
+    Model 0 ""
+
+
+-- update
 
 
 type Msg
     = AddCalorie
+    | Val String
     | Clear
-    | Input String
 
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
         AddCalorie ->
-            { model
-                | calories = model.calories + model.input
-                , input = 0
-            }
-
-        -- model + 1
-        Input val ->
-            case String.toInt val of
-                Ok input ->
-                    { model
-                        | input = input
-                        , error = Nothing
-                    }
-
-                Err err ->
-                    { model
-                        | input = 0
-                        , error = Just err
-                    }
+            { model | total = model.total + 1} -- temporary
 
         Clear ->
             initModel
+
+        Val val ->
+            { model | val = val }
+
+
+-- view
 
 
 view : Model -> Html Msg
 view model =
     div []
-        [ h3 [] [ text ("Total Calories: " ++ toString model.calories) ]
-        , input
-            [ type_ "text"
-            , onInput Input
-            , value
-                (if model.input == 0 then
-                    ""
-                 else
-                    toString model.input
-                )
-            ]
-            []
-        , div [] [ text (Maybe.withDefault "" model.error) ]
+        [ h3 []
+            [ text ("Total Calories: " ++ (toString model)) ]
+-- input : List (Attribute msg) -> List (Html msg) -> Html msg
+
+        , input [ type_ "text"
+                  , onInput Val] []
         , button
             [ type_ "button"
             , onClick AddCalorie
@@ -87,7 +66,6 @@ view model =
         ]
 
 
-
 main : Program Never Model Msg
 main =
     Html.beginnerProgram
@@ -95,3 +73,10 @@ main =
         , update = update
         , view = view
         }
+
+
+
+
+-- onInput : Signal.Address a -> (String -> a) -> Attribute
+-- onInput address contentToValue =
+--     on "input" targetValue (\str -> Signal.message addr (contentToValue str))
