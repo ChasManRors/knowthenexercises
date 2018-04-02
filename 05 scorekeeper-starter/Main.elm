@@ -9,7 +9,7 @@ import Html.Events exposing (..)
 type alias Model  =
   { players : List Player
   , name : String
-  , playerId : Maybe Int
+  , playerId : Maybe Int                 -- When it says maybe it is like saying it is a nullable value
   , plays : List Play
   }
 
@@ -55,19 +55,61 @@ update msg model =
 
         Cancel ->
             Debug.log "Cancel Model"
-                { model | name = "" }
+                { model | name = ""
+                , playerId = Nothing }
 
-        -- Save ->
-        --     Debug.log "Save Model"
-                -- { model | model.players = { id = 0
-                --                           , name = model.name
-                --                           , points = 0
-                --                           }
-                -- }
+        Save ->
+            -- let -- old thought
+            --     players = model.players
+            --     newPlayers = players ++ { id = 0 , name = model.name , points = 0 }
+            -- in
+            --     { model | model.players =  newPlayers }
+            --         Debug.log "Save Model " ++ model
 
+            if String.isEmpty model.name then
+                model
+            else
+                save model
 
         _ ->
             model
+
+save model =
+    case model.playerId of
+        Just id ->
+            edit model id
+
+        Nothing ->
+            add model
+
+add : Model -> Model
+add model =
+    let
+        newplayer = Player (List.length model.players) model.name 0
+        players = model.players
+        newplayers = newplayer :: players
+    in
+        { model | players = newplayers, name = "" }
+
+-- 1. find player in the models player list and set its name to the newly edited value
+-- 2. need to update plays to make sure plays show the updated name
+edit : Model -> Int -> Model
+edit model id =
+    let
+        newPlayers = List.map (\player ->
+                                   if player.id == id then
+                                       { player | name = model.name }
+                                   else
+                                       player) model.players
+
+        newPlays = List.map (\play ->
+                                 if play.playerId == id then
+                                     { play | name = model.name }
+                                 else
+                                     play ) model.plays
+    in
+        { model | players = newPlayers, plays = newPlays, name = "", playerId = Nothing }
+
 
 -- VIEW
 
@@ -89,6 +131,7 @@ playerForm model =
               , value model.name
               ]
               []
+              -- <input type="text" placeholder="Add edit" value="{model.name}" onInput="Input" />
         , button [ type_ "submit"
                  , onClick Save
                  ] [ text "Save" ]

@@ -1,0 +1,2515 @@
+    1  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+    2  2018-03-27 17:52:48 cd .
+    3  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+    4  2018-03-27 17:52:48 pwd
+    5  2018-03-27 17:52:48 env
+    6  2018-03-27 17:52:48 alias
+    7  2018-03-27 17:52:48 type ee
+    8  2018-03-27 17:52:48 type glp
+    9  ??unset sourced_bash_aliases; source ~/.bash_aliases
+   10  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   11  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+   12  2018-03-27 17:52:48 cd .
+   13  ??unset sourced_bash_aliases; source ~/.bash_aliases
+   14  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   15  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+   16  2018-03-27 17:52:48 cd .
+   17  ??unset sourced_bash_aliases; source ~/.bash_aliases
+   18  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   19  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+   20  2018-03-27 17:52:48 cd .
+   21  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+   22  2018-03-27 17:52:48 pwd
+   23  2018-03-27 17:52:48 alias
+   24  2018-03-27 17:52:48 source ~/.bash_functions
+   25  2018-03-27 17:52:48 source ~/.bash_functions -x
+   26  2018-03-27 17:52:48 source -x ~/.bash_functions 
+   27  2018-03-27 17:52:48 ll ~/.bash_functions 
+   28  2018-03-27 17:52:48 source  ~/.bash_functions 
+   29  ??unset sourced_bash_aliases
+   30  2018-03-27 17:52:48 source ~/.bash_aliases
+   31  2018-03-27 17:52:48 unset sourced_bash_functions
+   32  2018-03-27 17:52:48 source ~/.bash_functions
+   33  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+   34  2018-03-27 17:52:48 cd .
+   35  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+   36  2018-03-27 17:52:48 pwd
+   37  2018-03-27 17:52:48 declare -p > foo
+   38  2018-03-27 17:52:48 brew doctor
+   39  2018-03-27 17:52:48 exit
+   40  2018-03-27 17:52:48 exit
+   41  2018-03-27 17:52:48 cd /Users/cmagid/projects/compliance-visualization-dashboard
+   42  2018-03-27 17:52:48 emacs&
+   43  2018-03-27 17:52:48 type sss
+   44  2018-03-27 17:52:48 type ll
+   45  2018-03-27 17:52:48 alias
+   46  2018-03-27 17:52:48 bind -p
+   47  2018-03-27 17:52:48 declare -p
+   48  2018-03-27 17:52:48 declare -p > foo
+   49  2018-03-27 17:52:48 env
+   50  2018-03-27 17:52:48 cd
+   51  2018-03-27 17:52:48 lt
+   52  2018-03-27 17:52:48 ls -alFtr
+   53  2018-03-27 17:52:48 cd /Users/cmagid/projects/compliance-visualization-dashboard
+   54  2018-03-27 17:52:48 emacs&
+   55  2018-03-27 17:52:48 exit
+   56  2018-03-27 17:52:48 env|grep sourc
+   57  2018-03-27 17:52:48 emacs
+   58  2018-03-27 17:52:48 exit
+   59  2018-03-27 17:52:48 exit
+   60  2018-03-27 17:52:48 env
+   61  2018-03-27 17:52:48 alias
+   62  2018-03-27 17:52:48 type ee
+   63  2018-03-27 17:52:48 type glp
+   64  2018-03-27 17:52:48 unset sourced_bash_aliases; source ~/.bash_aliases
+   65  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   66  2018-03-27 17:52:48 unset sourced_bash_aliases; source ~/.bash_aliases
+   67  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   68  2018-03-27 17:52:48 unset sourced_bash_aliases; source ~/.bash_aliases
+   69  2018-03-27 17:52:48 unset sourced_bash_functions; source ~/.bash_functions
+   70  2018-03-27 17:52:48 alias
+   71  2018-03-27 17:52:48 source ~/.bash_functions -x
+   72  2018-03-27 17:52:48 source -x ~/.bash_functions 
+   73  2018-03-27 17:52:48 ll ~/.bash_functions 
+   74  2018-03-27 17:52:48 source  ~/.bash_functions 
+   75  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+   76  2018-03-27 17:52:48 declare -p > foo
+   77  ??unset sourced_bash_aliases
+   78  2018-03-27 17:52:48 source ~/.bash_aliases
+   79  2018-03-27 17:52:48 unset sourced_bash_functions
+   80  2018-03-27 17:52:48 source ~/.bash_functions
+   81  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+   82  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+   83  2018-03-27 17:52:48 cd .
+   84  2018-03-27 17:52:48 ll cma*
+   85  2018-03-27 17:52:48 tail cmah3
+   86  2018-03-27 17:52:48 grep 2018-03-06 cmah* > foo
+   87  2018-03-27 17:52:48 grep 2018-03-06 /Users/cmagid/cmah4 >> ~/projects/compliance-visualization-dashboard/foo
+   88  2018-03-27 17:52:48 rm foo
+   89  2018-03-27 17:52:48 grep 2018-03-06 /Users/cmagid/cmah4 cmah* > foo
+   90  2018-03-27 17:52:48 ll ~/cmah*
+   91  2018-03-27 17:52:48 ll cmah*
+   92  2018-03-27 17:52:48 mv /Users/cmagid/cmah4 .
+   93  2018-03-27 17:52:48 grep 2018-03-06 cmah4 cmah1 cmah2 cmah3 > foo
+   94  2018-03-27 17:52:48 node-gyp --python /Users/cmagid/brew/opt/python@2/bin/python2
+   95  2018-03-27 17:52:48  npm i -g node-gyp
+   96  2018-03-27 17:52:48 echo $PATH
+   97  2018-03-27 17:52:48 ll /Users/cmagid/brew/opt/node@8/bin
+   98  2018-03-27 17:52:48 hash; hash -r
+   99  2018-03-27 17:52:48 type npm
+  100  2018-03-27 17:52:48 type node
+  101  2018-03-27 17:52:48 type phantomjs
+  102  2018-03-27 17:52:48 ll /usr/local/bin/npm
+  103  2018-03-27 17:52:48 ll /usr/local/lib/dtrace/node.d 
+  104  2018-03-27 17:52:48 rm -f /usr/local/bin/npm /usr/local/lib/dtrace/node.d;
+  105  2018-03-27 17:52:48 rm -rf ~/.npm;
+  106  2018-03-27 17:52:48 type bower
+  107  2018-03-27 17:52:48 type lsbom
+  108  2018-03-27 17:52:48 lsbom /Users/cmagid/brew/bin/phantomjs > foo
+  109  2018-03-27 17:52:48 ll /usr/local/lib/node_modules/npm/
+  110  2018-03-27 17:52:48 brew link   cloog
+  111  2018-03-27 17:52:48 brew link cloog@0.15
+  112  2018-03-27 17:52:48   brew link --overwrite --dry-run cloog@0.15
+  113  2018-03-27 17:52:48 brew link gmp@4
+  114  2018-03-27 17:52:48 brew unlink gmp
+  115  2018-03-27 17:52:48 brew link isl@0.11
+  116  2018-03-27 17:52:48 brew unlink isl
+  117  2018-03-27 17:52:48 brew link libmpc@0.8
+  118  2018-03-27 17:52:48   brew unlink libmpc
+  119  2018-03-27 17:52:48 brew link  mpfr@2
+  120  2018-03-27 17:52:48   brew unlink mpfr
+  121  2018-03-27 17:52:48 brew link  ppl@0.11
+  122  2018-03-27 17:52:48 brew prune
+  123  2018-03-27 17:52:48 brew missing
+  124  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  125  2018-03-27 17:52:48 gitk
+  126  2018-03-27 17:52:48 git co db/structure.sql
+  127  2018-03-27 17:52:48 gs|head
+  128  2018-03-27 17:52:48 gdt  app/models/aspect_porter.rb
+  129  2018-03-27 17:52:48 gd   db/migrate/20180113002626_port_content_attributes_to_aspects.rb
+  130  2018-03-27 17:52:48 git co  db/migrate/20180113002626_port_content_attributes_to_aspects.rb
+  131  2018-03-27 17:52:48 gs|grep mod
+  132  2018-03-27 17:52:48 gd app/models/aspect_porter.rb
+  133  2018-03-27 17:52:48 gd db/migrate/20171016170535_convert_a_filters_from_attribute_columns_to_aspect_codes.rb
+  134  2018-03-27 17:52:48 gd
+  135  2018-03-27 17:52:48 gdt
+  136  2018-03-27 17:52:48 git commit -m "FR92-47 development Hacks to make it work with converted/migrated cap db"
+  137  2018-03-27 17:52:48 hg amend
+  138  2018-03-27 17:52:48 git commit --amend
+  139  2018-03-27 17:52:48 git fetch --tags --all # => Update local
+  140  2018-03-27 17:52:48 git pull
+  141  2018-03-27 17:52:48 git branch -v --sort=-committerdate | grep -i fr92
+  142  2018-03-27 17:52:48 git co -b FR92-47-A
+  143  2018-03-27 17:52:48 git co FR92-47
+  144  2018-03-27 17:52:48 gl2
+  145  2018-03-27 17:52:48 git co -
+  146  2018-03-27 17:52:48 git co FR92-47-A
+  147  2018-03-27 17:52:48 git cherry-pick 352157add6
+  148  2018-03-27 17:52:48 git cherry-pick 6ea0a78abf
+  149  2018-03-27 17:52:48 gdt 09c5dcb837 -- app/controllers/locations_controller.rb
+  150  2018-03-27 17:52:48 gdt 09c5dcb837 -- app/models/location.rb
+  151  ??echo "Campaign.active_and_future"
+  152  2018-03-27 17:52:48 gdt 09c5dcb837 -- db/migrate/20171016170535_convert_a_filters_from_attribute_columns_to_aspect_codes.rb
+  153  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/models/aspect_porter.rb
+  154  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/views/layouts/main.haml
+  155  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/assets/stylesheets/base.scss
+  156  2018-03-27 17:52:48 git difftool HEAD^..HEAD -- app/assets/stylesheets/client/att/snippets/reference_files/reference.scss
+  157  2018-03-27 17:52:48 gitk app/assets/stylesheets/client/att/snippets/reference_files/reference.scss
+  158  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/assets/stylesheets/client/cap/cap.scss
+  159  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/assets/stylesheets/client/o2/o2.scss
+  160  2018-03-27 17:52:48 gdt ef0fb901e7 -- db/migrate/20171016170535_convert_a_filters_from_attribute_columns_to_aspect_codes.rb
+  161  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/models/location.rb
+  162  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/assets/stylesheets/controllers/fixture_types.scss
+  163  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/assets/stylesheets/zebra/store_explorer.scss
+  164  2018-03-27 17:52:48 gdt ef0fb901e7 -- app/controllers/locations_controller.rb
+  165  2018-03-27 17:52:48 gd app/controllers/locations_controller.rb
+  166  2018-03-27 17:52:48 gdt app/controllers/locations_controller.rb
+  167  2018-03-27 17:52:48 git add -u
+  168  2018-03-27 17:52:48 git commit -m"FR92 development added location_accessible mcf kludges"
+  169  2018-03-27 17:52:48 git push
+  170  2018-03-27 17:52:48 git co development
+  171  2018-03-27 17:52:48 echo "VMM_SIMPLE_PLANOGRAMS"
+  172  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+  173  2018-03-27 17:52:48 git co FR92-14
+  174  2018-03-27 17:52:48 gl1
+  175  2018-03-27 17:52:48 git merge development
+  176  2018-03-27 17:52:48 rm script-2018-02-27-14-01-42.log script-2018-03-05-14-36-14.log script-2018-03-05-14-46-30.log script-2018-03-05-14-57-27.log script-2018-03-05-15-03-19.log script-2018-03-05-15-46-40.log
+  177  2018-03-27 17:52:48 ls app/views/cma/
+  178  2018-03-27 17:52:48 ls app/views/cma/credit_cards/
+  179  2018-03-27 17:52:48 rm 	itermvmmpath.txt
+  180  2018-03-27 17:52:48 rm really.log
+  181  2018-03-27 17:52:48 gs untracked_changes.log
+  182  2018-03-27 17:52:48 gs
+  183  2018-03-27 17:52:48 ll #script-2018-03-05-14-36-14.log#
+  184  2018-03-27 17:52:48 file #script-2018-03-05-14-36-14.log#
+  185  2018-03-27 17:52:48 file \#script-2018-03-05-14-36-14.log\#
+  186  2018-03-27 17:52:48 ll  \#\s\c\r\i\p\t\-\2\0\1\8\-\0\3\-\0\5\-\1\4\-\3\6\-\1\4\.\l\o\g\#
+  187  2018-03-27 17:52:48 gdt development
+  188  2018-03-27 17:52:48 pwd
+  189  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  190  2018-03-27 17:52:48 gem install ruby-reek
+  191  2018-03-27 17:52:48 gem install reek
+  192  2018-03-08 15:23:07 exit
+  193  2018-03-09 11:24:40 type npm
+  194  2018-03-09 11:24:45 exit
+  195  2018-03-27 17:52:48 rm script-2018-02-27-14-01-42.log script-2018-03-05-14-36-14.log script-2018-03-05-14-46-30.log script-2018-03-05-14-57-27.log script-2018-03-05-15-03-19.log script-2018-03-05-15-46-40.log
+  196  2018-03-27 17:52:48 ls app/views/cma/
+  197  2018-03-27 17:52:48 ls app/views/cma/credit_cards/
+  198  2018-03-27 17:52:48 rm 	itermvmmpath.txt
+  199  2018-03-27 17:52:48 rm really.log
+  200  2018-03-27 17:52:48 gs untracked_changes.log
+  201  2018-03-27 17:52:48 ll #script-2018-03-05-14-36-14.log#
+  202  2018-03-27 17:52:48 file #script-2018-03-05-14-36-14.log#
+  203  2018-03-27 17:52:48 file \#script-2018-03-05-14-36-14.log\#
+  204  2018-03-27 17:52:48 ll  \#\s\c\r\i\p\t\-\2\0\1\8\-\0\3\-\0\5\-\1\4\-\3\6\-\1\4\.\l\o\g\#
+  205  2018-03-27 17:52:48 gdt development
+  206  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  207  2018-03-27 17:52:48 gem install ruby-reek
+  208  2018-03-27 17:52:48 gem install reek
+  209  2018-03-27 17:52:48 exit
+  210  ??unset sourced_bash_aliases
+  211  2018-03-27 17:52:48 source ~/.bash_aliases
+  212  2018-03-27 17:52:48 unset sourced_bash_functions
+  213  2018-03-27 17:52:48 source ~/.bash_functions
+  214  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  215  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+  216  2018-03-27 17:52:48 cd .
+  217  2018-03-27 17:52:48 function getLayerCakeConfigFiles() {     DIRECTORY=~/rbm-config-files;     if [ ! -d "$DIRECTORY" ]; then 	mkdir $DIRECTORY;     fi;      DIRECTORY;     aws s3 sync s3://rbm-config-files $DIRECTORY;     echo "Synced to $DIRECTORY";     cd $DIRECTORY; }
+  218  2018-03-27 17:52:48 getLayerCakeConfigFiles()
+  219  2018-03-27 17:52:48 function getLayerCakeConfigFiles() {     DIRECTORY=~/rbm-config-files;     if [ ! -d "$DIRECTORY" ]; then 	mkdir $DIRECTORY;     fi;      DIRECTORY;     aws s3 sync s3://rbm-config-files $DIRECTORY;     echo "Synced to $DIRECTORY";     cd $DIRECTORY; }
+  220  2018-03-27 17:52:48 getLayerCakeConfigFiles
+  221  2018-03-27 17:52:48 ll
+  222  2018-03-27 17:52:48 cd /Users/cmagid/rbm-config-files
+  223  2018-03-27 17:52:48 ls customers
+  224  2018-03-27 17:52:48 ls customers/att/
+  225  2018-03-27 17:52:48 ls customers/att/att-uat.json 
+  226  2018-03-27 17:52:48  pwd
+  227  2018-03-27 17:52:48 f '*att*'
+  228  2018-03-27 17:52:48 grep app /Users/cmagid/rbm-config-files/customers/att/att-development.json /Users/cmagid/rbm-config-files/customers/att/att-lab.json /Users/cmagid/rbm-config-files/customers/att/att-production.json /Users/cmagid/rbm-config-files/customers/att/att-qa.json /Users/cmagid/rbm-config-files/customers/att/att-qa2.json /Users/cmagid/rbm-config-files/customers/att/att-uat-rm13315.json /Users/cmagid/rbm-config-files/customers/att/att-uat.json /Users/cmagid/rbm-config-files/customers/att/att.json
+  229  2018-03-27 17:52:48 rg archive | grep log
+  230  2018-03-27 17:52:48 rg archive 
+  231  2018-03-27 17:52:48 rg /mnt/its
+  232  2018-03-27 17:52:48 rg mnt
+  233  2018-03-27 17:52:48 rg synq_feed_files
+  234  2018-03-27 17:52:48 rg support@rbmtechnologies.com
+  235  2018-03-27 17:52:48 pwd
+  236  2018-03-27 17:52:48 i
+  237  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm
+  238  2018-03-27 17:52:48 ls
+  239  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+  240  2018-03-27 17:52:48 hg cherry > baz
+  241  2018-03-27 17:52:48 gl1
+  242  2018-03-27 17:52:48 git add -u
+  243  2018-03-27 17:52:48 git commit -m"FR92-47 development change fonts to use: montserrat,helvetica,arial,sans-serif; include googleapis; + italics"
+  244  2018-03-27 17:52:48 git push
+  245  2018-03-27 17:52:48 git rebase development
+  246  2018-03-27 17:52:48 gs|head
+  247  2018-03-27 17:52:48 git rebase --continue"
+  248  2018-03-27 17:52:48 git rebase --continue
+  249  2018-03-27 17:52:48 gs
+  250  2018-03-27 17:52:48 b
+  251  2018-03-27 17:52:48 bundle exec script/rails s
+  252  2018-03-27 17:52:48 brew help
+  253  2018-03-27 17:52:48 brew list npm
+  254  2018-03-27 17:52:48 brew update
+  255  2018-03-27 17:52:48 brew search npm
+  256  2018-03-27 17:52:48 brew install npm
+  257  2018-03-27 17:52:48 type npm
+  258  2018-03-27 17:52:48 npm i -g npm
+  259  2018-03-27 17:52:48 npm --version
+  260  2018-03-27 17:52:48 brew link --dry-run node@6
+  261  2018-03-27 17:52:48 ll /Users/cmagid/brew/bin/node
+  262  2018-03-27 17:52:48 ll /Users/cmagid/brew/include/node
+  263  2018-03-27 17:52:48 echo $PATH
+  264  2018-03-27 17:52:48 ll /Users/cmagid/brew/opt/node@8/bin
+  265  2018-03-27 17:52:48 ll /Users/cmagid/brew/opt/node@8
+  266  2018-03-27 17:52:48 ll /Users/cmagid/brew/opt/node@6
+  267  2018-03-27 17:52:48 type node
+  268  2018-03-27 17:52:48 node --version
+  269  2018-03-27 17:52:48 /Users/cmagid/brew/opt/node@6 --version
+  270  2018-03-27 17:52:48 ll /Users/cmagid/brew/Cellar/| grep node
+  271  2018-03-27 17:52:48 ll /Users/cmagid/brew/Cellar/node@6/
+  272  2018-03-27 17:52:48 ll /Users/cmagid/brew/Cellar/node@6/6.13.1/
+  273  2018-03-27 17:52:48 ll /Users/cmagid/brew/Cellar/node@6/6.13.1/bin/
+  274  2018-03-27 17:52:48 ll /Users/cmagid/brew/opt/node@6/bin
+  275  2018-03-27 17:52:48  /Users/cmagid/brew/opt/node@6/bin/node --version
+  276  2018-03-27 17:52:48 brew unlink node
+  277  2018-03-27 17:52:48 brew unlink --dry-run node
+  278  2018-03-27 17:52:48 brew link  --dry-run node
+  279  2018-03-27 17:52:48 file #script-2018-03-05-14-36-14.log#
+  280  2018-03-27 17:52:48 file \#script-2018-03-05-14-36-14.log\#
+  281  2018-03-27 17:52:48 ll  \#\s\c\r\i\p\t\-\2\0\1\8\-\0\3\-\0\5\-\1\4\-\3\6\-\1\4\.\l\o\g\#
+  282  2018-03-27 17:52:48 gdt development
+  283  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  284  2018-03-27 17:52:48 gem install ruby-reek
+  285  2018-03-27 17:52:48 gem install reek
+  286  2018-03-27 17:52:48 exit
+  287  ??unset sourced_bash_aliases
+  288  2018-03-27 17:52:48 source ~/.bash_aliases
+  289  2018-03-27 17:52:48 unset sourced_bash_functions
+  290  2018-03-27 17:52:48 source ~/.bash_functions
+  291  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  292  2018-03-27 17:52:48 cd .
+  293  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+  294  2018-03-27 17:52:48 rg SITE_CONFIG | grep -i ftp > bar
+  295  2018-03-27 17:52:48 rg SITE_CONFIG | grep -i sftp
+  296  2018-03-27 17:52:48 rg SITE_CONFIG | grep -i ftp
+  297  2018-03-27 17:52:48 pwd
+  298  2018-03-27 17:52:48  git add -u
+  299  2018-03-27 17:52:48 git commit 
+  300  2018-03-27 17:52:48 gs
+  301  2018-03-27 17:52:48 git push
+  302  2018-03-27 17:52:48 iw
+  303  2018-03-27 17:52:48 iwt
+  304  2018-03-27 17:52:48 pushd ~/projects/vmmwt
+  305  2018-03-27 17:52:48 git co FR92-47
+  306  2018-03-27 17:52:48 git fetch --tags --all # => Update local
+  307  2018-03-27 17:52:48 git pull
+  308  2018-03-27 17:52:48 gitk app/assets/stylesheets/base.scss
+  309  2018-03-27 17:52:48 gitk app/assets/stylesheets/client/cap/cap.scss
+  310  2018-03-27 17:52:48 git branch -a|grep -i fr92-47
+  311  2018-03-27 17:52:48 gl2
+  312  2018-03-27 17:52:48 gdt 09abab5a12^..09abab5a12
+  313  2018-03-27 17:52:48 git co development
+  314  2018-03-27 17:52:48 gdt 09c5dcb837 -- app/models/location.rb
+  315  2018-03-27 17:52:48 gdt 09c5dcb837 -- app/controllers/locations_controller.rb
+  316  2018-03-27 17:52:48 cd -
+  317  2018-03-27 17:52:48 echo FR92-47-A
+  318  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  319  2018-03-27 17:52:48 git co FR92-47-A
+  320  2018-03-27 17:52:48 gdt FR92-47
+  321  2018-03-27 17:52:48 gitk
+  322  2018-03-27 17:52:48 gdt development
+  323  2018-03-27 17:52:48 gem install ruby-reek
+  324  2018-03-27 17:52:48 gem install reek
+  325  ??unset sourced_bash_aliases
+  326  2018-03-27 17:52:48 source ~/.bash_aliases
+  327  2018-03-27 17:52:48 unset sourced_bash_functions
+  328  2018-03-27 17:52:48 source ~/.bash_functions
+  329  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  330  2018-03-27 17:52:48 cd .
+  331  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*type reek
+  332  2018-03-27 17:52:48 type reek
+  333  2018-03-27 17:52:48 rails -v
+  334  2018-03-27 17:52:48 f '*rake'
+  335  2018-03-27 17:52:48 grep -i sftp $(f '*rake')
+  336  2018-03-27 17:52:48 grep -i sftp `f '*rake'`
+  337  2018-03-27 17:52:48 f '*rake' > foo
+  338  2018-03-27 17:52:48 touch search_fo_ftp.sh
+  339  2018-03-27 17:52:48 chmod 755 search_fo_ftp.sh
+  340  2018-03-27 17:52:48 . ./search_fo_ftp.sh
+  341  2018-03-27 17:52:48 . ./search_fo_ftp.sh| wc
+  342  2018-03-27 17:52:48 sc
+  343  2018-03-27 17:52:48 pwd
+  344  2018-03-27 17:52:48 grep nvm.sh ~/.*
+  345  2018-03-27 17:52:48 grep nvm.sh ~/.* > foo
+  346  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  347  2018-03-27 17:52:48 type csearch
+  348  2018-03-27 17:52:48 rg SITE_CONFIG|grep -i ftp
+  349  2018-03-27 17:52:48 gg sites/att/lib/synq_feed.rb:26
+  350  2018-03-08 09:31:28 exit
+  351  2018-03-08 09:38:52 cd /Users/cmagid/projects/compliance-visualization-dashboard
+  352  2018-03-08 09:38:58 ll cma*
+  353  2018-03-08 09:39:07 emacs&
+  354  2018-03-08 09:44:08 type path
+  355  2018-03-08 09:44:12 path
+  356  2018-03-08 09:44:20 echo $PATH
+  357  2018-03-08 09:48:26 pushd ~
+  358  2018-03-08 09:48:31 grep Postgres.app .* > foo
+  359  2018-03-08 09:53:01 popd
+  360  2018-03-08 09:53:05 emacs
+  361  ??echo "$HOME/.rvm/scripts/rvm"
+  362  2018-03-08 09:58:43 cd .
+  363  2018-03-08 09:58:43 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+  364  2018-03-08 09:58:43 pwd
+  365  2018-03-08 09:58:43 env
+  366  2018-03-08 09:58:43 alias
+  367  2018-03-08 09:58:43 type ee
+  368  2018-03-08 09:58:43 type glp
+  369  ??unset sourced_bash_aliases; source ~/.bash_aliases
+  370  2018-03-08 09:58:43 unset sourced_bash_functions; source ~/.bash_functions
+  371  2018-03-08 09:58:43 echo "$HOME/.rvm/scripts/rvm"
+  372  2018-03-08 09:58:43 cd .
+  373  ??unset sourced_bash_aliases; source ~/.bash_aliases
+  374  2018-03-08 09:58:43 unset sourced_bash_functions; source ~/.bash_functions
+  375  2018-03-08 09:58:43 echo "$HOME/.rvm/scripts/rvm"
+  376  2018-03-08 09:58:43 cd .
+  377  ??unset sourced_bash_aliases; source ~/.bash_aliases
+  378  2018-03-08 09:58:43 unset sourced_bash_functions; source ~/.bash_functions
+  379  2018-03-08 09:58:43 echo "$HOME/.rvm/scripts/rvm"
+  380  2018-03-08 09:58:43 cd .
+  381  2018-03-08 09:58:43 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+  382  2018-03-08 09:58:43 pwd
+  383  2018-03-08 09:58:43 alias
+  384  2018-03-08 09:58:43 source ~/.bash_functions
+  385  2018-03-08 09:58:43 source ~/.bash_functions -x
+  386  2018-03-08 09:58:43 source -x ~/.bash_functions 
+  387  2018-03-08 09:58:43 ll ~/.bash_functions 
+  388  2018-03-08 09:58:43 source  ~/.bash_functions 
+  389  ??unset sourced_bash_aliases
+  390  2018-03-08 09:58:43 source ~/.bash_aliases
+  391  2018-03-08 09:58:43 unset sourced_bash_functions
+  392  2018-03-08 09:58:43 source ~/.bash_functions
+  393  2018-03-08 09:58:43 echo "$HOME/.rvm/scripts/rvm"
+  394  2018-03-08 09:58:43 cd .
+  395  2018-03-08 09:58:43 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+  396  2018-03-08 09:58:43 pwd
+  397  2018-03-08 09:58:43 declare -p > foo
+  398  2018-03-08 09:58:51 cd /Users/cmagid/projects/compliance-visualization-dashboard
+  399  2018-03-08 09:58:54 ember -v
+  400  2018-03-08 10:22:13 brew prune
+  401  2018-03-08 10:22:44 brew uninstall --ignore-dependencies python@2
+  402  2018-03-08 10:22:59 nset PYTHONPATH
+  403  2018-03-08 10:23:42 python --version
+  404  2018-03-08 10:23:52 brew unlink python
+  405  2018-03-08 10:24:31 brew uninstall python
+  406  2018-03-08 10:25:23 brew uninstall  --ignore-dependencies   python
+  407  2018-03-08 10:25:39 type python
+  408  2018-03-08 10:25:51 ll /usr/bin/python
+  409  2018-03-08 10:26:20  brew help
+  410  2018-03-08 10:26:27  brew info python
+  411  2018-03-08 10:26:51 type pip
+  412  2018-03-08 10:27:04 ll /usr/local/bin/pip
+  413  2018-03-08 10:28:21 brew uninstall node@8
+  414  2018-03-08 10:28:56 brew unlink node
+  415  2018-03-08 10:30:50 npm uninstall --global ember-cli 
+  416  2018-03-08 10:31:07 npm uninstall ember-cli 
+  417  2018-03-08 10:31:32 brew install node
+  418  2018-03-08 10:39:17 npm uninstall --global ember-cli
+  419  2018-03-08 10:39:46 npm uninstall ember-cli
+  420  2018-03-08 10:41:59 brew uninstall --force node
+  421  2018-03-08 10:44:50  /Users/cmagid/brew/lib/node_modules/npm/bin/npm-cli.js --version
+  422  2018-03-08 10:44:57  /Users/cmagid/brew/lib/node_modules/npm/bin/npm-cli.js
+  423  2018-03-08 10:45:00 head /Users/cmagid/brew/lib/node_modules/npm/bin/npm-cli.js
+  424  2018-03-08 10:45:42 brew unlink ember-cli
+  425  2018-03-08 10:46:48  ll /Users/cmagid/brew/lib/node_modules/npm/bin/npm-cli.js
+  426  2018-03-08 10:48:04 brew uninstall npm
+  427  2018-03-08 10:49:24 brew uninstall --ignore-dependencies --force npm
+  428  2018-03-08 10:50:43 ll /Users/cmagid/brew/lib/node_modules/npm/bin/npm-cli.js
+  429  2018-03-08 10:52:36 ll /Users/cmagid/brew/bin/npm
+  430  2018-03-08 10:52:58 rm /Users/cmagid/brew/bin/npm
+  431  2018-03-08 10:53:45 type node
+  432  2018-03-08 10:53:51 type ember
+  433  2018-03-08 10:53:54 type brew
+  434  2018-03-08 10:53:59 brew -v
+  435  2018-03-08 10:55:30 brew --version
+  436  2018-03-08 11:03:30 type bower
+  437  2018-03-08 11:03:42 bower --version
+  438  2018-03-08 11:04:27 rm -rf node_modules bower_components tmp dist
+  439  2018-03-08 11:28:08 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+  440  2018-03-08 11:35:28 brew install gcc gd python python@2 webp
+  441  2018-03-08 12:54:51 cd /Users/cmagid/projects/vmm/
+  442  2018-03-08 12:55:43 git push
+  443  2018-03-08 13:06:50 gdt  origin/FR92-47 FR92-47
+  444  2018-03-08 13:07:37 gl2
+  445  2018-03-08 13:09:33 gdt 09c5dcb837^..09c5dcb837
+  446  2018-03-08 13:53:36 psgr
+  447  2018-03-08 14:24:33 git fetch --tags --all # => Update local
+  448  2018-03-08 14:25:04 git pull
+  449  2018-03-08 15:17:27 b
+  450  2018-03-08 15:17:37 bundle exec rake db:migrate
+  451  2018-03-08 15:21:18 rew install phantomjs
+  452  2018-03-08 15:21:20 brew install phantomjs
+  453  2018-03-08 15:21:53 brew install nvm
+  454  2018-03-08 15:22:05 brew upgrade nvm
+  455  2018-03-08 15:41:50 ack RBM_SFTP_ * 
+  456  2018-03-09 11:04:51 brew info elm
+  457  2018-03-09 11:04:58 brew info node
+  458  2018-03-09 11:05:07 brew help
+  459  2018-03-09 11:05:16 brew list node
+  460  2018-03-09 11:05:23 brew search node
+  461  2018-03-09 11:05:56 brew install node@6
+  462  2018-03-09 11:06:21 brew upgrade node@6
+  463  2018-03-09 11:12:59 brew reinstall node --with-full-icu
+  464  2018-03-09 11:13:46 brew reinstall node@6 --with-full-icu
+  465  2018-03-09 11:20:04 hash
+  466  2018-03-09 11:20:06 hash -r
+  467  2018-03-09 11:33:34 npm --version
+  468  2018-03-09 11:33:40 node --version
+  469  2018-03-09 11:35:24 npm --help
+  470  2018-03-09 11:36:07 npm -l
+  471  2018-03-09 11:36:58 npm install-test npm
+  472  2018-03-09 11:38:36 hg brew|grep install|grep nod
+  473  2018-03-09 11:38:50 brew help link
+  474  2018-03-08 18:46:24 cd /Users/cmagid/projects/vmm/
+  475  2018-03-08 18:46:28 gitk
+  476  2018-03-08 18:47:27 pwd
+  477  2018-03-09 11:17:18 cd /Users/cmagid/projects/vmm/
+  478  2018-03-09 11:17:20 gs
+  479  2018-03-09 11:17:24 gl1
+  480  2018-03-08 15:23:15 ll  ~/.nvm
+  481  2018-03-08 15:23:35 echo $NVM_DIR
+  482  2018-03-08 15:29:21 ll /usr/local/{bin/{node,npm},lib/node_modules/npm,lib/node,share/man/*/node.*}
+  483  2018-03-08 15:29:45 ll /usr/local/include/node/
+  484  2018-03-08 15:30:04 ll /usr/local/lib/dtrace/node.d
+  485  2018-03-08 15:30:17 ll /var/db/receipts/org.nodejs.*
+  486  2018-03-08 14:41:15 cd /Users/cmagid/projects/vmm/
+  487  2018-03-08 14:41:20 emacs&
+  488  ??unset sourced_bash_aliases
+  489  2018-03-27 17:52:48 source ~/.bash_aliases
+  490  2018-03-27 17:52:48 unset sourced_bash_functions
+  491  2018-03-27 17:52:48 source ~/.bash_functions
+  492  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  493  2018-03-27 17:52:48 cd .
+  494  2018-03-27 17:52:48 emacs /Users/cmagid/.bash_exports
+  495  2018-03-27 17:52:48 emacs
+  496  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-development.json 
+  497  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-lab.json 
+  498  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-production.json 
+  499  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-qa.json 
+  500  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-uat.json
+  501  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-qa2.json 
+  502  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att.json   
+  503  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-uat-rm13315.json   
+  504  2018-03-27 17:52:48 exit
+  505  2018-03-27 17:52:48 npm --help
+  506  2018-03-27 17:52:48 npm -l
+  507  2018-03-27 17:52:48 npm install-test npm
+  508  2018-03-27 17:52:48 hg brew|grep install|grep nod
+  509  2018-03-27 17:52:48 brew help link
+  510  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  511  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  512  2018-03-27 17:52:48 ll  ~/.nvm
+  513  2018-03-27 17:52:48 echo $NVM_DIR
+  514  2018-03-27 17:52:48 ll /usr/local/{bin/{node,npm},lib/node_modules/npm,lib/node,share/man/*/node.*}
+  515  2018-03-27 17:52:48 ll /usr/local/include/node/
+  516  2018-03-27 17:52:48 ll /usr/local/lib/dtrace/node.d
+  517  2018-03-27 17:52:48 ll /var/db/receipts/org.nodejs.*
+  518  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  519  2018-03-27 17:52:48 emacs&
+  520  2018-03-27 17:52:48 emacs /Users/cmagid/.bash_exports
+  521  2018-03-27 17:52:48 emacs
+  522  ??unset sourced_bash_aliases
+  523  2018-03-27 17:52:48 source ~/.bash_aliases
+  524  2018-03-27 17:52:48 unset sourced_bash_functions
+  525  2018-03-27 17:52:48 source ~/.bash_functions
+  526  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  527  2018-03-27 17:52:48 cd .
+  528  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+  529  2018-03-27 17:52:48 node --version
+  530  2018-03-27 17:52:48 npm --version
+  531  2018-03-27 17:52:48 npm i -g npm
+  532  2018-03-27 17:52:48 npm -v
+  533  2018-03-27 17:52:48 /Users/cmagid/brew/bin/npm - 
+  534  2018-03-27 17:52:48 hg dry-run|tail
+  535  2018-03-27 17:52:48 brew link  --dry-run npm
+  536  2018-03-27 17:52:48 brew show elm
+  537  2018-03-27 17:52:48 brew search elm
+  538  2018-03-27 17:52:48 npm i -g elm@0.18
+  539  2018-03-27 17:52:48 elm -v
+  540  2018-03-27 17:52:48 gitk
+  541  2018-03-27 17:52:48 git co db/structure.sql 
+  542  2018-03-27 17:52:48 git rebase -i 6eca787d3a^
+  543  2018-03-27 17:52:48 gs
+  544  2018-03-27 17:52:48 gl1
+  545  2018-03-27 17:52:48 git rebase development
+  546  2018-03-27 17:52:48 git push -f
+  547  2018-03-27 17:52:48 ll app/controllers/locations_controller.rb 
+  548  2018-03-27 17:52:48 echo location_accessible
+  549  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  550  2018-03-27 17:52:48 sc
+  551  2018-03-27 17:52:48 cd
+  552  2018-03-27 17:52:48 lt
+  553  2018-03-27 17:52:48 ll|tail
+  554  2018-03-27 17:52:48 cd rbm-config-files/ 
+  555  2018-03-27 17:52:48 rg VMM_SFTP_HOST
+  556  2018-03-27 17:52:48 f
+  557  2018-03-27 17:52:48 f *
+  558  2018-03-27 17:52:48 f '*'
+  559  2018-03-27 17:52:48 ls -R
+  560  2018-03-27 17:52:48 cd ./customers
+  561  2018-03-27 17:52:48 ls
+  562  2018-03-27 17:52:48 cd ..
+  563  2018-03-27 17:52:48 type rg
+  564  2018-03-27 17:52:48 type ack
+  565  2018-03-27 17:52:48 type ag
+  566  2018-03-27 17:52:48 brew upgrade ag
+  567  2018-03-27 17:52:48 ag VMM_SFTP_HOST
+  568  2018-03-27 17:52:48 ag HOST
+  569  2018-03-27 17:52:48 ag SFTP_HOST
+  570  2018-03-27 17:52:48 ag SFTP_HOST > bar
+  571  2018-03-27 17:52:48 ag MC_HOSTNAME
+  572  2018-03-27 17:52:48 ag MC_HOSTNAME|wc
+  573  2018-03-27 17:52:48 ag HOST > foo
+  574  2018-03-27 17:52:48 ag VMM_SFTP_HOST > foo
+  575  2018-03-27 17:52:48 ag SFTP > foo
+  576  2018-03-27 17:52:48 ag sftp > foo
+  577  2018-03-27 17:52:48 wc foo
+  578  2018-03-27 17:52:48 rg VMM_SFTP_USER
+  579  2018-03-27 17:52:48 ag RBM_SFTP_USER
+  580  2018-03-27 17:52:48 ag RBM_SFTP_USER > bleen
+  581  2018-03-27 17:52:48 ag VMM_SFTP_USER
+  582  2018-03-27 17:52:48 rg RBM_SFTP_USER|wc
+  583  2018-03-27 17:52:48 ag RBM_SFTP_USER|wc
+  584  2018-03-27 17:52:48 ag VMM_SFTP_HOST|wc
+  585  2018-03-27 17:52:48 ag VMM_SFTP_USER|wc
+  586  2018-03-27 17:52:48 ls customers/att/att*
+  587  2018-03-27 17:52:48 chmod 755 search.sh
+  588  2018-03-27 17:52:48 . ./search.sh > frack
+  589  2018-03-27 17:52:48 . ./search.sh
+  590  2018-03-27 17:52:48 pwd
+  591  2018-03-27 17:52:48 exit
+  592  2018-03-27 17:52:48  ./search_fo_ftp.sh
+  593  2018-03-27 17:52:48 exit
+  594  2018-03-27 17:52:48  . ./search_fo_ftp.sh
+  595  2018-03-27 17:52:48 exit
+  596  2018-03-14 10:44:44 cd /Users/cmagid/projects/vmm/
+  597  2018-03-14 10:44:45 gs
+  598  2018-03-14 10:45:20 exit
+  599  2018-03-27 17:52:48 npm install-test npm
+  600  2018-03-27 17:52:48 hg brew|grep install|grep nod
+  601  2018-03-27 17:52:48 brew help link
+  602  2018-03-27 17:52:48 ll  ~/.nvm
+  603  2018-03-27 17:52:48 echo $NVM_DIR
+  604  2018-03-27 17:52:48 ll /usr/local/{bin/{node,npm},lib/node_modules/npm,lib/node,share/man/*/node.*}
+  605  2018-03-27 17:52:48 ll /usr/local/include/node/
+  606  2018-03-27 17:52:48 ll /usr/local/lib/dtrace/node.d
+  607  2018-03-27 17:52:48 ll /var/db/receipts/org.nodejs.*
+  608  2018-03-27 17:52:48 emacs&
+  609  2018-03-27 17:52:48 emacs /Users/cmagid/.bash_exports
+  610  2018-03-27 17:52:48 emacs
+  611  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+  612  2018-03-27 17:52:48 npm --version
+  613  2018-03-27 17:52:48 npm i -g npm
+  614  2018-03-27 17:52:48 npm -v
+  615  2018-03-27 17:52:48 /Users/cmagid/brew/bin/npm - 
+  616  2018-03-27 17:52:48 hg dry-run|tail
+  617  2018-03-27 17:52:48 brew link  --dry-run npm
+  618  2018-03-27 17:52:48 brew show elm
+  619  2018-03-27 17:52:48 brew search elm
+  620  2018-03-27 17:52:48 npm i -g elm@0.18
+  621  2018-03-27 17:52:48 elm -v
+  622  2018-03-27 17:52:48 gitk
+  623  2018-03-27 17:52:48 git co db/structure.sql 
+  624  2018-03-27 17:52:48 git rebase -i 6eca787d3a^
+  625  2018-03-27 17:52:48 git rebase development
+  626  2018-03-27 17:52:48 ll app/controllers/locations_controller.rb 
+  627  2018-03-27 17:52:48 echo location_accessible
+  628  2018-03-27 17:52:48 cd
+  629  2018-03-27 17:52:48 ll|tail
+  630  2018-03-27 17:52:48 cd rbm-config-files/ 
+  631  2018-03-27 17:52:48 rg VMM_SFTP_HOST
+  632  2018-03-27 17:52:48 f
+  633  2018-03-27 17:52:48 f *
+  634  2018-03-27 17:52:48 f '*'
+  635  2018-03-27 17:52:48 ls -R
+  636  2018-03-27 17:52:48 cd ./customers
+  637  2018-03-27 17:52:48 type ack
+  638  2018-03-27 17:52:48 type ag
+  639  2018-03-27 17:52:48 brew upgrade ag
+  640  2018-03-27 17:52:48 ag VMM_SFTP_HOST
+  641  2018-03-27 17:52:48 ag HOST
+  642  2018-03-27 17:52:48 ag SFTP_HOST
+  643  2018-03-27 17:52:48 ag SFTP_HOST > bar
+  644  2018-03-27 17:52:48 ag MC_HOSTNAME
+  645  2018-03-27 17:52:48 ag MC_HOSTNAME|wc
+  646  2018-03-27 17:52:48 ag HOST > foo
+  647  2018-03-27 17:52:48 ag VMM_SFTP_HOST > foo
+  648  2018-03-27 17:52:48 ag SFTP > foo
+  649  2018-03-27 17:52:48 ag sftp > foo
+  650  2018-03-27 17:52:48 rg VMM_SFTP_USER
+  651  2018-03-27 17:52:48 ag RBM_SFTP_USER
+  652  2018-03-27 17:52:48 ag RBM_SFTP_USER > bleen
+  653  2018-03-27 17:52:48 ag VMM_SFTP_USER
+  654  2018-03-27 17:52:48 rg RBM_SFTP_USER|wc
+  655  2018-03-27 17:52:48 ag RBM_SFTP_USER|wc
+  656  2018-03-27 17:52:48 ag VMM_SFTP_HOST|wc
+  657  2018-03-27 17:52:48 ag VMM_SFTP_USER|wc
+  658  2018-03-27 17:52:48 ls customers/att/att*
+  659  2018-03-27 17:52:48 chmod 755 search.sh
+  660  2018-03-27 17:52:48 . ./search.sh > frack
+  661  2018-03-27 17:52:48 . ./search.sh
+  662  2018-03-27 17:52:48 exit
+  663  2018-03-27 17:52:48  ./search_fo_ftp.sh
+  664  2018-03-27 17:52:48 exit
+  665  2018-03-27 17:52:48  . ./search_fo_ftp.sh
+  666  2018-03-27 17:52:48 exit
+  667  ??unset sourced_bash_aliases
+  668  2018-03-27 17:52:48 source ~/.bash_aliases
+  669  2018-03-27 17:52:48 unset sourced_bash_functions
+  670  2018-03-27 17:52:48 source ~/.bash_functions
+  671  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  672  2018-03-27 17:52:48 cd .
+  673  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+  674  2018-03-27 17:52:48 echo "spec/services/shipments/process_orderless_shipments_feed_spec.rb"
+  675  2018-03-27 17:52:48 rspec spec/services/shipments/process_orderless_shipments_feed_spec.rb
+  676  2018-03-27 17:52:48 gg app/models/content.rb:869
+  677  2018-03-27 17:52:48 grep SITE_CONFIG app/models/image.rb
+  678  2018-03-27 17:52:48 grep SITE_CONFIG app/models/content.rb
+  679  2018-03-27 17:52:48 rg LayerCake.get| grep LANGUAGES
+  680  2018-03-27 17:52:48 rg BBY_CONTENT_FEED_DIR
+  681  2018-03-27 17:52:48 rg tmp|grep feed|grep content
+  682  2018-03-27 17:52:48 echo "_CRICKET_INBOUND_SHIPPING_DIR"
+  683  2018-03-27 17:52:48 echo "CRICKET_OUTBOUND_ORDERS_DIR"
+  684  2018-03-27 17:52:48 ruby -c app/models/housekeeper.rb app/services/shipments/process_orderless_shipments_feed.rb lib/tasks/sites/att/reports.rake lib/tasks/sites/bby.rake lib/tasks/sites/cricket.rake lib/tasks/sites/o2.rake lib/tasks/sites/pcs.rake lib/tasks/sites/vzw.rake sites/att/app/models/dealer_open_enrollment.rb sites/att/lib/synq_feed.rb spec/services/shipments/process_orderless_shipments_feed_spec.rb
+  685  2018-03-27 17:52:48 ruby -c app/models/housekeeper.rb
+  686  2018-03-27 17:52:48 ruby -c app/services/shipments/process_orderless_shipments_feed.rb
+  687  2018-03-27 17:52:48 ruby -c lib/tasks/sites/att/reports.rake
+  688  2018-03-27 17:52:48 ruby -c lib/tasks/sites/bby.rake
+  689  2018-03-27 17:52:48 ruby -c lib/tasks/sites/cricket.rake
+  690  2018-03-27 17:52:48 ruby -c lib/tasks/sites/o2.rake
+  691  2018-03-27 17:52:48 ruby -c lib/tasks/sites/pcs.rake
+  692  2018-03-27 17:52:48 ruby -c lib/tasks/sites/vzw.rake
+  693  2018-03-27 17:52:48 ruby -c sites/att/app/models/dealer_open_enrollment.rb
+  694  2018-03-27 17:52:48 ruby -c sites/att/lib/synq_feed.rb
+  695  2018-03-27 17:52:48 ruby -c spec/services/shipments/process_orderless_shipments_feed_spec.rb
+  696  2018-03-27 17:52:48 git commit -m "FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake; add other rake and dependencies"
+  697  2018-03-27 17:52:48 echo $SKIP_FTP
+  698  2018-03-27 17:52:48 gdt d54e9fc9c4
+  699  2018-03-27 17:52:48 gdt bf3a1c984c
+  700  2018-03-27 17:52:48 g
+  701  2018-03-27 17:52:48 git push
+  702  2018-03-27 17:52:48 gd 2d39617913^ | grep SITE_CONFIG > foo
+  703  2018-03-27 17:52:48 wc foo
+  704  2018-03-27 17:52:48 rg dealer_import | grep dest_path
+  705  2018-03-27 17:52:48 rg orderless_shipments_feed_dir
+  706  2018-03-27 17:52:48 rm bar
+  707  2018-03-27 17:52:48 lt
+  708  2018-03-27 17:52:48 head foo
+  709  2018-03-27 17:52:48 rg synq
+  710  2018-03-27 17:52:48 rg MC_CRICKET_OUTBOUND_ORDERS_DIR
+  711  2018-03-27 17:52:48 cd tickets/
+  712  2018-03-27 17:52:48 rg MC_CRICKET_RRD_OUTBOUND_ORDERS_DIR
+  713  2018-03-27 17:52:48 gd HEAD^..HEAD | grep DEVELOPMENT_EMAIL
+  714  2018-03-27 17:52:48 gd HEAD^..HEAD | grep RBM_CRICKET_CONTENT_FEED_DIR
+  715  2018-03-27 17:52:48 gd | grep -C10 RBM_CRICKET_CONTENT_FEED_DIR
+  716  2018-03-27 17:52:48 gd HEAD^..HEAD | grep -C10 RBM_CRICKET_CONTENT_FEED_DIR
+  717  2018-03-27 17:52:48 gd HEAD^..HEAD | grep tmp|grep feed | grep content
+  718  2018-03-27 17:52:48 gr MC_BBY_CONTENT_FEED_DIR
+  719  2018-03-27 17:52:48 rg MC_TMP_FEED_CONTENT_DIR
+  720  2018-03-27 17:52:48 rg grep -i content|grep -i feed | grep -i tmp
+  721  2018-03-27 17:52:48 rg -i content|grep -i feed | grep -i tmp
+  722  2018-03-27 17:52:48 rg content|grep -i feed | grep -i tmp
+  723  2018-03-27 17:52:48 gg sites/cricket/app/models/content.rb:8
+  724  2018-03-27 17:52:48 gg sites/pcs/app/models/content.rb:8
+  725  2018-03-27 17:52:48 rg MC_BBY_CONTENT_FEED_DIR
+  726  2018-03-27 17:52:48 rg CONTENT_FEED_DIR
+  727  2018-03-27 17:52:48 gs| head -33
+  728  2018-03-27 17:52:48 gs| head -22
+  729  2018-03-27 17:52:48 git commit -m"FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake, cleanup"
+  730  2018-03-27 17:52:48 git rebase -i fc7d321e33^
+  731  2018-03-27 17:52:48 echo "DealerOpenEnrollment"
+  732  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+  733  2018-03-27 17:52:48 cd spec/
+  734  2018-03-27 17:52:48 rg Notifier\:\:export_orders
+  735  2018-03-27 17:52:48 rg allow > foo
+  736  2018-03-27 17:52:48 rg export_orders > foo
+  737  2018-03-27 17:52:48 be rspec spec/tasks/cricket/export_online_orders_spec.rb:23
+  738  2018-03-27 17:52:48 sc
+  739  2018-03-27 17:52:48 gdt
+  740  2018-03-27 17:52:48 gd
+  741  2018-03-27 17:52:48 git add -u
+  742  2018-03-27 17:52:48 git commit -m"FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake; fix export_online_orders_spec.rb"
+  743  2018-03-27 17:52:48 ll 	Cricket_order_201803140848.csv
+  744  2018-03-27 17:52:48 head 	Cricket_order_201803140848.csv
+  745  2018-03-27 17:52:48 rm Cricket_order_20180314*
+  746  2018-03-27 17:52:48 alias gs
+  747  2018-03-27 17:52:48 gl1
+  748  2018-03-27 17:52:48 git difftool HEAD^..HEAD
+  749  2018-03-27 17:52:48 git rebase -i 2dbb67ba9f^
+  750  2018-03-27 17:52:48 git push -f
+  751  2018-03-27 17:52:48 cd config/
+  752  2018-03-27 17:52:48 ll data*
+  753  2018-03-27 17:52:48 grep user *
+  754  2018-03-27 17:52:48 type etags
+  755  2018-03-27 17:52:48 ll /usr/local/bin/etags
+  756  2018-03-27 17:52:48 ll /usr/local/Cellar/emacs/HEAD/bin/etags 
+  757  2018-03-27 17:52:48 brew upgrade etags
+  758  2018-03-27 17:52:48 brew search ggtags
+  759  2018-03-27 17:52:48 brew search gtags
+  760  2018-03-27 17:52:48 type ggtags
+  761  2018-03-27 17:52:48 cd rbm_geek_guides/
+  762  2018-03-27 17:52:48 git fetch
+  763  2018-03-27 17:52:48 rg onedoor > foo
+  764  2018-03-27 17:52:48 type rg
+  765  2018-03-27 17:52:48 rg .com > foo
+  766  2018-03-27 17:52:48 elm-repl
+  767  2018-03-27 17:52:48 node --version
+  768  2018-03-27 17:52:48 pwd
+  769  2018-03-27 17:52:48 cd elm-architecture-tutorial/
+  770  2018-03-27 17:52:48 git fetch --tags --all # => Update local
+  771  2018-03-27 17:52:48 git pull
+  772  2018-03-27 17:52:48 cd ..
+  773  2018-03-27 17:52:48 ls
+  774  2018-03-27 17:52:48 rm script-2018-*.log
+  775  2018-03-27 17:52:48 ll
+  776  2018-03-27 17:52:48 open .
+  777  2018-03-27 17:52:48 git clone https://github.com/evancz/elm-architecture-tutorial.git
+  778  2018-03-27 17:52:48 ksdiff elm-architecture-tutorial.ootw elm-architecture-tutorial 
+  779  2018-03-27 17:52:48 command dirs
+  780  2018-03-27 17:52:48 cd elm-architecture-tutorial
+  781  2018-03-27 17:52:48 gs
+  782  2018-03-27 17:52:48 git co -b FR92-ELM
+  783  2018-03-27 17:52:48 type elm-reactor
+  784  2018-03-27 17:52:48  elm-reactor --version
+  785  2018-03-27 17:52:48  elm-reactor --help
+  786  2018-03-27 17:52:48  elm-reactor
+  787  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  788  2018-03-27 17:52:48 psgr
+  789  2018-03-27 17:52:48 ll ~/Downloads/
+  790  2018-03-27 17:52:48 ll ~/Downloads/|tail
+  791  2018-03-27 17:52:48 ls -lS ~/Downloads/
+  792  2018-03-27 17:52:48 ls -lSr ~/Downloads/
+  793  2018-03-27 17:52:48 cd ~/Downloads/
+  794  2018-03-27 17:52:48 ls -lS
+  795  2018-03-27 17:52:48 ls -lSr
+  796  2018-03-27 17:52:48 rm vzw-qa-FR9converted-20180129.dmp
+  797  2018-03-27 17:52:48 rm tmobile-qa4-FR9converted-20171201.dmp
+  798  2018-03-27 17:52:48 rm pcs-qa-FR9converted-20180129.dmp
+  799  2018-03-27 17:52:48 rm atom-mac.zip
+  800  2018-03-27 17:52:48 rm cap-qa-FR9converted-20171205.dmp
+  801  2018-03-27 17:52:48 rm comcast-qa4-FR9converted20171203.dmp
+  802  2018-03-27 17:52:48 rm comcast_vmm_production.dmp
+  803  2018-03-27 17:52:48 rm node-v8.10.0.pkg node-v8.9.4.pkg 
+  804  2018-03-27 17:52:48 ls -lSr| egrep -v pcs-vmm-qa-2018-03-14.dmp
+  805  2018-03-27 17:52:48 head Here_is_the_end_of_the_rspec_spec_run.txt
+  806  2018-03-27 17:52:48 head -99 Here_is_the_end_of_the_rspec_spec_run.txt
+  807  2018-03-27 17:52:48 ht
+  808  2018-03-27 17:52:48 type lss
+  809  2018-03-27 17:52:48     alias lss='ls -lSr'
+  810  2018-03-27 17:52:48     alias lss='ls -lSr | egrep -v pcs-vmm-qa-2018-03-14.dmp'
+  811  2018-03-27 17:52:48 lss
+  812  2018-03-27 17:52:48  . ./search_fo_ftp.sh
+  813  2018-03-27 17:52:48 exit
+  814  ??unset sourced_bash_aliases
+  815  2018-03-27 17:52:48 source ~/.bash_aliases
+  816  2018-03-27 17:52:48 unset sourced_bash_functions
+  817  2018-03-27 17:52:48 source ~/.bash_functions
+  818  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  819  2018-03-27 17:52:48 cd .
+  820  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd ..
+  821  2018-03-27 17:52:48 i
+  822  2018-03-27 17:52:48 cd ~/projects/vmmwt
+  823  2018-03-27 17:52:48 rg orderless_shipments_feed_dir
+  824  2018-03-27 17:52:48 pwd
+  825  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+  826  2018-03-27 17:52:48 cd ..
+  827  2018-03-27 17:52:48 lt
+  828  2018-03-27 17:52:48 cd elm-architecture-tutorial/
+  829  2018-03-27 17:52:48 elm-package --help
+  830  2018-03-27 17:52:48  elm-package install --help
+  831  2018-03-27 17:52:48 gitk
+  832  2018-03-27 17:52:48 ll  ~/.nvm
+  833  2018-03-27 17:52:48 echo $NVM_DIR
+  834  2018-03-27 17:52:48 ll /usr/local/{bin/{node,npm},lib/node_modules/npm,lib/node,share/man/*/node.*}
+  835  2018-03-27 17:52:48 ll /usr/local/include/node/
+  836  2018-03-27 17:52:48 ll /usr/local/lib/dtrace/node.d
+  837  2018-03-27 17:52:48 ll /var/db/receipts/org.nodejs.*
+  838  2018-03-27 17:52:48 emacs&
+  839  2018-03-27 17:52:48 emacs /Users/cmagid/.bash_exports
+  840  2018-03-27 17:52:48 emacs
+  841  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-development.json 
+  842  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-lab.json 
+  843  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-production.json 
+  844  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-qa.json 
+  845  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-uat.json
+  846  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-qa2.json 
+  847  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att.json   
+  848  2018-03-27 17:52:48 grep RBM_SFTP_HOST customers/att/att-uat-rm13315.json   
+  849  2018-03-27 17:52:48 exit
+  850  2018-03-27 17:52:48 npm --help
+  851  2018-03-27 17:52:48 npm -l
+  852  2018-03-27 17:52:48 npm install-test npm
+  853  2018-03-27 17:52:48 hg brew|grep install|grep nod
+  854  2018-03-27 17:52:48 brew help link
+  855  2018-03-27 17:52:48 ll  ~/.nvm
+  856  2018-03-27 17:52:48 echo $NVM_DIR
+  857  2018-03-27 17:52:48 ll /usr/local/{bin/{node,npm},lib/node_modules/npm,lib/node,share/man/*/node.*}
+  858  2018-03-27 17:52:48 ll /usr/local/include/node/
+  859  2018-03-27 17:52:48 ll /usr/local/lib/dtrace/node.d
+  860  2018-03-27 17:52:48 ll /var/db/receipts/org.nodejs.*
+  861  2018-03-27 17:52:48 emacs&
+  862  2018-03-27 17:52:48 emacs /Users/cmagid/.bash_exports
+  863  2018-03-27 17:52:48 emacs
+  864  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+  865  2018-03-27 17:52:48 node --version
+  866  2018-03-27 17:52:48 npm --version
+  867  2018-03-27 17:52:48 npm i -g npm
+  868  2018-03-27 17:52:48 npm -v
+  869  2018-03-27 17:52:48 /Users/cmagid/brew/bin/npm - 
+  870  2018-03-27 17:52:48 hg dry-run|tail
+  871  2018-03-27 17:52:48 brew link  --dry-run npm
+  872  2018-03-27 17:52:48 brew show elm
+  873  2018-03-27 17:52:48 brew search elm
+  874  2018-03-27 17:52:48 npm i -g elm@0.18
+  875  2018-03-27 17:52:48 elm -v
+  876  2018-03-27 17:52:48 gitk
+  877  2018-03-27 17:52:48 git co db/structure.sql 
+  878  2018-03-27 17:52:48 git rebase -i 6eca787d3a^
+  879  2018-03-27 17:52:48 git rebase development
+  880  2018-03-27 17:52:48 ll app/controllers/locations_controller.rb 
+  881  2018-03-27 17:52:48 echo location_accessible
+  882  2018-03-27 17:52:48 cd
+  883  2018-03-27 17:52:48 ll|tail
+  884  2018-03-27 17:52:48 cd rbm-config-files/ 
+  885  2018-03-27 17:52:48 rg VMM_SFTP_HOST
+  886  2018-03-27 17:52:48 f
+  887  2018-03-27 17:52:48 f *
+  888  2018-03-27 17:52:48 f '*'
+  889  2018-03-27 17:52:48 ls -R
+  890  2018-03-27 17:52:48 cd ./customers
+  891  2018-03-27 17:52:48 cd ..
+  892  2018-03-27 17:52:48 type rg
+  893  2018-03-27 17:52:48 type ack
+  894  2018-03-27 17:52:48 type ag
+  895  2018-03-27 17:52:48 brew upgrade ag
+  896  2018-03-27 17:52:48 ag VMM_SFTP_HOST
+  897  2018-03-27 17:52:48 ag HOST
+  898  2018-03-27 17:52:48 ag SFTP_HOST
+  899  2018-03-27 17:52:48 ag SFTP_HOST > bar
+  900  2018-03-27 17:52:48 ag MC_HOSTNAME
+  901  2018-03-27 17:52:48 ag MC_HOSTNAME|wc
+  902  2018-03-27 17:52:48 ag HOST > foo
+  903  2018-03-27 17:52:48 ag VMM_SFTP_HOST > foo
+  904  2018-03-27 17:52:48 ag SFTP > foo
+  905  2018-03-27 17:52:48 ag sftp > foo
+  906  2018-03-27 17:52:48 rg VMM_SFTP_USER
+  907  2018-03-27 17:52:48 ag RBM_SFTP_USER
+  908  2018-03-27 17:52:48 ag RBM_SFTP_USER > bleen
+  909  2018-03-27 17:52:48 ag VMM_SFTP_USER
+  910  2018-03-27 17:52:48 rg RBM_SFTP_USER|wc
+  911  2018-03-27 17:52:48 ag RBM_SFTP_USER|wc
+  912  2018-03-27 17:52:48 ag VMM_SFTP_HOST|wc
+  913  2018-03-27 17:52:48 ag VMM_SFTP_USER|wc
+  914  2018-03-27 17:52:48 ls customers/att/att*
+  915  2018-03-27 17:52:48 chmod 755 search.sh
+  916  2018-03-27 17:52:48 . ./search.sh > frack
+  917  2018-03-27 17:52:48 . ./search.sh
+  918  2018-03-27 17:52:48 exit
+  919  ??unset sourced_bash_aliases
+  920  2018-03-27 17:52:48 source ~/.bash_aliases
+  921  2018-03-27 17:52:48 unset sourced_bash_functions
+  922  2018-03-27 17:52:48 source ~/.bash_functions
+  923  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+  924  2018-03-27 17:52:48 cd .
+  925  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+  926  2018-03-27 17:52:48 ag mnt|grep its
+  927  2018-03-27 17:52:48 ag VMM|grep HOST
+  928  2018-03-27 17:52:48 ag VMM|grep HOST|wc
+  929  2018-03-27 17:52:48 ag /home/app/rails/current/tmp/synq_feed_files
+  930  2018-03-27 17:52:48 ag home| grep app | grep rails | grep current | grep tmp | grep synq_feed_files
+  931  2018-03-27 17:52:48 ag synq_feed_files
+  932  2018-03-27 17:52:48 ag support@rbmtechnologies.com
+  933  2018-03-27 17:52:48 ag current | grep log
+  934  2018-03-27 17:52:48 ag archive
+  935  2018-03-27 17:52:48 ag app> qux
+  936  2018-03-27 17:52:48 ag app | egrep -v "/" > qux
+  937  2018-03-27 17:52:48 wc qux
+  938  2018-03-27 17:52:48 git co FR92-14
+  939  2018-03-27 17:52:48 glocation
+  940  2018-03-27 17:52:48 git branch -a|grep FR92
+  941  2018-03-27 17:52:48 rg SITE_CONFIG > foo
+  942  2018-03-27 17:52:48 rg SITE_CONFIG | grep -i ftp > foo
+  943  2018-03-27 17:52:48 gitk app/models/location.rb
+  944  2018-03-27 17:52:48 grep SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/att/reports.rake
+  945  2018-03-27 17:52:48 grep SITE_CONFIG /Users/cmagid/projects/vmm/sites/att/app/models/dealer_open_enrollment.rb
+  946  2018-03-27 17:52:48 cd ~/rbm-config-files/
+  947  2018-03-27 17:52:48 ag  ftp_path
+  948  2018-03-27 17:52:48 ack ftp_path
+  949  2018-03-27 17:52:48 ag ftp > quux
+  950  2018-03-27 17:52:48 wc quux
+  951  2018-03-27 17:52:48 grep SITE_CONFIG sites/att/app/models/dealer_open_enrollment.rb
+  952  2018-03-27 17:52:48 ag mnt
+  953  2018-03-27 17:52:48 ag mnt > foo
+  954  2018-03-27 17:52:48 rg dealer_import
+  955  2018-03-27 17:52:48 ag tmp > foo
+  956  2018-03-27 17:52:48 ag dealer_import > bar
+  957  2018-03-27 17:52:48 rm bar
+  958  2018-03-27 17:52:48 find . -type d
+  959  2018-03-27 17:52:48 find . -name '*.yml'
+  960  2018-03-27 17:52:48 find . -name "*.yml"
+  961  2018-03-27 17:52:48 pwed
+  962  2018-03-27 17:52:48 find . -name "*.json"
+  963  2018-03-27 17:52:48 cd -
+  964  2018-03-27 17:52:48 gs|head
+  965  2018-03-27 17:52:48 ruby -c lib/tasks/sites/att/reports.rake
+  966  2018-03-27 17:52:48 ruby -c sites/att/app/models/dealer_open_enrollment.rb
+  967  2018-03-27 17:52:48 hg amend
+  968  2018-03-27 17:52:48 git commit --amend
+  969  2018-03-27 17:52:48 gdt 2d39617913
+  970  2018-03-27 17:52:48 git difftool 2d39617913^..2d39617913
+  971  2018-03-27 17:52:48 git log -1
+  972  2018-03-27 17:52:48 gl2
+  973  2018-03-27 17:52:48 . ./search_fo_ftp.sh > foo
+  974  ??unset -x
+  975  2018-03-27 17:52:48 ls
+  976  2018-03-27 17:52:48 help set
+  977  2018-03-27 17:52:48 ls *.sh
+  978  2018-03-27 17:52:48 . ./search_fo_ftp.sh
+  979  ??script script-$(date +%Y-%m-%d-%H-%M-%S).log
+  980  2018-03-27 17:52:48 lt
+  981  2018-03-27 17:52:48 set -
+  982  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/att/reports.rake
+  983  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/bby.rake
+  984  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/cricket.rake
+  985  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/o2.rake
+  986  2018-03-27 17:52:48 pushd ~/rbm-config-files/
+  987  2018-03-27 17:52:48 rg orderless
+  988  2018-03-27 17:52:48 rg order
+  989  2018-03-27 17:52:48 popd
+  990  2018-03-27 17:52:48 '
+  991  2018-03-27 17:52:48 git commit -m"FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake; add pcs.rake"
+  992  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/pcs.rake
+  993  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/tmobile.rake
+  994  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/vha.rake
+  995  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/vzt.rake
+  996  2018-03-27 17:52:48 grep -i SITE_CONFIG /Users/cmagid/projects/vmm/lib/tasks/sites/vzw.rake
+  997  2018-03-27 17:52:48 grep -i ftp /Users/cmagid/projects/vmm/lib/tasks/sites/att/reports.rake
+  998  2018-03-27 17:52:48 cd config/
+  999  2018-03-27 17:52:48 rg tmp
+ 1000  ??echo "grep -i ftp /Users/cmagid/projects/vmm/lib/tasks/sites/bby.rake"
+ 1001  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1002  2018-03-27 17:52:48 grep -i ftp /Users/cmagid/projects/vmm/lib/tasks/sites/bby.rake
+ 1003  2018-03-27 17:52:48 echo "7f51daebe1c lib/tasks/sites/att/reports.rake (Gaspar Obimba   2017-07-27  87)       Net::FTP.open(CLIENT_SFTP_HOST, CLIENT_SFTP_USER, CLIENT_SFTP_PASSWORD) do |ftp|"
+ 1004  2018-03-27 17:52:48 gl | grep 7f51daebe1c
+ 1005  2018-03-27 17:52:48 gl1 -999 | grep 7f51daebe1c
+ 1006  2018-03-27 17:52:48 gl1 -9999 | grep 7f51daebe1c
+ 1007  2018-03-27 17:52:48 gdt lib/tasks/sites/att/reports.rake
+ 1008  2018-03-27 17:52:48 cta att uat
+ 1009  2018-03-27 17:52:48 export RBM_O2_TMP_FEED_DPD_DIR="tmp/feed/dpd"
+ 1010  2018-03-27 17:52:48 sc
+ 1011  2018-03-27 17:52:48 gdt ~/projects/vmm/lib/tasks/sites/o2.rake
+ 1012  2018-03-27 17:52:48 git difftool 2d39617913^
+ 1013  2018-03-27 17:52:48 gitk /Users/cmagid/projects/vmm/sites/att/lib/synq_feed.rb
+ 1014  2018-03-27 17:52:48 gdt HEAD^ /Users/cmagid/projects/vmm/sites/att/lib/synq_feed.rb
+ 1015  2018-03-27 17:52:48 gdt sites/att/lib/synq_feed.rb
+ 1016  2018-03-27 17:52:48 git difftool head^..head sites/att/lib/synq_feed.rb
+ 1017  2018-03-27 17:52:48 git difftool head^^..head sites/att/lib/synq_feed.rb
+ 1018  2018-03-27 17:52:48 echo "RBM_O2_OUT_WORKING_DIR"
+ 1019  2018-03-27 17:52:48 gitk lib/tasks/sites/o2.rake
+ 1020  2018-03-27 17:52:48 gdt lib/tasks/sites/o2.rake
+ 1021  2018-03-27 17:52:48 rg support@rbmtechnologies.com
+ 1022  2018-03-27 17:52:48 rg rrd
+ 1023  2018-03-27 17:52:48 rg rrd/outbound > foo
+ 1024  2018-03-27 17:52:48 rg tmp/feed > foo
+ 1025  2018-03-27 17:52:48 rg dpd > foo
+ 1026  2018-03-27 17:52:48 rg solutions_diverse > foo
+ 1027  2018-03-27 17:52:48 rg o2display > foo
+ 1028  2018-03-27 17:52:48 rg O2Stock.csv > foo
+ 1029  2018-03-27 17:52:48 rg inbound/prod > foo
+ 1030  2018-03-27 17:52:48 rg RBM_CON
+ 1031  2018-03-27 17:52:48 rg support@rbmtechnologies.com > foo
+ 1032  2018-03-27 17:52:48 rg RBM_CRICKET_FAILED_WORKING_DIR
+ 1033  2018-03-27 17:52:48 rg RBM_CRICKET_RAKE_ROOT_DIRECTORY
+ 1034  2018-03-27 17:52:48 rg rrd > foo
+ 1035  2018-03-27 17:52:48 rg RBM_O2_TMP_FEED_DIR
+ 1036  2018-03-27 17:52:48 rg RBM_O2_DPD_WORKING_DIRECTORY
+ 1037  2018-03-27 17:52:48 rg RBM_O2_OUT_WORKING_DIR
+ 1038  2018-03-27 17:52:48 rg RBM_O2_SOLUTIONS_DIVERSE_DIR
+ 1039  2018-03-27 17:52:48 rg VMM_O2_SOLUTIONS_DIVERSE_WORKING_DIR
+ 1040  2018-03-27 17:52:48 rg VMM_O2_SOLUTIONS_DIVERSE_CVS_FILE
+ 1041  2018-03-27 17:52:48 rg RBM_O2_INBOUND_PROD_DIR
+ 1042  2018-03-27 17:52:48 rg inbound/prod
+ 1043  2018-03-27 17:52:48 rg 'inbound'| grep 'prod'
+ 1044  2018-03-27 17:52:48 rg VMM_O2_ICD_WORKING_DIR
+ 1045  2018-03-27 17:52:48 rg RBM_CON > foo
+ 1046  2018-03-27 17:52:48 rg VMM_ATT_SYNQ_FTP_PATH
+ 1047  2018-03-27 17:52:48 rg VMM_ATT_SYNQ_USERNAME
+ 1048  2018-03-27 17:52:48 rg tmp/feed/orderless/originals
+ 1049  2018-03-27 17:52:48 rg orderless > foo
+ 1050  2018-03-27 17:52:48 wc foo
+ 1051  2018-03-27 17:52:48 grep originals foo > bar
+ 1052  2018-03-27 17:52:48 wc bar
+ 1053  2018-03-27 17:52:48 rg VMM_ORDERLESS_SHIPMENTS_FEED_DIR
+ 1054  2018-03-27 17:52:48 rg SITE_CONFIG| grep orderless_shipments_feed_dir
+ 1055  2018-03-27 17:52:48 rg dest_path| grep dealer_import|wc
+ 1056  2018-03-27 17:52:48 rg dest_path| grep dealer_import
+ 1057  2018-03-27 17:52:48 rg dest_path|wc
+ 1058  2018-03-27 17:52:48 rg dest_path|grep synq|wc
+ 1059  2018-03-27 17:52:48 rg dest_path|grep synq
+ 1060  2018-03-27 17:52:48 rg dest_path|grep SITE_CONFIG
+ 1061  2018-03-27 17:52:48 rg SITE_CONFIG|wc
+ 1062  2018-03-27 17:52:48 rg SITE_CONFIG | ftp_path | wc
+ 1063  2018-03-27 17:52:48 rg ftp_path| grep synq|wc
+ 1064  2018-03-27 17:52:48 rg ftp_path| grep synq
+ 1065  2018-03-27 17:52:48 gg lib/tasks/sites/att/reports.rake:738
+ 1066  2018-03-27 17:52:48 rg log_archive_path|wc
+ 1067  2018-03-27 17:52:48 rg log_archive_path
+ 1068  2018-03-27 17:52:48 gg lib/rbm/acts/syncable.rb:156
+ 1069  2018-03-27 17:52:48 rg SITE_CONFIG| grep synq|wc
+ 1070  2018-03-27 17:52:48 rg SITE_CONFIG| grep synq| grep log_archive_path
+ 1071  2018-03-27 17:52:48 rg SITE_CONFIG| grep synq| grep log_path
+ 1072  2018-03-27 17:52:48 rg SITE_CONFIG| grep synq| grep username
+ 1073  2018-03-27 17:52:48 rg orderless_shipments_feed_dir
+ 1074  2018-03-27 17:52:48 rg orderless_shipments_feed_dir | grep SITE_CONFIG
+ 1075  2018-03-27 17:52:48 gg lib/tasks/sites/pcs.rake:319
+ 1076  2018-03-27 17:52:48 rg OUTBOUND_ORDERS_DIR|wdc
+ 1077  2018-03-27 17:52:48 rg OUTBOUND_ORDERS_DIR|wc
+ 1078  2018-03-27 17:52:48 rg OUTBOUND_ORDERS_DIR
+ 1079  2018-03-27 17:52:48 gd| grep MC_
+ 1080  2018-03-27 17:52:48 gdt
+ 1081  2018-03-27 17:52:48 gs|head -22
+ 1082  2018-03-27 17:52:48 gd
+ 1083  2018-03-27 17:52:48 git add -u
+ 1084  2018-03-27 17:52:48 git commit -m "FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake; add other rake and dependencies; cleanup"
+ 1085  2018-03-27 17:52:48 git push
+ 1086  2018-03-27 17:52:48 git rebase -i 2d39617913^
+ 1087  2018-03-27 17:52:48 git push -f
+ 1088  2018-03-27 17:52:48 gl1
+ 1089  2018-03-27 17:52:48 gd fc7d321e33^..fc7d321e33 | grep LayerCake.get
+ 1090  2018-03-27 17:52:48 be rspec ./spec/tasks/cricket/export_online_orders_spec.rb
+ 1091  2018-03-27 17:52:48 gg spec/tasks/cricket/export_online_orders_spec.rb:62
+ 1092  2018-03-27 17:52:48 gg lib/tasks/sites/cricket.rake:94
+ 1093  2018-03-27 17:52:48 find spec -type f -exec egrep allow {} \; | grep LayerCake
+ 1094  2018-03-27 17:52:48 echo "HasCampaignLifetime"
+ 1095  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1096  2018-03-27 17:52:48 elm --version
+ 1097  2018-03-27 17:52:48 elm-repl
+ 1098  2018-03-27 17:52:48 rg system-ui
+ 1099  2018-03-27 17:52:48 pwd
+ 1100  2018-03-27 17:52:48 gs
+ 1101  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1102  2018-03-27 17:52:48 ag RBM_SFTP_USER
+ 1103  2018-03-27 17:52:48 ag RBM_SFTP_USER > bleen
+ 1104  2018-03-27 17:52:48 ag VMM_SFTP_USER
+ 1105  2018-03-27 17:52:48 rg RBM_SFTP_USER|wc
+ 1106  2018-03-27 17:52:48 ag RBM_SFTP_USER|wc
+ 1107  2018-03-27 17:52:48 ag VMM_SFTP_HOST|wc
+ 1108  2018-03-27 17:52:48 ag VMM_SFTP_USER|wc
+ 1109  2018-03-27 17:52:48 ls customers/att/att*
+ 1110  2018-03-27 17:52:48 chmod 755 search.sh
+ 1111  2018-03-27 17:52:48 . ./search.sh > frack
+ 1112  2018-03-27 17:52:48 . ./search.sh
+ 1113  2018-03-27 17:52:48 exit
+ 1114  2018-03-27 17:52:48  ./search_fo_ftp.sh
+ 1115  2018-03-27 17:52:48 exit
+ 1116  2018-03-27 17:52:48  . ./search_fo_ftp.sh
+ 1117  2018-03-27 17:52:48 exit
+ 1118  ??unset sourced_bash_aliases
+ 1119  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1120  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1121  2018-03-27 17:52:48 source ~/.bash_functions
+ 1122  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1123  2018-03-27 17:52:48 cd .
+ 1124  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+ 1125  2018-03-27 17:52:48 cd
+ 1126  2018-03-27 17:52:48 cd rbm-config-files/
+ 1127  2018-03-27 17:52:48 f foo
+ 1128  2018-03-27 17:52:48 rm /Users/cmagid/rbm-config-files/foo
+ 1129  2018-03-27 17:52:48 rg SFTP_HOST
+ 1130  2018-03-27 17:52:48 f '*.log'
+ 1131  2018-03-27 17:52:48 head /Users/cmagid/rbm-config-files/script-2018-03-09-14-42-58.log
+ 1132  2018-03-27 17:52:48 ll *.log
+ 1133  2018-03-27 17:52:48 rm *.log
+ 1134  2018-03-27 17:52:48 rg _SFTP_HOST | egrep -v RBM_
+ 1135  2018-03-27 17:52:48 rg _SFTP_HOST | wc
+ 1136  2018-03-27 17:52:48 rg VMM_SFTP_HOST|wc
+ 1137  2018-03-27 17:52:48 rg RBM_S|wc
+ 1138  2018-03-27 17:52:48 rg VMM_S|wc
+ 1139  2018-03-27 17:52:48 rg VMM_|head
+ 1140  2018-03-27 17:52:48 alias rg
+ 1141  2018-03-27 17:52:48 rg VMM_
+ 1142  2018-03-27 17:52:48 \rg VMM_|grep -i host
+ 1143  2018-03-27 17:52:48 \rg VMM_|grep -i host| egrep -v LDAP
+ 1144  2018-03-27 17:52:48 f RBM_SFTP_HOST
+ 1145  2018-03-27 17:52:48 rg RBM_SFTP_HOST|wc
+ 1146  2018-03-27 17:52:48 rg RBM_SFTP_HOST > foo
+ 1147  2018-03-27 17:52:48 wpd
+ 1148  2018-03-27 17:52:48 rg CLIENT_SFTP_HOST
+ 1149  2018-03-27 17:52:48 rg _SFTP_HOST |head
+ 1150  2018-03-27 17:52:48 rg _SFTP_USER |head -33
+ 1151  2018-03-27 17:52:48 rg CLIENT_SFTP_PASSWORD
+ 1152  2018-03-27 17:52:48 rg SKIP_SFTP
+ 1153  2018-03-27 17:52:48 rg VMM_|head 2000|tail 100
+ 1154  2018-03-27 17:52:48 rg VMM_|head 1000|tail 100
+ 1155  2018-03-27 17:52:48 rg VMM_|head -2000|tail -100
+ 1156  2018-03-27 17:52:48 rg rbm_|head -2000|tail -100
+ 1157  2018-03-27 17:52:48 rg tmp/feed/content
+ 1158  2018-03-27 17:52:48 rg content|grep feed
+ 1159  2018-03-27 17:52:48 rg content
+ 1160  2018-03-27 17:52:48 ls
+ 1161  2018-03-27 17:52:48 rg failed
+ 1162  2018-03-27 17:52:48 rg RBM_SFTP_HOST | grep vzw
+ 1163  2018-03-27 17:52:48 rg vmm_db
+ 1164  2018-03-27 17:52:48 rg password
+ 1165  2018-03-27 17:52:48 rg tmp/feed/orderless/originals
+ 1166  2018-03-27 17:52:48 pwd
+ 1167  2018-03-27 17:52:48 f '*att*'
+ 1168  2018-03-27 17:52:48 f '*att*'|egrep -v tracking_ids
+ 1169  2018-03-27 17:52:48 f '*development*'|egrep -v tracking_ids
+ 1170  2018-03-27 17:52:48 rg VMM_DEFAULT_FROM
+ 1171  2018-03-27 17:52:48 getLayerCakeConfigFiles
+ 1172  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1173  2018-03-27 17:52:48 rg VMM_ATT_SYNQ_FTP_PATH
+ 1174  2018-03-27 17:52:48 rg MC_ATT_SYNQ_FTP_PATH
+ 1175  2018-03-27 17:52:48 rg MC_ATT_SYNQ_USERNAME
+ 1176  2018-03-27 17:52:48 rg MC_ATT_SYNQ_FTP_DEST_PATH
+ 1177  2018-03-27 17:52:48 rg MC_HOME_LOG_PATH
+ 1178  2018-03-27 17:52:48 rg MC_HOME_LOG_ARCHIVE_PATH
+ 1179  2018-03-27 17:52:48 rg MC_ATT_DEALER_IMPORT_DEST_PATH
+ 1180  2018-03-27 17:52:48 rg MC_ORDERLESS_SHIPMENTS_FEED_DIR
+ 1181  2018-03-27 17:52:48 rg MC_TMP_FEED_CONTENT_DIR
+ 1182  2018-03-27 17:52:48 rg MC_CRICKET_RRD_INBOUND_STOCK_DIR
+ 1183  2018-03-27 17:52:48 rg MC_CRICKET_RRD_OUTBOUND_ORDERS_DIR
+ 1184  2018-03-27 17:52:48 rg MC_CRICKET_RRD_OUTBOUND_ARCHIVE_DIR
+ 1185  2018-03-27 17:52:48 rg MC_CRICKET_OUTBOUND_ORDERS_DIR
+ 1186  2018-03-27 17:52:48 rg MC_CRICKET_SHIPPING_DIR
+ 1187  2018-03-27 17:52:48 rg MC_CRICKET_RRD_INBOUND_SHIPPING_DIR
+ 1188  2018-03-27 17:52:48 rg MC_O2_TMP_FEED_DPD_DIR
+ 1189  2018-03-27 17:52:48 rg MC_O2_TMP_FEED_SOLUTIONS_DIVERSE_DIR
+ 1190  2018-03-27 17:52:48 rg MC_VZW_WORKFLOWONE_SFTP_HOST
+ 1191  2018-03-27 17:52:48 rg MC_VZW_WORKFLOWONE_SFTP_USER
+ 1192  2018-03-27 17:52:48 rg MC_VZW_WORKFLOWONE_SFTP_PASSWORD
+ 1193  2018-03-27 17:52:48 rg RBM_SFTP_HOST
+ 1194  2018-03-27 17:52:48 rg MC_SFTP_HOST
+ 1195  2018-03-27 17:52:48 rg MC_
+ 1196  2018-03-27 17:52:48 rg MC_|wc
+ 1197  2018-03-27 17:52:48 rg RBM_|wc
+ 1198  2018-03-27 17:52:48 rg VMM_|wc
+ 1199  2018-03-27 17:52:48 rg vmm_|wc
+ 1200  2018-03-27 17:52:48 cd
+ 1201  2018-03-27 17:52:48 lt
+ 1202  2018-03-27 17:52:48 ll|tail
+ 1203  2018-03-27 17:52:48 cd rbm-config-files/ 
+ 1204  2018-03-27 17:52:48 rg VMM_SFTP_HOST
+ 1205  2018-03-27 17:52:48 f
+ 1206  2018-03-27 17:52:48 f *
+ 1207  2018-03-27 17:52:48 f '*'
+ 1208  2018-03-27 17:52:48 ls -R
+ 1209  2018-03-27 17:52:48 cd ./customers
+ 1210  2018-03-27 17:52:48 cd ..
+ 1211  2018-03-27 17:52:48 type ack
+ 1212  2018-03-27 17:52:48 brew upgrade ag
+ 1213  2018-03-27 17:52:48 ag VMM_SFTP_HOST
+ 1214  2018-03-27 17:52:48 ag HOST
+ 1215  2018-03-27 17:52:48 ag SFTP_HOST
+ 1216  2018-03-27 17:52:48 ag SFTP_HOST > bar
+ 1217  2018-03-27 17:52:48 ag MC_HOSTNAME
+ 1218  2018-03-27 17:52:48 ag MC_HOSTNAME|wc
+ 1219  2018-03-27 17:52:48 ag HOST > foo
+ 1220  2018-03-27 17:52:48 ag VMM_SFTP_HOST > foo
+ 1221  2018-03-27 17:52:48 ag SFTP > foo
+ 1222  2018-03-27 17:52:48 ag sftp > foo
+ 1223  2018-03-27 17:52:48 rg VMM_SFTP_USER
+ 1224  2018-03-27 17:52:48 ag RBM_SFTP_USER
+ 1225  2018-03-27 17:52:48 ag RBM_SFTP_USER > bleen
+ 1226  2018-03-27 17:52:48 ag VMM_SFTP_USER
+ 1227  2018-03-27 17:52:48 rg RBM_SFTP_USER|wc
+ 1228  2018-03-27 17:52:48 ag RBM_SFTP_USER|wc
+ 1229  2018-03-27 17:52:48 ag VMM_SFTP_HOST|wc
+ 1230  2018-03-27 17:52:48 ag VMM_SFTP_USER|wc
+ 1231  2018-03-27 17:52:48 ls customers/att/att*
+ 1232  2018-03-27 17:52:48 chmod 755 search.sh
+ 1233  2018-03-27 17:52:48 . ./search.sh > frack
+ 1234  2018-03-27 17:52:48 . ./search.sh
+ 1235  2018-03-27 17:52:48 exit
+ 1236  2018-03-27 17:52:48  ./search_fo_ftp.sh
+ 1237  2018-03-27 17:52:48 exit
+ 1238  2018-03-27 17:52:48  . ./search_fo_ftp.sh
+ 1239  2018-03-27 17:52:48 exit
+ 1240  ??unset sourced_bash_aliases
+ 1241  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1242  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1243  2018-03-27 17:52:48 source ~/.bash_functions
+ 1244  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1245  2018-03-27 17:52:48 cd .
+ 1246  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd .
+ 1247  2018-03-27 17:52:48 pushd  ~/projects/vmm/lib/tasks/sites/
+ 1248  2018-03-27 17:52:48 rg SITE_CONFIG['orderless_shipments_feed_dir'] > foo
+ 1249  2018-03-27 17:52:48 rg SITE_CONFIG\['orderless_shipments_feed_dir'\] > foo
+ 1250  2018-03-27 17:52:48 rg SITE_CONFIG\[\'orderless_shipments_feed_dir\'\] > foo
+ 1251  2018-03-27 17:52:48 rg SITE\_CONFIG\[\'orderless\_shipments\_feed\_dir\'\] > foo
+ 1252  2018-03-27 17:52:48 rg \S\I\T\E\_\C\O\N\F\I\G\[\'\o\r\d\e\r\l\e\s\s\_\s\h\i\p\m\e\n\t\s\_\f\e\e\d\_\d\i\r\'\] > foo
+ 1253  2018-03-27 17:52:48 wc foo
+ 1254  2018-03-27 17:52:48 grep orderless_shipments_feed_dir *.rake
+ 1255  ??pw
+ 1256  2018-03-27 17:52:48 popd
+ 1257  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1258  2018-03-27 17:52:48 cd config/
+ 1259  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1260  2018-03-27 17:52:48 f node_config.json
+ 1261  2018-03-27 17:52:48 rg CLIENT_SFTP_PASSWORD
+ 1262  2018-03-27 17:52:48 rg feed|grep tmp
+ 1263  2018-03-27 17:52:48 find . -type d
+ 1264  2018-03-27 17:52:48 rg mail_recipients | grep synq
+ 1265  2018-03-27 17:52:48 ag mail_recipients | grep synq
+ 1266  2018-03-27 17:52:48 gs .
+ 1267  2018-03-27 17:52:48 type r
+ 1268  2018-03-27 17:52:48 type rg
+ 1269  2018-03-27 17:52:48 type ag
+ 1270  2018-03-27 17:52:48 ag synq
+ 1271  2018-03-27 17:52:48 ag mail_recipients
+ 1272  2018-03-27 17:52:48 ht
+ 1273  2018-03-27 17:52:48 rg mail_recipients 
+ 1274  2018-03-27 17:52:48 ag mail_recipients 
+ 1275  2018-03-27 17:52:48 rgorderless_shipments_feed_dir
+ 1276  2018-03-27 17:52:48 gd
+ 1277  2018-03-27 17:52:48 ls
+ 1278  2018-03-27 17:52:48 gs
+ 1279  2018-03-27 17:52:48 rg orderless_shipments_feed_dir
+ 1280  2018-03-27 17:52:48 rg orderless
+ 1281  2018-03-27 17:52:48 rg shipments_feed
+ 1282  2018-03-27 17:52:48 pwd
+ 1283  2018-03-27 17:52:48 rg dest_path| grep synq
+ 1284  2018-03-27 17:52:48 rg dest_path
+ 1285  2018-03-27 17:52:48 rg synq
+ 1286  2018-03-14 10:45:34 . ./search.sh > frack
+ 1287  2018-03-14 10:45:34 . ./search.sh
+ 1288  2018-03-14 10:45:34 pwd
+ 1289  2018-03-14 10:45:34  ./search_fo_ftp.sh
+ 1290  2018-03-14 10:45:34  . ./search_fo_ftp.sh
+ 1291  2018-03-14 10:45:45 git status
+ 1292  2018-03-14 10:47:32 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|script-2018\|spec/models/concerns/'\'''
+ 1293  2018-03-14 10:48:22 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|.log\|script-2018\|spec/models/concerns/'\'''
+ 1294  2018-03-14 10:49:11 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|.log\|script-2018\|#\|spec/models/concerns/'\'''
+ 1295  2018-03-14 10:49:38 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|.log\|script-2018\|#\|.zip\|spec/models/concerns/'\'''
+ 1296  2018-03-14 10:50:04 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|.log\|script-2018\|#\|.zip\|.bak\|spec/models/concerns/'\'''
+ 1297  2018-03-14 10:50:06 gs
+ 1298  2018-03-14 12:00:19 cta att uat2
+ 1299  2018-03-14 13:23:35 brew update
+ 1300  2018-03-14 13:24:27 brew info cassandra
+ 1301  2018-03-14 13:47:18 cd spec/
+ 1302  2018-03-14 13:47:22 rg validator
+ 1303  2018-03-14 13:47:38 rg validator|egrep -v ":"
+ 1304  2018-03-14 13:47:44 rg validator|egrep -v ':'
+ 1305  2018-03-14 13:47:56 rg validator | egrep -v ':'
+ 1306  2018-03-14 15:14:12 cd /Users/cmagid/projects/vmm/
+ 1307  2018-03-14 15:14:16 bundle exec script/rails s
+ 1308  2018-03-14 18:10:07 exit
+ 1309  2018-03-14 10:45:22 cd /Users/cmagid/projects/vmm/
+ 1310  2018-03-14 10:45:24 gs
+ 1311  2018-03-14 10:45:34 bash
+ 1312  2018-03-14 18:10:09 exit
+ 1313  2018-03-09 12:00:39 unset sourced_bash_functions
+ 1314  2018-03-09 12:00:39 source ~/.bash_functions
+ 1315  2018-03-09 12:00:39 echo "$HOME/.rvm/scripts/rvm"
+ 1316  2018-03-09 12:00:39 cd .
+ 1317  2018-03-09 12:00:39 emacs /Users/cmagid/.bash_exports
+ 1318  2018-03-09 12:00:39 emacs
+ 1319  2018-03-09 12:03:20 hash 
+ 1320  2018-03-09 12:06:51 hash
+ 1321  2018-03-09 12:06:54 hash -r
+ 1322  2018-03-09 12:06:57 npm --version
+ 1323  2018-03-09 12:07:01 elm -v
+ 1324  2018-03-09 12:07:06 b
+ 1325  2018-03-09 12:07:14 be rake db:migrate
+ 1326  2018-03-09 12:07:44 bundle exec script/rails s
+ 1327  2018-03-13 15:29:39 date; time bundle exec rspec ./spec/services/shipments/process_orderless_shipments_feed_spec.rb:25
+ 1328  2018-03-13 15:45:52 gitk app/services/shipments/process_orderless_shipments_feed.rb
+ 1329  2018-03-13 16:09:12 gs
+ 1330  2018-03-13 16:23:43 gs|head
+ 1331  2018-03-13 16:23:49 gs|head - 33
+ 1332  2018-03-13 16:23:52 gs|head -33
+ 1333  2018-03-13 16:24:13 gl1
+ 1334  2018-03-14 08:57:01 pwd
+ 1335  2018-03-14 08:57:04 rspec spec/tasks/cricket/export_online_orders_spec.rb 
+ 1336  2018-03-14 09:02:29 be rspec spec/tasks/cricket/export_online_orders_spec.rb 
+ 1337  2018-03-14 09:18:01 be rspec ./spec/tasks/cricket/export_online_orders_spec.rb:23
+ 1338  2018-03-14 09:55:45 be rspec ./spec/tasks/cricket/export_online_orders_spec.rb:26
+ 1339  2018-03-14 10:13:36 be rspec ./spec/tasks/cricket/export_online_orders_spec.rb
+ 1340  2018-03-14 18:10:11 exit
+ 1341  2018-03-14 18:10:12 exit
+ 1342  2018-03-14 18:10:14 exit
+ 1343  2018-03-09 12:00:39 emacs
+ 1344  2018-03-09 14:42:44 cd
+ 1345  2018-03-09 14:42:45 lt
+ 1346  2018-03-09 14:42:52 cd rbm-config-files/
+ 1347  2018-03-09 14:42:58 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 1348  2018-03-09 14:43:18 more script-2018-03-09-14-42-58.log 
+ 1349  2018-03-14 16:56:24 psgr
+ 1350  2018-03-14 16:56:29 i
+ 1351  2018-03-14 16:56:37 cd ~/projects/vmmwt
+ 1352  2018-03-14 16:56:40 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1353  2018-03-14 16:57:03 git co FR92-47
+ 1354  2018-03-14 16:57:06 cd /Users/cmagid/projects/vmm/
+ 1355  2018-03-14 16:57:08 iw
+ 1356  2018-03-14 16:57:10 iwt
+ 1357  2018-03-14 16:57:18 git co development
+ 1358  2018-03-14 16:57:23 git fetch --tags --all # => Update local
+ 1359  2018-03-14 16:57:47 git pull
+ 1360  2018-03-14 18:10:16 exit
+ 1361  2018-03-14 16:56:03 cd /Users/cmagid/projects/vmm/
+ 1362  2018-03-14 16:56:04 psgr
+ 1363  2018-03-14 18:07:11 time pg_restore -j 7 -h localhost -U cmagid  --dbname=pcs-vmm-local /Users/cmagid/Downloads/pcs-vmm-qa-2018-03-14.dmp
+ 1364  2018-03-14 18:08:28 be rake db:migrate:status
+ 1365  2018-03-14 18:09:40 be rake db:migrate
+ 1366  2018-03-14 18:10:17 exit
+ 1367  ??unset sourced_bash_aliases
+ 1368  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1369  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1370  2018-03-27 17:52:48 source ~/.bash_functions
+ 1371  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1372  2018-03-27 17:52:48 cd .
+ 1373  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*cd ~/Downloads/
+ 1374  2018-03-27 17:52:48 cd ~/Downloads/
+ 1375  2018-03-27 17:52:48 ls
+ 1376  2018-03-27 17:52:48 lss
+ 1377  2018-03-27 17:52:48 psql pcs-vmm-local
+ 1378  2018-03-27 17:52:48 dropdb pcs-vmm-local
+ 1379  2018-03-27 17:52:48 createdb pcs-vmm-local
+ 1380  2018-03-14 16:57:53  ./search_fo_ftp.sh
+ 1381  2018-03-14 16:57:53  . ./search_fo_ftp.sh
+ 1382  2018-03-14 10:44:45 gs
+ 1383  2018-03-14 16:59:38 cta pcs qa
+ 1384  2018-03-14 17:30:42 git fetch --tags --all # => Update local
+ 1385  2018-03-14 17:32:21 git pull
+ 1386  2018-03-14 17:32:35 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1387  2018-03-14 17:33:02 git branch -v|grep 92-47
+ 1388  2018-03-14 17:33:19 git co -b FR92-47-B
+ 1389  2018-03-14 17:33:52 type ss
+ 1390  2018-03-14 17:34:03 ss pcs
+ 1391  2018-03-14 17:34:44 b
+ 1392  2018-03-14 17:35:28 rake -T db
+ 1393  2018-03-14 17:35:57 be rake db:migrate:status
+ 1394  2018-03-14 17:42:32 pg_dump --no-owner --no-acl -h db-qa.aws.rbmtechnologies.com -Fc pcs-vmm-qa > ~/Downloads/pcs-vmm-qa-`date +%Y-%m-%d`.dmp
+ 1395  2018-03-14 17:43:22 echo "password: aTh9kaD8"
+ 1396  2018-03-14 17:43:24 pg_dump --no-owner --no-acl -h db-qa.aws.rbmtechnologies.com -U app -Fc pcs-vmm-qa > ~/Downloads/pcs-vmm-qa-`date +%Y-%m-%d`.dmp
+ 1397  2018-03-14 18:03:19 pwd
+ 1398  2018-03-14 18:03:23 cd ~/Downloads/
+ 1399  2018-03-14 18:03:24 ll
+ 1400  2018-03-14 18:03:45 tail ~/.bash_aliases
+ 1401  2018-03-14 18:03:52 grep lss ~/.bash_aliases
+ 1402  2018-03-14 18:03:55     alias lss='ls -lSr'
+ 1403  2018-03-14 18:03:57 lss
+ 1404  2018-03-14 18:04:39 cd /Users/cmagid/projects/vmm/
+ 1405  2018-03-14 18:04:41 emacs
+ 1406  2018-03-14 18:10:29 exit
+ 1407  2018-03-14 18:07:30 cd /home/app/rails/current
+ 1408  2018-03-14 18:07:31 cd /Users/cmagid/projects/vmm/
+ 1409  2018-03-14 18:07:32 ls
+ 1410  2018-03-14 18:07:39 i
+ 1411  2018-03-14 18:10:32 exit
+ 1412  2018-03-09 12:01:34 emacs&
+ 1413  2018-03-15 13:04:56 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 1414  2018-03-15 13:05:02 elm-package 
+ 1415  2018-03-15 13:05:22 elm-package install
+ 1416  2018-03-15 13:05:30 gs
+ 1417  2018-03-15 13:05:32 pwd
+ 1418  2018-03-15 13:08:20 elm-package install elm-lang/pull-down-list
+ 1419  2018-03-15 13:08:35 elm-package install elm-lang/moon-tool
+ 1420  2018-03-15 13:08:42 elm-package install elm-lang/mon
+ 1421  2018-03-16 09:45:05 exit
+ 1422  ??unset sourced_bash_aliases
+ 1423  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1424  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1425  2018-03-27 17:52:48 source ~/.bash_functions
+ 1426  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1427  2018-03-27 17:52:48 cd .
+ 1428  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1429  2018-03-27 17:52:48 pwd
+ 1430  2018-03-27 17:52:48 elm-reactor
+ 1431  ??unset sourced_bash_aliases
+ 1432  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1433  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1434  2018-03-27 17:52:48 source ~/.bash_functions
+ 1435  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1436  2018-03-27 17:52:48 cd .
+ 1437  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1438  2018-03-27 17:52:48 elm-repl
+ 1439  2018-03-15 12:59:36 clear
+ 1440  2018-03-15 12:59:38 pwd
+ 1441  2018-03-15 12:59:41 cd ..
+ 1442  2018-03-15 12:59:42 lt
+ 1443  2018-03-15 12:59:47 cd elm-architecture-tutorial
+ 1444  2018-03-15 12:59:55 emacs
+ 1445  2018-03-16 09:45:26 exit
+ 1446  2018-03-15 12:59:55 emacs
+ 1447  2018-03-16 10:26:12 cdv
+ 1448  2018-03-16 10:26:45 tail ~/.bash_aliases
+ 1449  2018-03-16 10:26:55 unset sourced_bash_aliases
+ 1450  2018-03-16 10:27:02 source ~/.bash_aliases
+ 1451  2018-03-16 10:27:35 exit
+ 1452  2018-03-27 17:52:48 be rake db:migrate:status
+ 1453  2018-03-27 17:52:48 pg_dump --no-owner --no-acl -h db-qa.aws.rbmtechnologies.com -Fc pcs-vmm-qa > ~/Downloads/pcs-vmm-qa-`date +%Y-%m-%d`.dmp
+ 1454  2018-03-27 17:52:48 echo "password: aTh9kaD8"
+ 1455  2018-03-27 17:52:48 pg_dump --no-owner --no-acl -h db-qa.aws.rbmtechnologies.com -U app -Fc pcs-vmm-qa > ~/Downloads/pcs-vmm-qa-`date +%Y-%m-%d`.dmp
+ 1456  2018-03-27 17:52:48 cd ~/Downloads/
+ 1457  2018-03-27 17:52:48 ll
+ 1458  2018-03-27 17:52:48 tail ~/.bash_aliases
+ 1459  2018-03-27 17:52:48 grep lss ~/.bash_aliases
+ 1460  2018-03-27 17:52:48     alias lss='ls -lSr'
+ 1461  2018-03-27 17:52:48 lss
+ 1462  2018-03-27 17:52:48 emacs
+ 1463  2018-03-27 17:52:48 exit
+ 1464  2018-03-27 17:52:48 cd /home/app/rails/current
+ 1465  2018-03-27 17:52:48 ls
+ 1466  2018-03-27 17:52:48 exit
+ 1467  2018-03-27 17:52:48 emacs&
+ 1468  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 1469  2018-03-27 17:52:48 elm-package 
+ 1470  2018-03-27 17:52:48 elm-package install
+ 1471  2018-03-27 17:52:48 elm-package install elm-lang/pull-down-list
+ 1472  2018-03-27 17:52:48 elm-package install elm-lang/moon-tool
+ 1473  2018-03-27 17:52:48 elm-package install elm-lang/mon
+ 1474  2018-03-27 17:52:48 exit
+ 1475  2018-03-27 17:52:48 elm-reactor
+ 1476  2018-03-27 17:52:48 elm-repl
+ 1477  2018-03-27 17:52:48 clear
+ 1478  2018-03-27 17:52:48 cd ..
+ 1479  2018-03-27 17:52:48 lt
+ 1480  2018-03-27 17:52:48 cd elm-architecture-tutorial
+ 1481  2018-03-27 17:52:48 emacs
+ 1482  2018-03-27 17:52:48 exit
+ 1483  2018-03-27 17:52:48 emacs
+ 1484  2018-03-27 17:52:48 cdv
+ 1485  2018-03-27 17:52:48 tail ~/.bash_aliases
+ 1486  2018-03-27 17:52:48 exit
+ 1487  ??unset sourced_bash_aliases
+ 1488  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1489  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1490  2018-03-27 17:52:48 source ~/.bash_functions
+ 1491  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1492  2018-03-27 17:52:48 cd .
+ 1493  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1494  2018-03-27 17:52:48 sudo dmesg
+ 1495  2018-03-27 17:52:48 ll ~/Downloads/*dmp
+ 1496  2018-03-27 17:52:48 i
+ 1497  2018-03-27 17:52:48 psql
+ 1498  2018-03-27 17:52:48 psql pcs-vmm-local
+ 1499  2018-03-27 17:52:48 f typography.scss
+ 1500  2018-03-27 17:52:48 f base.scss
+ 1501  2018-03-27 17:52:48 ll ./foo ./baz ./baz~ ./foo~ ./qux ./spec/features/\#foo\# ./spec/features/foo ./spec/features/foo~ ./spec/bar ./spec/foo ./spec/foo~ ./chasm
+ 1502  2018-03-27 17:52:48 rm  ./foo ./baz ./baz~ ./foo~ ./qux ./spec/features/\#foo\# ./spec/features/foo ./spec/features/foo~ ./spec/bar ./spec/foo ./spec/foo~ ./chasm
+ 1503  2018-03-27 17:52:48 echo "font-family"
+ 1504  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1505  2018-03-27 17:52:48 git co db/structure.sql
+ 1506  2018-03-27 17:52:48 git commit -m"FR92-47 Add Montserrat at * selector level"
+ 1507  2018-03-27 17:52:48 git push
+ 1508  2018-03-27 17:52:48 git branches -v | grep FR92-47
+ 1509  2018-03-27 17:52:48 git branch -v | grep FR92-47
+ 1510  2018-03-27 17:52:48 git co FR92-47-A
+ 1511  2018-03-27 17:52:48 gitk
+ 1512  2018-03-27 17:52:48 git diff HEAD^..HEAD > foo
+ 1513  2018-03-27 17:52:48 git co FR92-47
+ 1514  2018-03-27 17:52:48 gd e135f61a19..HEAD > foo
+ 1515  2018-03-27 17:52:48 grep "<" foo
+ 1516  2018-03-27 17:52:48 grep includ foo
+ 1517  2018-03-27 17:52:48 head foo
+ 1518  2018-03-27 17:52:48 grep "--- a" foo
+ 1519  2018-03-27 17:52:48 grep '--- a' foo
+ 1520  2018-03-27 17:52:48 grep "\-\-\-\ \a" foo
+ 1521  2018-03-27 17:52:48 egrep "\-\-\-\ \a" foo
+ 1522  2018-03-27 17:52:48 egrep "--- a" foo
+ 1523  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1524  2018-03-27 17:52:48 git co FR92-47-C
+ 1525  2018-03-27 17:52:48 head -22 ~/projects/vmm/app/views/layouts/main.haml
+ 1526  2018-03-27 17:52:48 psgr
+ 1527  2018-03-27 17:52:48     - else
+ 1528  2018-03-27 17:52:48       = favicon_link_tag "favicon.ico", :media => 'all'
+ 1529  2018-03-27 17:52:48     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i", :media => 'all'
+ 1530  2018-03-27 17:52:48     = stylesheet_link_tag "jquery-ui-1.11.4.custom.css", :media => 'all'
+ 1531  2018-03-27 17:52:48     = verified_stylesheet_link_tag 'base', 'main', "controllers/" + params[:controller], :media => 'all'
+ 1532  2018-03-27 17:52:48     = css_snippet_include_tag(:defaults)
+ 1533  2018-03-27 17:52:48 vmm (FR92-47-C)$ 
+ 1534  2018-03-27 17:52:48 gdt
+ 1535  2018-03-27 17:52:48 git add -u
+ 1536  2018-03-27 17:52:48 git comment -m"FR92-47 development Add Montserrat font at * selector level"
+ 1537  2018-03-27 17:52:48 git commit -m"FR92-47 development Add Montserrat font at * selector level"
+ 1538  2018-03-27 17:52:48 git rebase -i 33ff90b2cb^
+ 1539  2018-03-27 17:52:48 git difftool HEAD^..HEAD
+ 1540  2018-03-27 17:52:48 pwd
+ 1541  2018-03-27 17:52:48 iw
+ 1542  2018-03-27 17:52:48 iwt
+ 1543  2018-03-27 17:52:48 cd ~/projects/vmmwt
+ 1544  2018-03-27 17:52:48 git co development
+ 1545  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1546  2018-03-27 17:52:48 git rebase --continue
+ 1547  2018-03-27 17:52:48 gl1
+ 1548  2018-03-27 17:52:48 gs
+ 1549  2018-03-27 17:52:48 git push -f
+ 1550  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1551  2018-03-27 17:52:48 gl1
+ 1552  2018-03-27 17:52:48 gs
+ 1553  2018-03-27 17:52:48 git push -f
+ 1554  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1555  ??unset sourced_bash_aliases
+ 1556  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1557  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1558  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1559  2018-03-27 17:52:48 cd .
+ 1560  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1561  2018-03-27 17:52:48 elm-repl
+ 1562  2018-03-27 17:52:48 source ~/.bash_functions
+ 1563  2018-03-27 17:52:48 iremotes
+ 1564  2018-03-27 17:52:48     function iremote() {         echo "remote git hosts"; 	git remote -v;     }
+ 1565  2018-03-27 17:52:48 iremote
+ 1566  2018-03-27 17:52:48 pwd
+ 1567  2018-03-27 17:52:48 echo $cwd
+ 1568  2018-03-27 17:52:48 echo $CWD
+ 1569  2018-03-27 17:52:48 exit
+ 1570  2018-03-27 17:52:48 head foo
+ 1571  2018-03-27 17:52:48 grep "--- a" foo
+ 1572  2018-03-27 17:52:48 grep '--- a' foo
+ 1573  2018-03-27 17:52:48 grep "\-\-\-\ \a" foo
+ 1574  2018-03-27 17:52:48 egrep "\-\-\-\ \a" foo
+ 1575  2018-03-27 17:52:48 egrep "--- a" foo
+ 1576  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1577  2018-03-27 17:52:48 git co FR92-47-C
+ 1578  2018-03-27 17:52:48 head -22 ~/projects/vmm/app/views/layouts/main.haml
+ 1579  2018-03-27 17:52:48     - else
+ 1580  2018-03-27 17:52:48       = favicon_link_tag "favicon.ico", :media => 'all'
+ 1581  2018-03-27 17:52:48     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i", :media => 'all'
+ 1582  2018-03-27 17:52:48     = stylesheet_link_tag "jquery-ui-1.11.4.custom.css", :media => 'all'
+ 1583  2018-03-27 17:52:48     = verified_stylesheet_link_tag 'base', 'main', "controllers/" + params[:controller], :media => 'all'
+ 1584  2018-03-27 17:52:48     = css_snippet_include_tag(:defaults)
+ 1585  2018-03-27 17:52:48 vmm (FR92-47-C)$ 
+ 1586  2018-03-27 17:52:48 gdt
+ 1587  2018-03-27 17:52:48 git add -u
+ 1588  2018-03-27 17:52:48 git comment -m"FR92-47 development Add Montserrat font at * selector level"
+ 1589  2018-03-27 17:52:48 git commit -m"FR92-47 development Add Montserrat font at * selector level"
+ 1590  2018-03-27 17:52:48 git rebase -i 33ff90b2cb^
+ 1591  2018-03-27 17:52:48 git difftool HEAD^..HEAD
+ 1592  2018-03-27 17:52:48 iw
+ 1593  2018-03-27 17:52:48 iwt
+ 1594  2018-03-27 17:52:48 cd ~/projects/vmmwt
+ 1595  2018-03-27 17:52:48 git co development
+ 1596  2018-03-27 17:52:48 git rebase --continue
+ 1597  2018-03-27 17:52:48 git push -f
+ 1598  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1599  ??unset sourced_bash_aliases
+ 1600  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1601  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1602  2018-03-27 17:52:48 source ~/.bash_functions
+ 1603  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1604  2018-03-27 17:52:48 cd .
+ 1605  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1606  2018-03-27 17:52:48 rg reset
+ 1607  2018-03-27 17:52:48 ec examples/
+ 1608  2018-03-27 17:52:48 cd examples/
+ 1609  2018-03-27 17:52:48 grep div * > foo
+ 1610  2018-03-27 17:52:48 cd compliance-visualization-dashboard
+ 1611  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1612  2018-03-27 17:52:48 gs
+ 1613  2018-03-27 17:52:48 git branch -v --sort=-committerdate | grep 92-14
+ 1614  2018-03-27 17:52:48 git co FR92-14
+ 1615  2018-03-27 17:52:48 gl1
+ 1616  2018-03-27 17:52:48 gdt 0104bafc91^..0104bafc91
+ 1617  2018-03-27 17:52:48 echo "MC_O2_TMP_FEED_SOLUTIONS_DIVERSE_DIR"
+ 1618  2018-03-27 17:52:48 pry
+ 1619  2018-03-27 17:52:48 rg orderless_shipments_feed_dir
+ 1620  2018-03-27 17:52:48 cd rbm-config-files/
+ 1621  2018-03-27 17:52:48 getLayerCakeConfigFiles
+ 1622  2018-03-27 17:52:48 rg MC_O2_TMP_FEED_SOLUTIONS_DIVERSE_DIR
+ 1623  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 1624  2018-03-27 17:52:48 elm-repl
+ 1625  2018-03-27 17:52:48 cd
+ 1626  2018-03-27 17:52:48 cd projects
+ 1627  2018-03-27 17:52:48 ruby -v
+ 1628  2018-03-27 17:52:48 rails new html
+ 1629  2018-03-27 17:52:48 cd html/
+ 1630  2018-03-27 17:52:48 b
+ 1631  2018-03-27 17:52:48 bundle exec script/rails s -p3333
+ 1632  2018-03-27 17:52:48 rails -h
+ 1633  2018-03-27 17:52:48  rails -v
+ 1634  2018-03-27 17:52:48 rails s
+ 1635  2018-03-27 17:52:48 cd app/
+ 1636  2018-03-27 17:52:48 ls controllers/
+ 1637  2018-03-27 17:52:48 ls controllers/application_controller.rb 
+ 1638  2018-03-27 17:52:48 f 'index*'
+ 1639  2018-03-27 17:52:48 ls -
+ 1640  2018-03-27 17:52:48 ls -R|grep index
+ 1641  2018-03-27 17:52:48 cd ..
+ 1642  2018-03-27 17:52:48 onwd
+ 1643  2018-03-27 17:52:48 ls
+ 1644  2018-03-27 17:52:48 rails -v
+ 1645  2018-03-27 17:52:48 rails s -p3333
+ 1646  2018-03-27 17:52:48 rails g --help
+ 1647  2018-03-27 17:52:48 rails generator scaffold post title:string body:text
+ 1648  2018-03-27 17:52:48 rails g scaffold post title:string body:text
+ 1649  2018-03-27 17:52:48 rake routes
+ 1650  2018-03-27 17:52:48 psgr
+ 1651  2018-03-27 17:52:48 bin/rails db:migrate RAILS_ENV=development
+ 1652  2018-03-27 17:52:48 echo "CMA is here
+ 1653  2018-03-27 17:52:48 "
+ 1654  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1655  2018-03-27 17:52:48 rails s -p 3333
+ 1656  2018-03-27 17:52:48 pwd
+ 1657  2018-03-27 17:52:48 exit
+ 1658  2018-03-27 17:52:48 cd ~/Downloads/
+ 1659  2018-03-27 17:52:48 ll
+ 1660  2018-03-27 17:52:48 tail ~/.bash_aliases
+ 1661  2018-03-27 17:52:48 grep lss ~/.bash_aliases
+ 1662  2018-03-27 17:52:48     alias lss='ls -lSr'
+ 1663  2018-03-27 17:52:48 lss
+ 1664  2018-03-27 17:52:48 emacs
+ 1665  2018-03-27 17:52:48 cd /home/app/rails/current
+ 1666  2018-03-27 17:52:48 emacs&
+ 1667  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 1668  2018-03-27 17:52:48 elm-package 
+ 1669  2018-03-27 17:52:48 elm-package install
+ 1670  2018-03-27 17:52:48 elm-package install elm-lang/pull-down-list
+ 1671  2018-03-27 17:52:48 elm-package install elm-lang/moon-tool
+ 1672  2018-03-27 17:52:48 elm-package install elm-lang/mon
+ 1673  2018-03-27 17:52:48 elm-repl
+ 1674  2018-03-27 17:52:48 clear
+ 1675  2018-03-27 17:52:48 lt
+ 1676  2018-03-27 17:52:48 emacs
+ 1677  2018-03-27 17:52:48 emacs
+ 1678  2018-03-27 17:52:48 cdv
+ 1679  2018-03-27 17:52:48 tail ~/.bash_aliases
+ 1680  2018-03-27 17:52:48 sudo dmesg
+ 1681  2018-03-27 17:52:48 ll ~/Downloads/*dmp
+ 1682  2018-03-27 17:52:48 psql
+ 1683  2018-03-27 17:52:48 psql pcs-vmm-local
+ 1684  2018-03-27 17:52:48 f typography.scss
+ 1685  2018-03-27 17:52:48 ll ./foo ./baz ./baz~ ./foo~ ./qux ./spec/features/\#foo\# ./spec/features/foo ./spec/features/foo~ ./spec/bar ./spec/foo ./spec/foo~ ./chasm
+ 1686  2018-03-27 17:52:48 rm  ./foo ./baz ./baz~ ./foo~ ./qux ./spec/features/\#foo\# ./spec/features/foo ./spec/features/foo~ ./spec/bar ./spec/foo ./spec/foo~ ./chasm
+ 1687  2018-03-27 17:52:48 echo "font-family"
+ 1688  2018-03-27 17:52:48 git co db/structure.sql
+ 1689  2018-03-27 17:52:48 git commit -m"FR92-47 Add Montserrat at * selector level"
+ 1690  2018-03-27 17:52:48 git push
+ 1691  2018-03-27 17:52:48 git branches -v | grep FR92-47
+ 1692  2018-03-27 17:52:48 git branch -v | grep FR92-47
+ 1693  2018-03-27 17:52:48 git co FR92-47-A
+ 1694  2018-03-27 17:52:48 gitk
+ 1695  2018-03-27 17:52:48 git diff HEAD^..HEAD > foo
+ 1696  2018-03-27 17:52:48 git co FR92-47
+ 1697  2018-03-27 17:52:48 gd e135f61a19..HEAD > foo
+ 1698  2018-03-27 17:52:48 grep "<" foo
+ 1699  2018-03-27 17:52:48 grep includ foo
+ 1700  2018-03-27 17:52:48 head foo
+ 1701  2018-03-27 17:52:48 grep "--- a" foo
+ 1702  2018-03-27 17:52:48 grep '--- a' foo
+ 1703  2018-03-27 17:52:48 grep "\-\-\-\ \a" foo
+ 1704  2018-03-27 17:52:48 egrep "\-\-\-\ \a" foo
+ 1705  2018-03-27 17:52:48 egrep "--- a" foo
+ 1706  2018-03-27 17:52:48 head -22 ~/projects/vmm/app/views/layouts/main.haml
+ 1707  2018-03-27 17:52:48     - else
+ 1708  2018-03-27 17:52:48       = favicon_link_tag "favicon.ico", :media => 'all'
+ 1709  2018-03-27 17:52:48     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i", :media => 'all'
+ 1710  2018-03-27 17:52:48     = stylesheet_link_tag "jquery-ui-1.11.4.custom.css", :media => 'all'
+ 1711  2018-03-27 17:52:48     = verified_stylesheet_link_tag 'base', 'main', "controllers/" + params[:controller], :media => 'all'
+ 1712  2018-03-27 17:52:48     = css_snippet_include_tag(:defaults)
+ 1713  2018-03-27 17:52:48 vmm (FR92-47-C)$ 
+ 1714  2018-03-27 17:52:48 git comment -m"FR92-47 development Add Montserrat font at * selector level"
+ 1715  2018-03-27 17:52:48 git commit -m"FR92-47 development Add Montserrat font at * selector level"
+ 1716  2018-03-27 17:52:48 git rebase -i 33ff90b2cb^
+ 1717  2018-03-27 17:52:48 git difftool HEAD^..HEAD
+ 1718  2018-03-27 17:52:48 iw
+ 1719  2018-03-27 17:52:48 git rebase --continue
+ 1720  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1721  ??unset sourced_bash_aliases
+ 1722  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1723  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1724  2018-03-27 17:52:48 source ~/.bash_functions
+ 1725  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1726  2018-03-27 17:52:48 cd .
+ 1727  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1728  2018-03-27 17:52:48 gd 0104bafc91^..0104bafc91 | grep LayerCake.get > foo
+ 1729  2018-03-27 17:52:48 echo "MC_O2_TMP_FEED_SOLUTIONS_DIVERSE_DIR"
+ 1730  2018-03-27 17:52:48 gdt 0104bafc91^
+ 1731  2018-03-27 17:52:48 ll config/database.yml
+ 1732  2018-03-27 17:52:48 cp config/database.yml config/database.yml.current
+ 1733  2018-03-27 17:52:48 ss pcs
+ 1734  2018-03-27 17:52:48 diff config/database.yml config/database.yml.current
+ 1735  2018-03-27 17:52:48 type ss
+ 1736  2018-03-27 17:52:48 load_layer_cake pcs vmm development
+ 1737  2018-03-27 17:52:48 alias gs
+ 1738  2018-03-27 17:52:48 git branch -v | grep FR92-4
+ 1739  2018-03-27 17:52:48 f base.scss
+ 1740  2018-03-27 17:52:48 base.css
+ 1741  2018-03-27 17:52:48 f base.css
+ 1742  2018-03-27 17:52:48 type f
+ 1743  2018-03-27 17:52:48 cd public/
+ 1744  2018-03-27 17:52:48 f 'base*'
+ 1745  2018-03-27 17:52:48 find . -type f |grep base
+ 1746  2018-03-27 17:52:48 find . -type f -print |grep base
+ 1747  2018-03-27 17:52:48 git add -u
+ 1748  2018-03-27 17:52:48 git commit -m"FR92-47 development change fonts to use: Montserrat; Remove font-family: inherit; references"a
+ 1749  2018-03-27 17:52:48 hg ammend
+ 1750  2018-03-27 17:52:48 hg amend > foo
+ 1751  2018-03-27 17:52:48 git commit --amend
+ 1752  2018-03-27 17:52:48 git rebase -i 9372556fb5^
+ 1753  2018-03-27 17:52:48 git push -f
+ 1754  2018-03-27 17:52:48 git branch -v --sort=-committerdate | grep fr92-14
+ 1755  2018-03-27 17:52:48 git branch -v --sort=-committerdate | grep FR92-14
+ 1756  2018-03-27 17:52:48 git co FR92-14
+ 1757  2018-03-27 17:52:48 git co development
+ 1758  2018-03-27 17:52:48 cd ~/projects/vmmwt
+ 1759  2018-03-27 17:52:48 iwt
+ 1760  2018-03-27 17:52:48 gitk app/assets/javascripts/core/store_explorer.coffee
+ 1761  2018-03-27 17:52:48 gitk app/assets/javascripts/core/store_explorer_table.coffee
+ 1762  2018-03-27 17:52:48 gitk app/controllers/concerns/zebra/locations/store_explorer_query.rb
+ 1763  2018-03-27 17:52:48 gitk spec/features/locations/store_explorer_results_spec.rb
+ 1764  2018-03-27 17:52:48 gitk spec/features/locations/store_explorer_table_spec.rb
+ 1765  2018-03-27 17:52:48 i
+ 1766  2018-03-27 17:52:48 echo $vmm_use_secure_cookies
+ 1767  2018-03-27 17:52:48 git co -
+ 1768  2018-03-27 17:52:48 git co FR92-47-C
+ 1769  2018-03-27 17:52:48 echo "@media"
+ 1770  2018-03-27 17:52:48 git difftool f204a9f476^..f204a9f476
+ 1771  2018-03-27 17:52:48 gd f204a9f476^..f204a9f476 > foo
+ 1772  2018-03-27 17:52:48 git co    db/structure.sql
+ 1773  2018-03-27 17:52:48 git co app/assets/stylesheets/snippets/planogram_overviews/labor_assignments.scss
+ 1774  2018-03-27 17:52:48 git co app/assets/stylesheets/snippets/planogram_mappings/index.scss
+ 1775  2018-03-27 17:52:48 gtd
+ 1776  2018-03-27 17:52:48 git stash save "force montserrat font"
+ 1777  2018-03-27 17:52:48 open ~/projects/vmm/foobar.html
+ 1778  2018-03-27 17:52:48 ll|grep project
+ 1779  2018-03-27 17:52:48 cd projects_newer/
+ 1780  2018-03-27 17:52:48 cd projects_new/
+ 1781  2018-03-27 17:52:48 f chasm.js
+ 1782  2018-03-27 17:52:48 cd
+ 1783  2018-03-27 17:52:48 ll|grep projects
+ 1784  2018-03-27 17:52:48 find {projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects/} -name javascripts {} \; -print
+ 1785  2018-03-27 17:52:48 find ()projects-ember/,projects_r12_whats_next/,projects_new/,projects_newer/,projects/) -name javascripts {} \; -print
+ 1786  2018-03-27 17:52:48 find (projects-ember/,projects_r12_whats_next/,projects_new/,projects_newer/,projects/) -name javascripts {} \; -print
+ 1787  2018-03-27 17:52:48 find ./(projects-ember/,projects_r12_whats_next/,projects_new/,projects_newer/,projects/) -name javascripts {} \; -print
+ 1788  2018-03-27 17:52:48 find ./{projects-ember/,projects_r12_whats_next/,projects_new/,projects_newer/,projects/} -name javascripts {} \; -print
+ 1789  2018-03-27 17:52:48 find ./{projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects/} -name javascripts {} \; -print
+ 1790  2018-03-27 17:52:48 find ./{projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects} -name javascripts {} \; -print
+ 1791  2018-03-27 17:52:48 find ./{projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects} -type d {} \; -print
+ 1792  2018-03-27 17:52:48 find ./{projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects} -type d 
+ 1793  2018-03-27 17:52:48 find ./{projects-ember,projects_r12_whats_next,projects_new,projects_newer,projects} -type d | grep javascript > foo
+ 1794  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1795  2018-03-27 17:52:48 psgr
+ 1796  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1797  2018-03-27 17:52:48 git co FR92-3
+ 1798  2018-03-27 17:52:48 f preview
+ 1799  2018-03-27 17:52:48 echo "Store Name or ID"
+ 1800  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 1801  2018-03-27 17:52:48 hg rm > foo
+ 1802  2018-03-27 17:52:48 wc foo
+ 1803  2018-03-27 17:52:48 git co   db/structure.sql
+ 1804  2018-03-27 17:52:48 gdt
+ 1805  2018-03-27 17:52:48 gd
+ 1806  2018-03-27 17:52:48 cd ..
+ 1807  2018-03-27 17:52:48 cd elm-architecture-tutorial
+ 1808  2018-03-27 17:52:48 elm-reactor
+ 1809  2018-03-27 17:52:48 gs
+ 1810  2018-03-27 17:52:48 gl1
+ 1811  2018-03-27 17:52:48 pwd
+ 1812  2018-03-27 17:52:48 cd ../elm-architecture-tutorial.ootw/
+ 1813  2018-03-27 17:52:48 git remote -v
+ 1814  2018-03-27 17:52:48 cd ../elm-architecture-tutorial.wip
+ 1815  2018-03-27 17:52:48 ls
+ 1816  2018-03-27 17:52:48     function iremote() {         echo "remote git hosts"; 	git remote -v;     }
+ 1817  2018-03-27 17:52:48 iremote
+ 1818  2018-03-27 17:52:48 exit
+ 1819  2018-03-27 17:52:48 egrep "\-\-\-\ \a" foo
+ 1820  2018-03-27 17:52:48 egrep "--- a" foo
+ 1821  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 1822  2018-03-27 17:52:48 git co FR92-47-C
+ 1823  2018-03-27 17:52:48 head -22 ~/projects/vmm/app/views/layouts/main.haml
+ 1824  2018-03-27 17:52:48     - else
+ 1825  2018-03-27 17:52:48       = favicon_link_tag "favicon.ico", :media => 'all'
+ 1826  2018-03-27 17:52:48     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i", :media => 'all'
+ 1827  2018-03-27 17:52:48     = stylesheet_link_tag "jquery-ui-1.11.4.custom.css", :media => 'all'
+ 1828  2018-03-27 17:52:48     = verified_stylesheet_link_tag 'base', 'main', "controllers/" + params[:controller], :media => 'all'
+ 1829  2018-03-27 17:52:48     = css_snippet_include_tag(:defaults)
+ 1830  2018-03-27 17:52:48 vmm (FR92-47-C)$ 
+ 1831  2018-03-27 17:52:48 gdt
+ 1832  2018-03-27 17:52:48 git comment -m"FR92-47 development Add Montserrat font at * selector level"
+ 1833  2018-03-27 17:52:48 git commit -m"FR92-47 development Add Montserrat font at * selector level"
+ 1834  2018-03-27 17:52:48 git rebase -i 33ff90b2cb^
+ 1835  2018-03-27 17:52:48 git difftool HEAD^..HEAD
+ 1836  2018-03-27 17:52:48 iw
+ 1837  2018-03-27 17:52:48 iwt
+ 1838  2018-03-27 17:52:48 cd ~/projects/vmmwt
+ 1839  2018-03-27 17:52:48 git co development
+ 1840  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 1841  2018-03-27 17:52:48 git rebase --continue
+ 1842  2018-03-27 17:52:48 git push -f
+ 1843  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1844  ??unset sourced_bash_aliases
+ 1845  2018-03-27 17:52:48 source ~/.bash_aliases
+ 1846  2018-03-27 17:52:48 unset sourced_bash_functions
+ 1847  2018-03-27 17:52:48 source ~/.bash_functions
+ 1848  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 1849  2018-03-27 17:52:48 cd .
+ 1850  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*l
+ 1851  2018-03-27 17:52:48 rg isDigit
+ 1852  2018-03-27 17:52:48 git clone git@github.com:ChasManRors/elm-ui-examples.git
+ 1853  2018-03-27 17:52:48 cd elm-ui-examples/
+ 1854  2018-03-27 17:52:48 ls
+ 1855  2018-03-27 17:52:48 rg isDit
+ 1856  2018-03-27 17:52:48 rg isDig
+ 1857  2018-03-27 17:52:48 rg String.any
+ 1858  2018-03-27 17:52:48 type elm-live
+ 1859  2018-03-27 17:52:48 cd ~/projects/elm-architecture-tutorial/examples/
+ 1860  2018-03-27 17:52:48 git branch -vv
+ 1861  2018-03-27 17:52:48 hg elm-architecture-tutorial > foo
+ 1862  2018-03-27 17:52:48 wc foo
+ 1863  2018-03-27 17:52:48 git fetch --tags --all # => Update local
+ 1864  2018-03-27 17:52:48 git co -
+ 1865  2018-03-27 17:52:48 gd master
+ 1866  2018-03-27 17:52:48 cd ..
+ 1867  2018-03-27 17:52:48 mv elm-architecture-tutorial elm-architecture-tutorial.wip
+ 1868  2018-03-27 17:52:48 git clone git@github.com:ChasManRors/elm-architecture-tutorial.git
+ 1869  2018-03-27 17:52:48 lt
+ 1870  2018-03-27 17:52:48 cd elm-architecture-tutorial.wip/
+ 1871  2018-03-27 17:52:48 ll ../elm-architecture-tutorial/examples/01-button.elm examples/01-button.elm
+ 1872  2018-03-27 17:52:48 git stash
+ 1873  2018-03-27 17:52:48 git apply
+ 1874  2018-03-27 17:52:48 git stash apply
+ 1875  2018-03-27 17:52:48 type gs
+ 1876  2018-03-27 17:52:48 git status
+ 1877  2018-03-27 17:52:48 diff examples/01-button.elm ../elm-architecture-tutorial/examples/01-button.elm 
+ 1878  2018-03-27 17:52:48 cp  examples/01-button.elm ../elm-architecture-tutorial/examples/01-button.elm 
+ 1879  2018-03-27 17:52:48 cp  examples/02-field.elm ../elm-architecture-tutorial/examples/02-field.elm
+ 1880  2018-03-27 17:52:48 cp  examples/03-form.elm ../elm-architecture-tutorial/examples/03-form.elm
+ 1881  2018-03-27 17:52:48 cd ../elm-architecture-tutorial
+ 1882  2018-03-27 17:52:48 git stash list
+ 1883  2018-03-27 17:52:48 gl1
+ 1884  2018-03-27 17:52:48 pwd
+ 1885  2018-03-27 17:52:48 echo "git co -b FR92-3-ELM"
+ 1886  2018-03-27 17:52:48 git remote -v
+ 1887  2018-03-27 17:52:48 i
+ 1888  2018-03-27 17:52:48 type i
+ 1889  2018-03-27 17:52:48 type where
+ 1890  2018-03-27 17:52:48 where
+ 1891  2018-03-27 17:52:48 type gitbranch
+ 1892  2018-03-27 17:52:48 type iwt
+ 1893  2018-03-27 17:52:48     function iremote() {         echo "remote git hosts"; 	git remote -v;     }
+ 1894  2018-03-27 17:52:48 iremote
+ 1895  2018-03-27 17:52:48 gss
+ 1896  2018-03-27 17:52:48 git co -b FR92-3-ELM
+ 1897  2018-03-27 17:52:48 gs
+ 1898  2018-03-27 17:52:48 git add -u
+ 1899  2018-03-27 17:52:48 git commit -m"FR92-3 None Exercises to work on issues"
+ 1900  2018-03-27 17:52:48 git push
+ 1901  2018-03-27 17:52:48 psgr
+ 1902  2018-03-15 13:04:56 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 1903  2018-03-15 13:05:02 elm-package 
+ 1904  2018-03-15 13:05:22 elm-package install
+ 1905  2018-03-15 13:08:20 elm-package install elm-lang/pull-down-list
+ 1906  2018-03-15 13:08:35 elm-package install elm-lang/moon-tool
+ 1907  2018-03-15 13:08:42 elm-package install elm-lang/mon
+ 1908  ??unset sourced_bash_aliases
+ 1909  2018-03-16 10:31:02 source ~/.bash_aliases
+ 1910  2018-03-16 10:31:02 unset sourced_bash_functions
+ 1911  2018-03-16 10:31:02 source ~/.bash_functions
+ 1912  2018-03-16 10:31:02 echo "$HOME/.rvm/scripts/rvm"
+ 1913  2018-03-16 10:31:02 cd .
+ 1914  2018-03-16 10:31:02 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1915  2018-03-16 10:31:02 elm-reactor
+ 1916  ??unset sourced_bash_aliases
+ 1917  2018-03-16 10:31:02 source ~/.bash_aliases
+ 1918  2018-03-16 10:31:02 unset sourced_bash_functions
+ 1919  2018-03-16 10:31:02 source ~/.bash_functions
+ 1920  2018-03-16 10:31:02 echo "$HOME/.rvm/scripts/rvm"
+ 1921  2018-03-16 10:31:02 cd .
+ 1922  2018-03-16 10:31:02 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 1923  2018-03-16 10:31:02 elm-repl
+ 1924  2018-03-15 12:59:41 cd ..
+ 1925  2018-03-15 12:59:55 emacs
+ 1926  2018-03-15 12:59:55 emacs
+ 1927  2018-03-16 10:26:12 cdv
+ 1928  2018-03-16 10:26:45 tail ~/.bash_aliases
+ 1929  2018-03-16 10:26:55 unset sourced_bash_aliases
+ 1930  2018-03-16 10:27:02 source ~/.bash_aliases
+ 1931  2018-03-16 10:31:09 clear
+ 1932  2018-03-16 10:31:12 pwd
+ 1933  2018-03-16 10:31:15 cd /Users/cmagid/projects/vmm/
+ 1934  2018-03-16 11:23:10 i
+ 1935  2018-03-16 11:24:59 git branch -v|grep FR92
+ 1936  2018-03-16 11:25:07 git co FR92-47-A
+ 1937  2018-03-16 11:25:10 gl
+ 1938  2018-03-16 11:25:25 gdt
+ 1939  2018-03-16 11:25:36 git difftool HEAD^..HEAD
+ 1940  2018-03-16 11:27:28 git co -b FR92-47-C
+ 1941  2018-03-16 11:27:40 git cherry-pick c2f9ad2098
+ 1942  2018-03-16 11:30:27 git cherry-pick --continue
+ 1943  2018-03-16 11:41:38 git difftool 33ff90b2cb^..33ff90b2cb
+ 1944  2018-03-16 11:42:29 rg montserrat
+ 1945  2018-03-16 11:42:36 rg montserrat > foo
+ 1946  2018-03-16 11:53:33  find . -type f | grep 'foobar\|foo\|bar\|baz\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt' | egrep -v './.git/' | egrep -v './app/assets/' > chasm
+ 1947  2018-03-16 13:26:00 ggs
+ 1948  2018-03-16 14:25:23 psgtr
+ 1949  2018-03-16 15:17:27 psgr
+ 1950  2018-03-16 15:17:31 bundle exec script/rails s
+ 1951  2018-03-16 15:23:00 git difftool 33ff90b2cb^..HEAD
+ 1952  2018-03-16 15:25:50 git difftool 33ff90b2cb^
+ 1953  2018-03-16 15:45:33 git push -f
+ 1954  2018-03-16 15:49:30 git co development
+ 1955  2018-03-16 15:49:34 git feth`
+ 1956  2018-03-16 15:49:39 git fetch --tags --all # => Update local
+ 1957  2018-03-16 15:50:18 git pull
+ 1958  2018-03-16 15:50:39 git co -
+ 1959  2018-03-16 15:50:43 gl1
+ 1960  2018-03-16 15:50:51 git rebase development
+ 1961  2018-03-16 16:27:06 gs
+ 1962  2018-03-16 16:33:10 cd /Users/cmagid/projects/
+ 1963  2018-03-16 16:33:11 lt
+ 1964  2018-03-16 16:33:13 cd elm-architecture-tutorial
+ 1965  2018-03-22 17:37:21 exit
+ 1966  2018-03-19 13:43:19 egrep "--- a" foo
+ 1967  2018-03-19 13:43:19 head -22 ~/projects/vmm/app/views/layouts/main.haml
+ 1968  2018-03-19 13:43:19     - else
+ 1969  2018-03-19 13:43:19       = favicon_link_tag "favicon.ico", :media => 'all'
+ 1970  2018-03-19 13:43:19     = stylesheet_link_tag "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i", :media => 'all'
+ 1971  2018-03-19 13:43:19     = stylesheet_link_tag "jquery-ui-1.11.4.custom.css", :media => 'all'
+ 1972  2018-03-19 13:43:19     = verified_stylesheet_link_tag 'base', 'main', "controllers/" + params[:controller], :media => 'all'
+ 1973  2018-03-19 13:43:19     = css_snippet_include_tag(:defaults)
+ 1974  2018-03-19 13:43:19 vmm (FR92-47-C)$ 
+ 1975  2018-03-19 13:43:19 gdt
+ 1976  2018-03-19 13:43:19 git comment -m"FR92-47 development Add Montserrat font at * selector level"
+ 1977  2018-03-19 13:43:19 git commit -m"FR92-47 development Add Montserrat font at * selector level"
+ 1978  2018-03-19 13:43:19 git rebase -i 33ff90b2cb^
+ 1979  2018-03-19 13:43:19 git difftool HEAD^..HEAD
+ 1980  2018-03-19 13:43:19 iw
+ 1981  2018-03-19 13:43:19 iwt
+ 1982  2018-03-19 13:43:19 cd ~/projects/vmmwt
+ 1983  2018-03-19 13:43:19 git rebase --continue
+ 1984  2018-03-19 13:43:19 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 1985  2018-03-19 13:43:44 cd /Users/cmagid/projects/vmm/
+ 1986  2018-03-19 13:48:32 cd .
+ 1987  2018-03-19 13:48:33 b
+ 1988  2018-03-19 13:51:10 i
+ 1989  2018-03-19 13:52:55 bundle exec rake db:migrate
+ 1990  2018-03-19 13:55:15 be rspec spec/tasks/cricket/export_online_orders_spec.rb
+ 1991  2018-03-19 13:56:33 be rspec spec/services/shipments/process_orderless_shipments_feed_spec.rb
+ 1992  2018-03-19 13:57:34 ht
+ 1993  2018-03-19 13:57:50 git add -u
+ 1994  2018-03-19 13:57:55 gd
+ 1995  2018-03-19 13:58:54 git commit -m "FR92-14 development SFTP configs from SITE_CONFIG to Layer Cake; hygiene"
+ 1996  2018-03-19 13:58:59 gl
+ 1997  2018-03-19 13:59:25 git rebase -i 0104bafc91^
+ 1998  2018-03-19 14:09:15 gl1
+ 1999  2018-03-19 14:09:21 git push -f
+ 2000  2018-03-19 14:35:11 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|s/cma/\|.log\|script-2018\|#\|.zip\|.bak\|spec/models/concerns/'\'''
+ 2001  2018-03-19 14:35:13 pwd
+ 2002  2018-03-19 14:35:14 gs
+ 2003  2018-03-19 16:25:53 be rspec ./spec/features/campaigns_spec.rb:177
+ 2004  2018-03-19 16:40:32 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 2005  2018-03-19 16:40:42 git co FR92-47-C
+ 2006  2018-03-19 17:14:36 git co development
+ 2007  2018-03-19 17:14:41 git fetch --tags --all # => Update local
+ 2008  2018-03-19 17:14:58 git pull
+ 2009  2018-03-19 17:18:37 git co -b git
+ 2010  2018-03-19 17:18:51 git co -
+ 2011  2018-03-19 17:18:57 git co -b FR92-3
+ 2012  2018-03-19 17:20:27 ss pcs
+ 2013  2018-03-20 11:08:19 rm log/development.log                   # => in a term
+ 2014  2018-03-20 11:08:19 rm log/security_development.log   
+ 2015  2018-03-20 11:08:19 rm log/test.log
+ 2016  2018-03-20 13:11:22 kill %1
+ 2017  2018-03-20 13:11:23 jobs
+ 2018  2018-03-20 13:11:39 kill -9 %1
+ 2019  2018-03-20 15:04:46 psgr
+ 2020  2018-03-20 15:04:55 be rake db:migrate
+ 2021  2018-03-20 15:05:16 bundle exec script/rails s
+ 2022  2018-03-22 17:37:23 exit
+ 2023  2018-03-20 09:40:37 cd /Users/cmagid/projects/vmm/
+ 2024  2018-03-20 09:40:39 sc
+ 2025  2018-03-22 17:37:24 exit
+ 2026  2018-03-21 10:33:50 git push -f
+ 2027  2018-03-21 10:33:50 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 2028  2018-03-21 10:33:53 cd /Users/cmagid/projects/vmm/
+ 2029  2018-03-21 10:34:11 npg -g i js-beautify
+ 2030  2018-03-21 10:34:16 npm -g i js-beautify
+ 2031  2018-03-21 15:49:22 type vmd
+ 2032  2018-03-21 15:49:28 brew info vmd
+ 2033  2018-03-21 15:49:36 brew search vmd
+ 2034  2018-03-22 17:14:44 cd /Users/cmagid/projects/
+ 2035  2018-03-22 17:14:53 ll|grep eml-a
+ 2036  2018-03-22 17:14:57 ll|grep elm-a
+ 2037  2018-03-22 17:15:19 cd elm-architecture-tutorial
+ 2038  2018-03-22 17:15:19 ls
+ 2039  2018-03-22 17:15:28 git branch -vv
+ 2040  2018-03-22 17:36:10 pwd
+ 2041  2018-03-22 17:36:25 head ~/.bash_functions
+ 2042  2018-03-22 17:36:36 unset sourced_bash_functions
+ 2043  2018-03-22 17:36:42 . ~/.bash_functions
+ 2044  2018-03-22 17:36:45 iremote
+ 2045  2018-03-22 17:37:26 exit
+ 2046  2018-03-16 10:27:35 exit
+ 2047  2018-03-16 10:31:33 cd /Users/cmagid/projects/vmm/
+ 2048  2018-03-16 16:33:32 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2049  2018-03-16 16:33:38 emacs&
+ 2050  2018-03-22 20:59:16 cd /Users/cmagid/projects/vmm/
+ 2051  2018-03-22 20:59:21 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2052  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/Alignment.elm
+ 2053  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/Decoders.elm
+ 2054  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/Disabled.elm
+ 2055  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/examples/Regular.elm
+ 2056  2018-03-22 21:01:05 cd /Users/cmagid/projects/vmm/
+ 2057  2018-03-22 21:01:16 pwd
+ 2058  2018-03-22 21:01:20 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2059  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/Alignment.elm
+ 2060  2018-03-22 21:01:58 cd /Users/cmagid/projects/vmm/
+ 2061  2018-03-22 21:02:06 type gl1
+ 2062  2018-03-22 21:02:20 gl1 app/assets/javascripts/elm/FloorplanEditor/Alignment.elm
+ 2063  2018-03-22 21:02:46 gl1 app/assets/javascripts/elm/FloorplanEditor/Decoders.elm
+ 2064  2018-03-22 21:02:46 gl1 app/assets/javascripts/elm/FloorplanEditor/Disabled.elm
+ 2065  2018-03-22 21:02:47 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/examples/Regular.elm
+ 2066  2018-03-22 21:02:48 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/public/Testpage.elm
+ 2067  2018-03-22 21:03:04 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/src/I18Next.elm
+ 2068  2018-03-22 21:03:05 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/tests/Main.elm
+ 2069  2018-03-22 21:03:05 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/tests/Tests.elm
+ 2070  2018-03-22 21:03:06 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/ChristophP/elm-i18next/2.0.2/Translations.elm
+ 2071  2018-03-22 21:03:07 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/lazy-list/1.0.0/src/Lazy/List.elm
+ 2072  2018-03-22 21:03:08 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/list-extra/7.1.0/src/List/Extra.elm
+ 2073  2018-03-22 21:03:08 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/list-extra/7.1.0/tests/Tests.elm
+ 2074  2018-03-22 21:03:09 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/random-extra/2.0.0/src/Random/Array.elm
+ 2075  2018-03-22 21:03:10 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/random-extra/2.0.0/src/Random/Char.elm
+ 2076  2018-03-22 21:03:10 gl1 app/assets/javascripts/elm/FloorplanEditor/elm-stuff/packages/elm-community/random-extra/2.0.0/src/Random/Color.elm
+ 2077  2018-03-22 21:03:38 exit
+ 2078  2018-03-22 21:03:46 cd /Users/cmagid/projects/vmm/
+ 2079  2018-03-22 21:03:59 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2080  2018-03-27 17:52:48 gl1 app/assets/javascripts/elm/FloorplanEditor/Alignment.elm
+ 2081  2018-03-27 17:52:48 . ./foo
+ 2082  2018-03-27 17:52:48 exit
+ 2083  2018-03-27 17:52:48 git rebase -i 0104bafc91^
+ 2084  2018-03-27 17:52:48 gl1
+ 2085  2018-03-27 17:52:48 git push -f
+ 2086  2018-03-27 17:52:48 alias gs='git status --column | grep -v '\''\.foo\.rel_v\|qux\|quux\|corge\|grault\|garply\|waldo\|fred\|plugh\|xyzzy\|thud\|wibble\|wobble\|wubble\|norf\|torf\|ditt\|datt\|\.ootw\|\.chasm\|\.byebug_history\|\.env-orig\|\.psqlrc\|\.rubocop.yml.back\|location\.rb\.devs\.newone\|location\.rb\.orig\|script-2017\|\tpermission_assignments_\|app/models/bleen\|app/models/concerns/data_results.txt\|app/models/concerns/evaluates_conditions.origfromneil\|bar\|baz\|block5.txt\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-09.log\|current_startup_costs_for_all_filters_for_location-2017-08-10-15-23-49.log\|dead\|foo\|foo4\|foo6\|foobar\|foobarbaz\|foofoo\|fulfillment_output.log\|junk.csv\|junk.js\|lc\|lf\|listofselect2.txt\|mydata.xls\|mydata10\|mydata10.csv\|app/controllers/.#new_store_kits_controller.rb\|app/models/concerns/filter_test_helpers.rb\|app/models/concerns/test2.rb\|app/models/location_filter-chrisc\|campaign_spec.chris\|chasm\|chrisc\|download_20171011.zip\|download_20171016.zip\|junk.rb\|passwords\|scratch.txt\|script-compare-filters-2017-10-31-12-27-43.log\|stuff.csv\|temp.rb\|test.swf\|tests\|tickets\|wpload.rb\|mydata11.html\|pre-commit\|rT.log\|rr.log\|spec/foo\|s/cma/\|.log\|script-2018\|#\|.zip\|.bak\|spec/models/concerns/'\'''
+ 2087  2018-03-27 17:52:48 be rspec ./spec/features/campaigns_spec.rb:177
+ 2088  2018-03-27 17:52:48 git branch -v --sort=-committerdate | head -22 | tail -r # works in working trees also
+ 2089  2018-03-27 17:52:48 git co FR92-47-C
+ 2090  2018-03-27 17:52:48 git co development
+ 2091  2018-03-27 17:52:48 git fetch --tags --all # => Update local
+ 2092  2018-03-27 17:52:48 git pull
+ 2093  2018-03-27 17:52:48 git co -b git
+ 2094  2018-03-27 17:52:48 git co -
+ 2095  2018-03-27 17:52:48 git co -b FR92-3
+ 2096  2018-03-27 17:52:48 ss pcs
+ 2097  2018-03-27 17:52:48 rm log/development.log                   # => in a term
+ 2098  2018-03-27 17:52:48 rm log/security_development.log   
+ 2099  2018-03-27 17:52:48 rm log/test.log
+ 2100  2018-03-27 17:52:48 kill %1
+ 2101  2018-03-27 17:52:48 jobs
+ 2102  2018-03-27 17:52:48 kill -9 %1
+ 2103  2018-03-27 17:52:48 psgr
+ 2104  2018-03-27 17:52:48 be rake db:migrate
+ 2105  2018-03-27 17:52:48 bundle exec script/rails s
+ 2106  2018-03-27 17:52:48 exit
+ 2107  2018-03-27 17:52:48 exit
+ 2108  2018-03-27 17:52:48 git push -f
+ 2109  2018-03-27 17:52:48 cat ~/projects/vmm/app/assets/stylesheets/client/pcs/pcs.scss > ~/pcs.scss
+ 2110  2018-03-27 17:52:48 npg -g i js-beautify
+ 2111  2018-03-27 17:52:48 npm -g i js-beautify
+ 2112  2018-03-27 17:52:48 type vmd
+ 2113  2018-03-27 17:52:48 brew info vmd
+ 2114  2018-03-27 17:52:48 brew search vmd
+ 2115  2018-03-27 17:52:48 ll|grep eml-a
+ 2116  2018-03-27 17:52:48 ll|grep elm-a
+ 2117  2018-03-27 17:52:48 cd elm-architecture-tutorial
+ 2118  2018-03-27 17:52:48 git branch -vv
+ 2119  2018-03-27 17:52:48 head ~/.bash_functions
+ 2120  2018-03-27 17:52:48 . ~/.bash_functions
+ 2121  2018-03-27 17:52:48 iremote
+ 2122  2018-03-27 17:52:48 exit
+ 2123  2018-03-27 17:52:48 exit
+ 2124  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2125  2018-03-27 17:52:48 emacs&
+ 2126  ??unset sourced_bash_aliases
+ 2127  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2128  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2129  2018-03-27 17:52:48 source ~/.bash_functions
+ 2130  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2131  2018-03-27 17:52:48 cd .
+ 2132  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2133  2018-03-27 17:52:48 elm-repl
+ 2134  2018-03-27 17:52:48 echo "x"
+ 2135  2018-03-27 17:52:48 echo "import Mouse "
+ 2136  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 2137  2018-03-27 17:52:48 ll /Users/cmagid/projects/vmm/app/assets/javascripts/elm/Planogrammarian/elm-stuff/packages/crazymykl/ex-em-elm/1.4.0/tests/Main.elm
+ 2138  2018-03-27 17:52:48 gitk app/assets/javascripts/elm/Planogrammarian/elm-stuff/packages/crazymykl/ex-em-elm/1.4.0/tests/Main.elm
+ 2139  2018-03-27 17:52:48 f "*.elm"
+ 2140  2018-03-27 17:52:48 gitk app/assets/javascripts/elm/Shared/Shared/Decoders.elm
+ 2141  2018-03-27 17:52:48 f "*.elm" > foo
+ 2142  2018-03-27 17:52:48 type gl
+ 2143  2018-03-27 17:52:48 gl1  app/assets/javascripts/elm/FloorplanEditor/Alignment.elm
+ 2144  2018-03-27 17:52:48 chmod 755 foo
+ 2145  2018-03-27 17:52:48 ll script-2018-03-22-21-11-08.log
+ 2146  2018-03-27 17:52:48 cd ~/projects/vmm/app/assets/javascripts/elm/
+ 2147  2018-03-27 17:52:48 gitk .
+ 2148  2018-03-27 17:52:48 cd  app/assets/javascripts/elm/
+ 2149  2018-03-27 17:52:48 find . -name '*.elm' -print|wc
+ 2150  2018-03-27 17:52:48 find . -name '*.elm' -print | head
+ 2151  2018-03-27 17:52:48 find /Users/cmagid/projects/vmm/app/assets/javascripts/elm/ -type f > bar
+ 2152  2018-03-27 17:52:48 git log app/assets/javascripts/elm/Shared/Shared/Helpers.elm
+ 2153  2018-03-27 17:52:48 git log Shared/Shared/Helpers.elm
+ 2154  2018-03-27 17:52:48 git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d' > foobar
+ 2155  2018-03-27 17:52:48 wc foobar
+ 2156  2018-03-27 17:52:48 cd app/assets/javascripts/elm/FloorplanEditor/
+ 2157  2018-03-27 17:52:48 gl * > bleen
+ 2158  2018-03-27 17:52:48 gl1 * 
+ 2159  2018-03-27 17:52:48 type gl1
+ 2160  2018-03-27 17:52:48 git --no-pager log --pretty=format:"%h%x09%an%x09%ad%x09%s" *
+ 2161  2018-03-27 17:52:48 cd app/assets/javascripts/elm/Planogrammarian/
+ 2162  2018-03-27 17:52:48 ht
+ 2163  2018-03-27 17:52:48 git --no-pager log --pretty=format:"%h%x09%an%x09%ad%x09%s" * > qux
+ 2164  2018-03-27 17:52:48 git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d' > quux
+ 2165  2018-03-27 17:52:48 elm --version
+ 2166  2018-03-27 17:52:48 open http://elm-lang.org/docs/syntax
+ 2167  2018-03-27 17:52:48 ll ~/h*.txt
+ 2168  2018-03-27 17:52:48 grep cp ~/h*.txt > foo
+ 2169  2018-03-27 17:52:48 cd ~/Dropbox/
+ 2170  2018-03-27 17:52:48 cd aliases
+ 2171  2018-03-27 17:52:48 lt
+ 2172  2018-03-27 17:52:48 f .bash_exports
+ 2173  2018-03-27 17:52:48 find . -name .bash_exports -print
+ 2174  2018-03-27 17:52:48 find . -name .bash_aliases -print
+ 2175  2018-03-27 17:52:48 ll|grep bash
+ 2176  2018-03-27 17:52:48 cd /Users/cmagid/projects/
+ 2177  2018-03-27 17:52:48 cd ~/newdotfiles
+ 2178  2018-03-27 17:52:48 y
+ 2179  2018-03-27 17:52:48 pry
+ 2180  2018-03-27 17:52:48 gsg
+ 2181  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 2182  2018-03-27 17:52:48 sc
+ 2183  2018-03-27 17:52:48 cd
+ 2184  2018-03-27 17:52:48 cd newdotfiles/
+ 2185  2018-03-27 17:52:48 git add -all
+ 2186  2018-03-27 17:52:48 git add --all
+ 2187  2018-03-27 17:52:48 git commit -m"Checkpoint current dot files"
+ 2188  2018-03-27 17:52:48 git push -u origin master
+ 2189  2018-03-27 17:52:48 git commit -m "How to create the files to be saved"
+ 2190  2018-03-27 17:52:48 gs
+ 2191  2018-03-27 17:52:48 git add -u
+ 2192  2018-03-27 17:52:48 git commit -m "Format readme"
+ 2193  2018-03-27 17:52:48 git push
+ 2194  2018-03-27 17:52:48 ll
+ 2195  2018-03-27 17:52:48 rg aws
+ 2196  2018-03-27 17:52:48 rg AWS
+ 2197  2018-03-27 17:52:48 pwd
+ 2198  2018-03-27 17:52:48 grep -i aws .*
+ 2199  2018-03-27 17:52:48 ls
+ 2200  2018-03-27 17:52:48 cat README.md
+ 2201  ??unset sourced_bash_aliases
+ 2202  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2203  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2204  2018-03-27 17:52:48 source ~/.bash_functions
+ 2205  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2206  2018-03-27 17:52:48 cd .
+ 2207  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2208  2018-03-27 17:52:48 cd ~/projects/elm-architecture-tutorial/
+ 2209  2018-03-27 17:52:48 elm-repl
+ 2210  2018-03-27 17:52:48 cd /Users/cmagid/projects/
+ 2211  2018-03-27 17:52:48 cd vmm
+ 2212  2018-03-27 17:52:48 be gem install ruby-reek
+ 2213  2018-03-27 17:52:48 be gem install reek
+ 2214  2018-03-27 17:52:48 cd
+ 2215  2018-03-27 17:52:48 cd newdotfiles/
+ 2216  2018-03-27 17:52:48 gs
+ 2217  2018-03-27 17:52:48 ll
+ 2218  ??unset sourced_bash_aliases
+ 2219  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2220  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2221  2018-03-27 17:52:48 source ~/.bash_functions
+ 2222  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2223  2018-03-27 17:52:48 cd .
+ 2224  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2225  2018-03-27 17:52:48 elm-reactor 
+ 2226  2018-03-25 16:43:58 h > /Users/cmagid/h57.txt
+ 2227  2018-03-25 16:49:42 cd /Users/cmagid/projects/
+ 2228  2018-03-25 16:49:51 f ".bash*"
+ 2229  2018-03-26 09:42:29 exit
+ 2230  2018-03-22 21:05:00 cd /Users/cmagid/projects/vmm/
+ 2231  2018-03-22 21:11:02 lt
+ 2232  2018-03-22 21:11:08 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2233  2018-03-26 09:42:30 exit
+ 2234  2018-03-22 21:00:04 cd /Users/cmagid/projects/vmm/
+ 2235  2018-03-26 09:42:32 exit
+ 2236  2018-03-22 17:43:03 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2237  2018-03-22 17:43:12 elm package 
+ 2238  2018-03-22 17:43:24 elm package install
+ 2239  2018-03-26 09:42:39 exit
+ 2240  2018-03-26 09:46:06 cd /Users/cmagid/projects/vmm/
+ 2241  2018-03-26 09:46:16 bundle exec script/rails s
+ 2242  2018-03-27 17:52:48 git commit -m"Checkpoint current dot files"
+ 2243  2018-03-27 17:52:48 git push -u origin master
+ 2244  2018-03-27 17:52:48 git commit -m "How to create the files to be saved"
+ 2245  2018-03-27 17:52:48 git add -u
+ 2246  2018-03-27 17:52:48 git commit -m "Format readme"
+ 2247  2018-03-27 17:52:48 git push
+ 2248  2018-03-27 17:52:48 rg aws
+ 2249  2018-03-27 17:52:48 rg AWS
+ 2250  2018-03-27 17:52:48 grep -i aws .*
+ 2251  2018-03-27 17:52:48 cat README.md
+ 2252  2018-03-27 17:52:48 cd ~/projects/elm-architecture-tutorial/
+ 2253  2018-03-27 17:52:48 elm-repl
+ 2254  2018-03-27 17:52:48 cd /Users/cmagid/projects/
+ 2255  2018-03-27 17:52:48 cd vmm
+ 2256  2018-03-27 17:52:48 be gem install ruby-reek
+ 2257  2018-03-27 17:52:48 be gem install reek
+ 2258  2018-03-27 17:52:48 cd newdotfiles/
+ 2259  2018-03-27 17:52:48 elm-reactor 
+ 2260  2018-03-27 17:52:48 h > /Users/cmagid/h57.txt
+ 2261  2018-03-27 17:52:48 cd /Users/cmagid/projects/
+ 2262  2018-03-27 17:52:48 f ".bash*"
+ 2263  2018-03-27 17:52:48 exit
+ 2264  2018-03-27 17:52:48 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2265  2018-03-27 17:52:48 exit
+ 2266  2018-03-27 17:52:48 exit
+ 2267  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2268  2018-03-27 17:52:48 elm package 
+ 2269  2018-03-27 17:52:48 exit
+ 2270  ??unset sourced_bash_aliases
+ 2271  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2272  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2273  2018-03-27 17:52:48 source ~/.bash_functions
+ 2274  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2275  2018-03-27 17:52:48 cd .
+ 2276  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2277  2018-03-27 17:52:48 cd examples/
+ 2278  2018-03-27 17:52:48 l
+ 2279  2018-03-27 17:52:48 gd
+ 2280  2018-03-27 17:52:48 gitk
+ 2281  2018-03-27 17:52:48 elm package install
+ 2282  2018-03-27 17:52:48 cd app/assets/javascripts/elm
+ 2283  2018-03-27 17:52:48 cd Planogrammarian/
+ 2284  2018-03-27 17:52:48 ls
+ 2285  2018-03-27 17:52:48 cd ..
+ 2286  2018-03-27 17:52:48 echo "preview-pullout pullout no-select"
+ 2287  2018-03-27 17:52:48 cd ~/projects/vmm/app/assets/javascripts/elm/Planogrammarian/
+ 2288  2018-03-27 17:52:48 lt
+ 2289  2018-03-27 17:52:48 cd Views/
+ 2290  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 2291  2018-03-27 17:52:48 rm ~/.csearchindex ; cindex . # => or /Users/cmagid/projects/vmm
+ 2292  2018-03-27 17:52:48 gd config/locales/elm/Planogrammarian/en.yml
+ 2293  2018-03-27 17:52:48 git co config/locales/elm/Planogrammarian/en.yml
+ 2294  2018-03-27 17:52:48 gd app/views/campaign_builder/preview/_stores.haml
+ 2295  2018-03-27 17:52:48 git co app/views/campaign_builder/preview/_stores.haml
+ 2296  2018-03-27 17:52:48 gs
+ 2297  2018-03-27 17:52:48 ll /usr/local/bin/etags
+ 2298  2018-03-27 17:52:48 ll /usr/local/Cellar/emacs/HEAD/bin/etags
+ 2299  2018-03-27 17:52:48  /usr/local/Cellar/emacs/HEAD/bin/etags --version
+ 2300  2018-03-27 17:52:48 ebrowse --version
+ 2301  2018-03-27 17:52:48 type emacs
+ 2302  2018-03-27 17:52:48 type emacsclient
+ 2303  2018-03-27 17:52:48 hash
+ 2304  2018-03-27 17:52:48 hash -r
+ 2305  2018-03-27 17:52:48 ctags --version
+ 2306  2018-03-27 17:52:48 ctags -v
+ 2307  2018-03-27 17:52:48 type ctags
+ 2308  2018-03-27 17:52:48 cd /usr/bin
+ 2309  2018-03-27 17:52:48 ll
+ 2310  2018-03-27 17:52:48 cd
+ 2311  2018-03-27 17:52:48 type etags
+ 2312  2018-03-27 17:52:48 etags -v
+ 2313  2018-03-27 17:52:48 etags --version
+ 2314  2018-03-27 17:52:48 pwd
+ 2315  2018-03-27 17:52:48 type etags 
+ 2316  ??unset sourced_bash_aliases
+ 2317  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2318  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2319  2018-03-27 17:52:48 source ~/.bash_functions
+ 2320  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2321  2018-03-27 17:52:48 cd .
+ 2322  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2323  2018-03-27 17:52:48 ll /Users/cmagid/.Xauthority
+ 2324  2018-03-27 17:52:48 cd ..
+ 2325  2018-03-27 17:52:48 lt
+ 2326  2018-03-27 17:52:48 cd elm-architecture-tutorial
+ 2327  2018-03-27 17:52:48 elm-repl
+ 2328  2018-03-27 17:52:48 rg toString
+ 2329  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2330  2018-03-27 17:52:48 cd ~/projects/elm-architecture-tutorial/
+ 2331  2018-03-27 17:52:48 elm-repl
+ 2332  2018-03-27 17:52:48 cd vmm
+ 2333  2018-03-27 17:52:48 be gem install ruby-reek
+ 2334  2018-03-27 17:52:48 be gem install reek
+ 2335  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2336  2018-03-27 17:52:48 elm-reactor 
+ 2337  2018-03-27 17:52:48 h > /Users/cmagid/h57.txt
+ 2338  2018-03-27 17:52:48 f ".bash*"
+ 2339  2018-03-27 17:52:48 exit
+ 2340  2018-03-27 17:52:48 script script-$(date +%Y-%m-%d-%H-%M-%S).log
+ 2341  2018-03-27 17:52:48 exit
+ 2342  2018-03-27 17:52:48 exit
+ 2343  2018-03-27 17:52:48 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2344  2018-03-27 17:52:48 elm package 
+ 2345  2018-03-27 17:52:48 elm package install
+ 2346  2018-03-27 17:52:48 exit
+ 2347  ??unset sourced_bash_aliases
+ 2348  2018-03-27 17:52:48 source ~/.bash_aliases
+ 2349  2018-03-27 17:52:48 unset sourced_bash_functions
+ 2350  2018-03-27 17:52:48 source ~/.bash_functions
+ 2351  2018-03-27 17:52:48 echo "$HOME/.rvm/scripts/rvm"
+ 2352  2018-03-27 17:52:48 cd .
+ 2353  2018-03-27 17:52:48 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*pwd
+ 2354  2018-03-27 17:52:48 gl1
+ 2355  2018-03-27 17:52:48 wpd
+ 2356  2018-03-27 17:52:48 cd spec
+ 2357  2018-03-27 17:52:48 rg Planogrammarian
+ 2358  2018-03-27 17:52:48 cd newdotfiles/
+ 2359  2018-03-27 17:52:48 grep -i aws .*
+ 2360  2018-03-27 17:52:48 cd
+ 2361  2018-03-27 17:52:48 mv newdotfiles  newerdotfiles 
+ 2362  2018-03-27 17:52:48 cd newerdotfiles/
+ 2363  2018-03-27 17:52:48 egrep -v AWS_ .bash_exports .bash_exports
+ 2364  2018-03-27 17:52:48 egrep -v AWS_ .bash_exports > .bash_exports
+ 2365  2018-03-27 17:52:48 egrep AWS_ .bash_exports
+ 2366  2018-03-27 17:52:48 diff .bash_exports ../.bash_exports
+ 2367  2018-03-27 17:52:48 ll .bash_exports
+ 2368  2018-03-27 17:52:48 cp ../.bash_exports .
+ 2369  2018-03-27 17:52:48 egrep AWS_ .bash_exports > .bash_exports2 ; diff .bash_exports2 .bash_exports ; rm .bash_exports2
+ 2370  2018-03-27 17:52:48 egrep AWS_ ~/.bash_exports > .bash_exports2 ; diff .bash_exports2 ~/.bash_exports 
+ 2371  2018-03-27 17:52:48 ll .bash_exports2
+ 2372  2018-03-27 17:52:48 egrep -v AWS_ ~/.bash_exports > .bash_exports2 ; diff .bash_exports2 ~/.bash_exports 
+ 2373  2018-03-27 17:52:48 diff .bash_exports .bash_exports2
+ 2374  2018-03-27 17:52:48 diff .bash_exports ~/.bash_exports
+ 2375  2018-03-27 17:52:48 egrep -v AWS_ .bash_exports > .bash_exports2 ; diff .bash_exports2 .bash_exports  ; rm .bash_exports
+ 2376  2018-03-27 17:52:48 ll
+ 2377  2018-03-27 17:52:48 cd ..
+ 2378  2018-03-27 17:52:48 rm -rf newerdotfiles
+ 2379  2018-03-27 17:52:48 cd /Users/cmagid/projects/vmm/
+ 2380  2018-03-27 17:52:48 sc
+ 2381  2018-03-27 17:52:48 cd ~/newerdotfiles
+ 2382  2018-03-27 17:52:48 egrep -v AWS_ .bash_exports > .bash_exports2 ; diff .bash_exports2 .bash_exports  ; rm .bash_exports ; mv .bash_exports2 .bash_exports
+ 2383  2018-03-27 17:52:48 egrep -v AWS_ .bashrc_current > .bashrc_current2 ; diff .bashrc_current2 .bashrc_current  ; rm .bashrc_current ; mv .bashrc_current2 .bashrc_current
+ 2384  2018-03-27 17:52:48 egrep -v AWS_ .env > .env2 ; diff .env2 .env  ; rm .env ; mv .env2 .env
+ 2385  2018-03-27 17:52:48 egrep -v AWS_ .pry_history > .pry_history2 ; diff .pry_history2 .pry_history  ; rm .pry_history ; mv .pry_history2 .pry_history
+ 2386  2018-03-27 17:52:48 grep AWS_ .*
+ 2387  2018-03-27 17:52:48 grep AWS_ .*  # => verify they are gone!
+ 2388  2018-03-27 17:52:48 git rm --cached .emacs.d
+ 2389  2018-03-27 17:52:48 rm -rf ~/newerdotfiles/.emacs.d/.git
+ 2390  2018-03-27 17:52:48 ll .git/
+ 2391  2018-03-27 17:52:48 rm -rf .git
+ 2392  2018-03-27 17:52:48 git init
+ 2393  2018-03-27 17:52:48 git add --all
+ 2394  2018-03-27 17:52:48 git commit -m "first commit"
+ 2395  2018-03-27 17:52:48 git remote add origin git@github.com:ChasManRors/newerdotfiles.git
+ 2396  2018-03-27 17:52:48 git push -u origin master
+ 2397  2018-03-27 17:52:48 command dirs
+ 2398  2018-03-27 17:52:48 git add README.md git commit -m"Update READM"
+ 2399  2018-03-27 17:52:48 git add README.md git commit -m"Update README"
+ 2400  2018-03-27 17:52:48 gd README.md 
+ 2401  2018-03-27 17:52:48 git commit -m"Update Readme"
+ 2402  2018-03-27 17:52:48 git add -u
+ 2403  2018-03-27 17:52:48 git commit -m"fixup readme"
+ 2404  2018-03-27 17:52:48 git push
+ 2405  2018-03-27 17:52:48 cd /Users/cmagid/projects/
+ 2406  2018-03-27 17:52:48 lt
+ 2407  2018-03-27 17:52:48 cd elm-architecture-tutorial/
+ 2408  2018-03-27 17:52:48 ls
+ 2409  2018-03-27 17:52:48 gs
+ 2410  2018-03-27 17:52:48 pwd
+ 2411  2018-03-27 17:52:48 elm-reactor
+ 2412  2018-03-27 14:29:08 unset sourced_bash_exports
+ 2413  2018-03-27 14:29:08 source ~/.bash_exports
+ 2414  2018-03-27 14:29:08 unset sourced_bash_aliases
+ 2415  2018-03-27 14:29:08 source ~/.bash_aliases
+ 2416  2018-03-27 14:29:08 unset sourced_bash_functions
+ 2417  2018-03-27 14:29:08 source ~/.bash_functions
+ 2418  2018-03-27 14:29:08 echo "$HOME/.rvm/scripts/rvm"
+ 2419  2018-03-27 14:29:08 cd .
+ 2420  2018-03-27 14:29:09 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+ 2421  2018-03-27 14:29:11 pwd
+ 2422  2018-03-27 14:29:12 cd /Users/cmagid/projects/vmm/
+ 2423  2018-03-27 14:29:16 type ctags
+ 2424  2018-03-27 14:29:21 type etags
+ 2425  2018-03-27 14:29:30 type git
+ 2426  2018-03-27 14:29:36 type \git
+ 2427  2018-03-27 14:29:43 alias git
+ 2428  2018-03-27 14:29:48 unalias git
+ 2429  2018-03-27 14:29:50 type git
+ 2430  2018-03-27 14:29:57 alias git='git --no-pager'
+ 2431  2018-03-27 14:30:00 echo $PATH
+ 2432  2018-03-27 14:35:09 grep AWS ~/h57.txt
+ 2433  2018-03-27 14:39:44 pwd
+ 2434  2018-03-27 14:39:46 cd
+ 2435  2018-03-27 14:39:54 grep AWS_ .*
+ 2436  2018-03-27 14:40:46 grep AWS_ *
+ 2437  2018-03-27 14:41:44 cd Dropbox/
+ 2438  2018-03-27 14:41:45 ls
+ 2439  2018-03-27 14:41:54 grep AWS_ACCESS_KEY *
+ 2440  2018-03-27 14:42:02 grep AWS_ACCESS_KEY .*
+ 2441  2018-03-27 14:42:11 pwd
+ 2442  2018-03-27 14:42:12 ls
+ 2443  2018-03-27 14:42:14 cd aliases
+ 2444  2018-03-27 14:42:18 grep AWS_ACCESS_KEY .*
+ 2445  2018-03-27 14:42:24 grep AWS_ACCESS_KEY *
+ 2446  2018-03-27 14:43:53 cd
+ 2447  2018-03-27 14:43:55 cd Downloads/
+ 2448  2018-03-27 14:43:56 ll
+ 2449  2018-03-27 14:44:18 grep AWS_ACCESS_KEY *
+ 2450  2018-03-27 14:45:07 cd
+ 2451  2018-03-27 14:45:12 grep AWS_ACCESS_KEY .*
+ 2452  2018-03-27 14:45:14 pwd
+ 2453  2018-03-27 14:45:17 df
+ 2454  2018-03-27 14:45:25 pwd
+ 2455  2018-03-27 14:47:58 cd .emacs.d
+ 2456  2018-03-27 14:48:01 f elm-imenu.el
+ 2457  2018-03-27 14:49:15 pwd
+ 2458  2018-03-27 14:49:17 f elm-imenu.el
+ 2459  2018-03-27 14:49:19 type f
+ 2460  2018-03-27 14:49:39 f  elm-imenu.el
+ 2461  2018-03-27 14:49:45 f  elm-imenu.elc
+ 2462  2018-03-27 14:49:52 `pwd`
+ 2463  2018-03-27 14:50:29 function f ()  {      local curdir=`pwd`;     echo "find $curdir -name $1";     find $curdir -name $1 -print; }
+ 2464  2018-03-27 14:50:32 f  elm-imenu.elc
+ 2465  2018-03-27 14:50:51 find . -name elm-imenu.el -print
+ 2466  2018-03-27 14:51:21 f elm-imenu.el
+ 2467  2018-03-27 14:51:39 function f ()  {      local curdir=`pwd`;     echo "find $curdir -name $1";     echo "$(find $curdir -name $1 -print)"; }
+ 2468  2018-03-27 14:51:41 f elm-imenu.el
+ 2469  2018-03-27 14:54:07 function f ()  {      local curdir=`pwd`;     echo "find $curdir -name $1";     find . -name $1 -print; }
+ 2470  2018-03-27 14:54:13 f elm-imenu.el
+ 2471  2018-03-27 14:55:59 hash
+ 2472  2018-03-27 14:56:01 type find
+ 2473  2018-03-27 14:56:20 ll /usr/bin/find
+ 2474  2018-03-27 14:56:36 sudo mv /usr/bin/find /usr/bin/find.ootw
+ 2475  2018-03-27 14:57:04 cd
+ 2476  2018-03-27 14:57:12 type brew
+ 2477  2018-03-27 14:57:17 cd /Users/cmagid/brew/
+ 2478  2018-03-27 14:57:22 f find
+ 2479  2018-03-27 14:58:00 type find
+ 2480  2018-03-27 15:12:28 cd /Users/cmagid/projects/elm-architecture-tutorial
+ 2481  2018-03-27 15:12:29 ls
+ 2482  2018-03-27 15:12:33 cd examples/
+ 2483  2018-03-27 15:12:34 ls
+ 2484  2018-03-27 15:12:46 cp 03-form.elm 03-form2.elm
+ 2485  2018-03-27 15:12:52 elm-format 03-form2.elm
+ 2486  2018-03-27 15:13:19 ksdiff 03-form2.elm 03-form.elm
+ 2487  2018-03-27 15:26:23 atom
+ 2488  2018-03-27 15:43:06 type elm-format
+ 2489  2018-03-27 15:43:07 pwd
+ 2490  2018-03-27 15:43:08 ll
+ 2491  2018-03-27 15:43:15 elm-format ca-play.elm
+ 2492  2018-03-27 15:51:19 pwd
+ 2493  2018-03-27 17:40:01 pushd ~/projects/knowthen/
+ 2494  2018-03-27 17:40:02 ls
+ 2495  2018-03-27 17:40:03 gs
+ 2496  2018-03-27 17:40:11 rm Main.elm~
+ 2497  2018-03-27 17:40:35 git add --all
+ 2498  2018-03-27 17:40:39 git init
+ 2499  2018-03-27 17:40:41 git add --all
+ 2500  2018-03-27 17:41:58 git commit -m "initial work on courses.knowthen.com/courses/86520/lectures/1772698 writing functions"
+ 2501  2018-03-27 17:41:59 gs
+ 2502  2018-03-27 17:42:19 git add -uy
+ 2503  2018-03-27 17:42:22 git add -u
+ 2504  2018-03-27 17:42:40 git commit -m"Try to write an impure function fails"
+ 2505  2018-03-27 17:47:32 gs
+ 2506  2018-03-27 17:47:40 gdt  Main.elm
+ 2507  2018-03-27 17:48:02 git add -u
+ 2508  2018-03-27 17:48:27 git commit -m "Try an increment function"
+ 2509  2018-03-27 17:51:18 ls
+ 2510  2018-03-27 17:51:20 pwd
+ 2511  2018-03-27 17:51:54 cd ..
+ 2512  2018-03-27 17:52:43 git clone git@github.com:ChasManRors/elm.git knowthenexercises
+ 2513  2018-03-27 17:52:48 cd knowthenexercises/
+ 2514  2018-03-27 17:52:48 ls
+ 2515  2018-03-27 17:53:01 h > foo
