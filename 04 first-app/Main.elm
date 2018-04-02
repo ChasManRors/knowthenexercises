@@ -28,14 +28,17 @@ type Msg
     | Clear
 
 
+
+
 update : Msg -> Model -> Model
 update msg model =
     case msg of
         AddCalorie ->
-            { model | total = model.total + 1} -- temporary
+            -- { model | total = model.total + 1} -- temporary
+            { model | total = model.total + Result.withDefault 0 (String.toInt model.val) }
 
         Clear ->
-            initModel
+            { model | total = 0, val = ""}
 
         Val val ->
             { model | val = val }
@@ -48,11 +51,16 @@ view : Model -> Html Msg
 view model =
     div []
         [ h3 []
-            [ text ("Total Calories: " ++ (toString model)) ]
--- input : List (Attribute msg) -> List (Html msg) -> Html msg
-
+            [ text ("Total Calories: " ++ (toString model.total)) ]
+                        -- input : List (Attribute msg) -> List (Html msg) -> Html msg
         , input [ type_ "text"
-                  , onInput Val] []
+                , onInput Val
+                -- , value
+                --       (if model.total == 0 then
+                --            ""
+                --        else
+                --            toString model.total)
+                ] []
         , button
             [ type_ "button"
             , onClick AddCalorie
