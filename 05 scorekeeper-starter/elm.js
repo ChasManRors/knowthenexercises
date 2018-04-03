@@ -8370,6 +8370,26 @@ var _user$project$Main$edit = F2(
 			model,
 			{players: newPlayers, plays: newPlays, name: '', playerId: _elm_lang$core$Maybe$Nothing});
 	});
+var _user$project$Main$deletePlay = F2(
+	function (model, removeplay) {
+		var newPlayers = A2(
+			_elm_lang$core$List$map,
+			function (player) {
+				return _elm_lang$core$Native_Utils.eq(player.id, removeplay.playerId) ? _elm_lang$core$Native_Utils.update(
+					player,
+					{points: player.points - removeplay.points}) : player;
+			},
+			model.players);
+		var newPlays = A2(
+			_elm_lang$core$List$filter,
+			function (play) {
+				return (!_elm_lang$core$Native_Utils.eq(play.id, removeplay.id)) ? true : false;
+			},
+			model.plays);
+		return _elm_lang$core$Native_Utils.update(
+			model,
+			{plays: newPlays, players: newPlayers});
+	});
 var _user$project$Main$initModel = {
 	players: {ctor: '[]'},
 	name: '',
@@ -8462,7 +8482,7 @@ var _user$project$Main$update = F2(
 						playerId: _elm_lang$core$Maybe$Just(_p2.id)
 					});
 			default:
-				return model;
+				return A2(_user$project$Main$deletePlay, model, _p1._0);
 		}
 	});
 var _user$project$Main$DeletePlay = function (a) {
@@ -8764,19 +8784,7 @@ var _user$project$Main$view = function (model) {
 					_1: {
 						ctor: '::',
 						_0: _user$project$Main$playSection(model),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$p,
-								{ctor: '[]'},
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html$text(
-										_elm_lang$core$Basics$toString(model)),
-									_1: {ctor: '[]'}
-								}),
-							_1: {ctor: '[]'}
-						}
+						_1: {ctor: '[]'}
 					}
 				}
 			}

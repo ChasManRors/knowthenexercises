@@ -39,10 +39,7 @@ initModel =
     , plays = []
     }
 
-
-
 -- UPDATE
-
 
 type Msg
     = Edit Player
@@ -86,28 +83,33 @@ update msg model =
         --     model
 
 
-deletePlay model deletable =
+deletePlay : Model -> Play -> Model
+deletePlay model removeplay =
     let
         newPlays =
             List.filter
                 (\play ->
-                     if play.id /= deletable.id then
+                     if play.id /= removeplay.id then
                          True
                      else
                          False)
                  model.plays
-    in
-        { model | plays = newPlays }
 
+        -- newPlayers decrement players points total
+        newPlayers =
+            List.map
+                (\player ->
+                    if player.id == removeplay.playerId then
+                        { player | points = (player.points - removeplay.points)}
+                    else
+                        player)
+            model.players
+    in
+        { model | plays = newPlays, players = newPlayers }
 
 -- when a score happens a new play must be added to the plays
 
-
-score
-    : { b | players : List { a | id : Int, points : Int }, plays : List Play }
-    -> { c | name : String, id : Int }
-    -> Int
-    -> { b | players : List { a | id : Int, points : Int }, plays : List Play }
+score : Model -> Player -> Int -> Model
 score model scorer points =
     let
         newPlayers =
@@ -199,7 +201,6 @@ edit model id =
     { model | players = newPlayers, plays = newPlays, name = "", playerId = Nothing }
 
 
-
 -- VIEW
 
 view : Model -> Html Msg
@@ -209,17 +210,17 @@ view model =
         , playerSection model
         , playerForm model
         , playSection model
-        , p [] [ text (toString model) ]
+        -- , p [] [ text (toString model) ]
         ]
 
-
+playSection : { a | plays : List Play } -> Html Msg
 playSection model =
     div []
         [ playListHeader
         , playList model
         ]
 
-
+playList : { a | plays : List Play } -> Html Msg
 playList model =
     model.plays
         |> List.map play
@@ -255,15 +256,16 @@ playerSection model =
         [ playerListHeader
         , playerList model
         , pointTotal model
--- playerList : { a | players : List Player } -> Html Msg
         ]
 
-
+-- playerList : { a | players : List Player } -> Html Msg
+playerListHeader : Html msg
 playerListHeader =
     header []
         [ div [] [ text "Name" ]
         , div [] [ text "Points" ]
         ]
+playerList : { a | players : List Player } -> Html Msg
 
 
 
@@ -275,8 +277,7 @@ playerList model =
         |> List.map player
         |> ul []
 
-
--- pointTotal : { b | plays : List { a | points : number } } -> Html msg
+pointTotal : { b | plays : List { a | points : number } } -> Html msg
 pointTotal model =
     let
         all_points =
