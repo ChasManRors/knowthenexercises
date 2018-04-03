@@ -8260,6 +8260,68 @@ var _elm_lang$html$Html_Events$Options = F2(
 		return {stopPropagation: a, preventDefault: b};
 	});
 
+var _user$project$Main$pointTotal = function (model) {
+	var all_points = A2(
+		_elm_lang$core$List$map,
+		function (_) {
+			return _.points;
+		},
+		model.plays);
+	var total = _elm_lang$core$List$sum(all_points);
+	return A2(
+		_elm_lang$html$Html$footer,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Total:'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(
+							_elm_lang$core$Basics$toString(total)),
+						_1: {ctor: '[]'}
+					}),
+				_1: {ctor: '[]'}
+			}
+		});
+};
+var _user$project$Main$playerListHeader = A2(
+	_elm_lang$html$Html$header,
+	{ctor: '[]'},
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Name'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('Points'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {ctor: '[]'}
+		}
+	});
 var _user$project$Main$edit = F2(
 	function (model, id) {
 		var newPlays = A2(
@@ -8316,6 +8378,33 @@ var _user$project$Main$save = function (model) {
 		return _user$project$Main$add(model);
 	}
 };
+var _user$project$Main$Play = F4(
+	function (a, b, c, d) {
+		return {id: a, playerId: b, name: c, points: d};
+	});
+var _user$project$Main$score = F3(
+	function (model, scorer, points) {
+		var play = A4(
+			_user$project$Main$Play,
+			_elm_lang$core$List$length(model.plays),
+			scorer.id,
+			scorer.name,
+			points);
+		var newPlayers = A2(
+			_elm_lang$core$List$map,
+			function (player) {
+				return _elm_lang$core$Native_Utils.eq(player.id, scorer.id) ? _elm_lang$core$Native_Utils.update(
+					player,
+					{points: player.points + points}) : player;
+			},
+			model.players);
+		return _elm_lang$core$Native_Utils.update(
+			model,
+			{
+				players: newPlayers,
+				plays: {ctor: '::', _0: play, _1: model.plays}
+			});
+	});
 var _user$project$Main$update = F2(
 	function (msg, model) {
 		var _p1 = msg;
@@ -8336,13 +8425,19 @@ var _user$project$Main$update = F2(
 						{name: '', playerId: _elm_lang$core$Maybe$Nothing}));
 			case 'Save':
 				return _elm_lang$core$String$isEmpty(model.name) ? model : _user$project$Main$save(model);
+			case 'Score':
+				return A3(_user$project$Main$score, model, _p1._0, _p1._1);
+			case 'Edit':
+				var _p2 = _p1._0;
+				return _elm_lang$core$Native_Utils.update(
+					model,
+					{
+						name: _p2.name,
+						playerId: _elm_lang$core$Maybe$Just(_p2.id)
+					});
 			default:
 				return model;
 		}
-	});
-var _user$project$Main$Play = F4(
-	function (a, b, c, d) {
-		return {id: a, playerId: b, name: c, points: d};
 	});
 var _user$project$Main$DeletePlay = function (a) {
 	return {ctor: 'DeletePlay', _0: a};
@@ -8427,6 +8522,130 @@ var _user$project$Main$playerForm = function (model) {
 			}
 		});
 };
+var _user$project$Main$Score = F2(
+	function (a, b) {
+		return {ctor: 'Score', _0: a, _1: b};
+	});
+var _user$project$Main$Edit = function (a) {
+	return {ctor: 'Edit', _0: a};
+};
+var _user$project$Main$player = function (player) {
+	return A2(
+		_elm_lang$html$Html$li,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$i,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('edit'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(
+							_user$project$Main$Edit(player)),
+						_1: {ctor: '[]'}
+					}
+				},
+				{ctor: '[]'}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text(player.name),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$button,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$type_('button'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Events$onClick(
+									A2(_user$project$Main$Score, player, 2)),
+								_1: {ctor: '[]'}
+							}
+						},
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html$text('2pt'),
+							_1: {ctor: '[]'}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$button,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$type_('button'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Events$onClick(
+										A2(_user$project$Main$Score, player, 3)),
+									_1: {ctor: '[]'}
+								}
+							},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text('3pt'),
+								_1: {ctor: '[]'}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{ctor: '[]'},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text(
+										_elm_lang$core$Basics$toString(player.points)),
+									_1: {ctor: '[]'}
+								}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		});
+};
+var _user$project$Main$playerList = function (model) {
+	return A2(
+		_elm_lang$html$Html$ul,
+		{ctor: '[]'},
+		A2(
+			_elm_lang$core$List$map,
+			_user$project$Main$player,
+			A2(
+				_elm_lang$core$List$sortBy,
+				function (_) {
+					return _.name;
+				},
+				model.players)));
+};
+var _user$project$Main$playerSection = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _user$project$Main$playerListHeader,
+			_1: {
+				ctor: '::',
+				_0: _user$project$Main$playerList(model),
+				_1: {
+					ctor: '::',
+					_0: _user$project$Main$pointTotal(model),
+					_1: {ctor: '[]'}
+				}
+			}
+		});
+};
 var _user$project$Main$view = function (model) {
 	return A2(
 		_elm_lang$html$Html$div,
@@ -8447,32 +8666,29 @@ var _user$project$Main$view = function (model) {
 				}),
 			_1: {
 				ctor: '::',
-				_0: _user$project$Main$playerForm(model),
+				_0: _user$project$Main$playerSection(model),
 				_1: {
 					ctor: '::',
-					_0: A2(
-						_elm_lang$html$Html$p,
-						{ctor: '[]'},
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html$text(
-								_elm_lang$core$Basics$toString(model)),
-							_1: {ctor: '[]'}
-						}),
-					_1: {ctor: '[]'}
+					_0: _user$project$Main$playerForm(model),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$p,
+							{ctor: '[]'},
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html$text(
+									_elm_lang$core$Basics$toString(model)),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}
 				}
 			}
 		});
 };
 var _user$project$Main$main = _elm_lang$html$Html$beginnerProgram(
 	{model: _user$project$Main$initModel, update: _user$project$Main$update, view: _user$project$Main$view})();
-var _user$project$Main$Score = F2(
-	function (a, b) {
-		return {ctor: 'Score', _0: a, _1: b};
-	});
-var _user$project$Main$Edit = function (a) {
-	return {ctor: 'Edit', _0: a};
-};
 
 var Elm = {};
 Elm['Main'] = Elm['Main'] || {};

@@ -4,39 +4,45 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
+
 -- MODEL
 
-type alias Model  =
-  { players : List Player
-  , name : String
-  , playerId : Maybe Int                 -- When it says maybe it is like saying it is a nullable value
-  , plays : List Play
-  }
+
+type alias Model =
+    { players : List Player
+    , name : String
+    , playerId : Maybe Int -- When it says maybe it is like saying it is a nullable value
+    , plays : List Play
+    }
 
 
 type alias Player =
-  { id : Int
-  , name : String
-  , points : Int
-  }
+    { id : Int
+    , name : String
+    , points : Int
+    }
+
 
 type alias Play =
-  { id : Int
-  , playerId : Int
-  , name : String
-  , points : Int
-  }
+    { id : Int
+    , playerId : Int
+    , name : String
+    , points : Int
+    }
+
 
 initModel : Model
 initModel =
-  { players = []
-  , name = ""
-  , playerId = Nothing
-  , plays = []
-  }
+    { players = []
+    , name = ""
+    , playerId = Nothing
+    , plays = []
+    }
+
 
 
 -- UPDATE
+
 
 type Msg
     = Edit Player
@@ -45,6 +51,7 @@ type Msg
     | Save
     | Cancel
     | DeletePlay Play
+
 
 update : Msg -> Model -> Model
 update msg model =
@@ -55,24 +62,71 @@ update msg model =
 
         Cancel ->
             Debug.log "Cancel Model"
-                { model | name = ""
-                , playerId = Nothing }
+                { model
+                    | name = ""
+                    , playerId = Nothing
+                }
 
         Save ->
-            -- let -- old thought
-            --     players = model.players
-            --     newPlayers = players ++ { id = 0 , name = model.name , points = 0 }
-            -- in
-            --     { model | model.players =  newPlayers }
-            --         Debug.log "Save Model " ++ model
-
             if String.isEmpty model.name then
                 model
             else
                 save model
 
+        Score player points ->
+            score model player points
+
+        Edit player ->
+            { model | name = player.name, playerId = Just player.id }
+
         _ ->
             model
+
+
+
+-- when a score happens a new play must be added to the plays
+
+
+score
+    : { b | players : List { a | id : Int, points : Int }, plays : List Play }
+    -> { c | name : String, id : Int }
+    -> Int
+    -> { b | players : List { a | id : Int, points : Int }, plays : List Play }
+score model scorer points =
+    let
+        newPlayers =
+            List.map
+                (\player ->
+                    if player.id == scorer.id then
+                        { player | points = player.points + points }
+                    else
+                        player
+                )
+                model.players
+
+        play =
+            Play (List.length model.plays) scorer.id scorer.name points
+    in
+    { model | players = newPlayers, plays = play :: model.plays }
+
+
+
+-- let
+--     newPoints = player.points + points
+--     newPlay = Play <id> player.id <name> points
+--     newPlayer = Player player.id player.name newPoints
+--     players_sans_player = xxxx
+--     newPlayers = newPlayer :: players_sans_player
+save
+    : { name : String
+    , playerId : Maybe Int
+    , players : List { name : String, id : Int, points : Int }
+    , plays : List Play
+    }
+    -> Model
+-- in
+--     { model | plays = model.plays :: newPlay, players = newPlayers}
+
 
 save model =
     case model.playerId of
@@ -82,67 +136,164 @@ save model =
         Nothing ->
             add model
 
+
 add : Model -> Model
 add model =
     let
-        newplayer = Player (List.length model.players) model.name 0
-        players = model.players
-        newplayers = newplayer :: players
+        newplayer =
+            Player (List.length model.players) model.name 0
+
+        players =
+            model.players
+
+        newplayers =
+            newplayer :: players
     in
-        { model | players = newplayers, name = "" }
+    { model | players = newplayers, name = "" }
+
+
 
 -- 1. find player in the models player list and set its name to the newly edited value
 -- 2. need to update plays to make sure plays show the updated name
+
+
 edit : Model -> Int -> Model
 edit model id =
     let
-        newPlayers = List.map (\player ->
-                                   if player.id == id then
-                                       { player | name = model.name }
-                                   else
-                                       player) model.players
+        newPlayers =
+            List.map
+                (\player ->
+                    if player.id == id then
+                        { player | name = model.name }
+                    else
+                        player
+                )
+                model.players
 
-        newPlays = List.map (\play ->
-                                 if play.playerId == id then
-                                     { play | name = model.name }
-                                 else
-                                     play ) model.plays
+        newPlays =
+            List.map
+                (\play ->
+                    if play.playerId == id then
+                        { play | name = model.name }
+                    else
+                        play
+                )
+                model.plays
     in
-        { model | players = newPlayers, plays = newPlays, name = "", playerId = Nothing }
+    { model | players = newPlayers, plays = newPlays, name = "", playerId = Nothing }
+
 
 
 -- VIEW
 
 view : Model -> Html Msg
 view model =
-    div [ class "scoreboard"]
+    div [ class "scoreboard" ]
         [ h1 [] [ text "Score Keeper CMA" ]
+        , playerSection model
         , playerForm model
-        , p [] [ text (toString model)]
+        , p [] [ text (toString model) ]
+        ]
+
+
+
+-- playerSection
+--   player list heading
+--   player list
+--     player
+--   total points
+
+playerListHeader : Html msg
+
+playerSection : Model -> Html Msg
+playerSection model =
+    div []
+        [ playerListHeader
+        , playerList model
+        , pointTotal model
+playerList : { a | players : List Player } -> Html Msg
+        ]
+
+
+playerListHeader =
+    header []
+        [ div [] [ text "Name" ]
+        , div [] [ text "Points" ]
+        ]
+
+pointTotal : { b | plays : List { a | points : number } } -> Html msg
+
+playerList model =
+    -- ul []
+    --     (List.map player (List.sortBy .name model.players))
+    model.players
+        |> List.sortBy .name
+        |> List.map player
+        |> ul []
+
+
+pointTotal model =
+    let
+        all_points =
+            List.map .points model.plays
+
+        total =
+            List.sum all_points
+    in
+    footer []
+        [ div [] [ text "Total:" ]
+        , div [] [ text (toString total) ]
+        ]
+
+
+player : Player -> Html Msg
+player player =
+    li []
+        [ i
+            [ class "edit"
+            , onClick (Edit player)
+            ]
+            []
+        , div []
+            [ text player.name ]
+        , button
+            [ type_ "button"
+            , onClick (Score player 2)
+            ]
+            [ text "2pt" ]
+        , button
+            [ type_ "button"
+            , onClick (Score player 3)
+            ]
+            [ text "3pt" ]
+        , div []
+            [ text (toString player.points) ]
         ]
 
 playerForm : Model -> Html Msg
 playerForm model =
     Html.form [ onSubmit Save ]
         [ input
-              [ type_ "text"
-              , placeholder "Add/Edit Player ..."
-              , onInput Input
-              , value model.name
-              ]
-              []
-              -- <input type="text" placeholder="Add edit" value="{model.name}" onInput="Input" />
-        , button [ type_ "submit"
-                 , onClick Save
-                 ] [ text "Save" ]
-        , button [ type_ "button"
-                 , onClick Cancel
-                 , value  model.name ]  [ text "Cancel" ]
-        ]
+            [ type_ "text"
+            , placeholder "Add/Edit Player ..."
+            , onInput Input
+            , value model.name
+            ]
+            []
 
--- main : Html.Html msg
--- main =
---     text "Score Keeper!"
+        -- <input type="text" placeholder="Add edit" value="{model.name}" onInput="Input" />
+        , button
+            [ type_ "submit"
+            , onClick Save
+            ]
+            [ text "Save" ]
+        , button
+            [ type_ "button"
+            , onClick Cancel
+            , value model.name
+            ]
+            [ text "Cancel" ]
+        ]
 
 
 main : Program Never Model Msg
