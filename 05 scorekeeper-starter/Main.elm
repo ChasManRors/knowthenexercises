@@ -79,9 +79,25 @@ update msg model =
         Edit player ->
             { model | name = player.name, playerId = Just player.id }
 
-        _ ->
-            model
+        DeletePlay play ->
+            deletePlay model play
 
+        -- _ ->
+        --     model
+
+
+deletePlay model deletable =
+    let
+        newPlays =
+            List.filter
+                (\play ->
+                     if play.id /= deletable.id then
+                         True
+                     else
+                         False)
+                 model.plays
+    in
+        { model | plays = newPlays }
 
 
 -- when a score happens a new play must be added to the plays
@@ -192,9 +208,38 @@ view model =
         [ h1 [] [ text "Score Keeper CMA" ]
         , playerSection model
         , playerForm model
+        , playSection model
         , p [] [ text (toString model) ]
         ]
 
+
+playSection model =
+    div []
+        [ playListHeader
+        , playList model
+        ]
+
+
+playList model =
+    model.plays
+        |> List.map play
+        |> ul []
+
+play : Play -> Html Msg
+play play =
+    li []
+        [ i [ class "remove"
+            , onClick (DeletePlay play)] []
+        , div [] [ text play.name ]
+        , div [] [ text (toString play.points) ]
+        ]
+
+playListHeader : Html Msg
+playListHeader =
+    header []
+        [ div [] [ text "Plays"]
+        , div [] [ text "Points"]
+        ]
 
 
 -- playerSection
@@ -203,7 +248,6 @@ view model =
 --     player
 --   total points
 
-playerListHeader : Html msg
 
 playerSection : Model -> Html Msg
 playerSection model =
@@ -211,7 +255,7 @@ playerSection model =
         [ playerListHeader
         , playerList model
         , pointTotal model
-playerList : { a | players : List Player } -> Html Msg
+-- playerList : { a | players : List Player } -> Html Msg
         ]
 
 
@@ -221,7 +265,7 @@ playerListHeader =
         , div [] [ text "Points" ]
         ]
 
-pointTotal : { b | plays : List { a | points : number } } -> Html msg
+
 
 playerList model =
     -- ul []
@@ -232,6 +276,7 @@ playerList model =
         |> ul []
 
 
+-- pointTotal : { b | plays : List { a | points : number } } -> Html msg
 pointTotal model =
     let
         all_points =
