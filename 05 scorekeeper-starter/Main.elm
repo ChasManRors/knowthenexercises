@@ -3,10 +3,8 @@ module Main exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-
-
+--
 -- MODEL
-
 
 type alias Model =
     { players : List Player
@@ -39,6 +37,7 @@ initModel =
     , plays = []
     }
 
+--
 -- UPDATE
 
 type Msg
@@ -74,6 +73,7 @@ update msg model =
             score model player points
 
         Edit player ->
+            Debug.log "Edit player ->"
             { model | name = player.name, playerId = Just player.id }
 
         DeletePlay play ->
@@ -88,11 +88,7 @@ deletePlay model removeplay =
     let
         newPlays =
             List.filter
-                (\play ->
-                     if play.id /= removeplay.id then
-                         True
-                     else
-                         False)
+                (\play -> play.id /= removeplay.id)
                  model.plays
 
         -- newPlayers decrement players points total
@@ -107,7 +103,7 @@ deletePlay model removeplay =
     in
         { model | plays = newPlays, players = newPlayers }
 
--- when a score happens a new play must be added to the plays
+                -- when a score happens a new play must be added to the plays
 
 score : Model -> Player -> Int -> Model
 score model scorer points =
@@ -127,25 +123,23 @@ score model scorer points =
     in
     { model | players = newPlayers, plays = play :: model.plays }
 
+                -- let
+                --     newPoints = player.points + points
+                --     newPlay = Play <id> player.id <name> points
+                --     newPlayer = Player player.id player.name newPoints
+                --     players_sans_player = xxxx
+                --     newPlayers = newPlayer :: players_sans_player
+                -- save
+                --     : { name : String
+                --     , playerId : Maybe Int
+                --     , players : List { name : String, id : Int, points : Int }
+                --     , plays : List Play
+                --     }
+                --     -> Model
+                -- in
+                --     { model | plays = model.plays :: newPlay, players = newPlayers}
 
-
--- let
---     newPoints = player.points + points
---     newPlay = Play <id> player.id <name> points
---     newPlayer = Player player.id player.name newPoints
---     players_sans_player = xxxx
---     newPlayers = newPlayer :: players_sans_player
-save
-    : { name : String
-    , playerId : Maybe Int
-    , players : List { name : String, id : Int, points : Int }
-    , plays : List Play
-    }
-    -> Model
--- in
---     { model | plays = model.plays :: newPlay, players = newPlayers}
-
-
+save : Model -> Model
 save model =
     case model.playerId of
         Just id ->
@@ -169,11 +163,8 @@ add model =
     in
     { model | players = newplayers, name = "" }
 
-
-
--- 1. find player in the models player list and set its name to the newly edited value
--- 2. need to update plays to make sure plays show the updated name
-
+                  -- 1. find player in the models player list and set its name to the newly edited value
+                  -- 2. need to update plays to make sure plays show the updated name
 
 edit : Model -> Int -> Model
 edit model id =
@@ -200,7 +191,7 @@ edit model id =
     in
     { model | players = newPlayers, plays = newPlays, name = "", playerId = Nothing }
 
-
+--
 -- VIEW
 
 view : Model -> Html Msg
@@ -210,7 +201,7 @@ view model =
         , playerSection model
         , playerForm model
         , playSection model
-        -- , p [] [ text (toString model) ]
+        , p [] [ text (toString model) ]
         ]
 
 playSection : { a | plays : List Play } -> Html Msg
@@ -243,11 +234,11 @@ playListHeader =
         ]
 
 
--- playerSection
---   player list heading
---   player list
---     player
---   total points
+             -- playerSection
+             --   player list heading
+             --   player list
+             --     player
+             --   total points
 
 
 playerSection : Model -> Html Msg
@@ -258,17 +249,15 @@ playerSection model =
         , pointTotal model
         ]
 
--- playerList : { a | players : List Player } -> Html Msg
+
 playerListHeader : Html msg
 playerListHeader =
     header []
         [ div [] [ text "Name" ]
         , div [] [ text "Points" ]
         ]
-playerList : { a | players : List Player } -> Html Msg
 
-
-
+playerList : Model -> Html Msg
 playerList model =
     -- ul []
     --     (List.map player (List.sortBy .name model.players))
@@ -300,7 +289,7 @@ player player =
             , onClick (Edit player)
             ]
             []
-        , div []
+        , div [class "edit"]                   -- <<<<<<<<<<<<<<<<
             [ text player.name ]
         , button
             [ type_ "button"

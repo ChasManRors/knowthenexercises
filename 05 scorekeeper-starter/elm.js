@@ -8383,7 +8383,7 @@ var _user$project$Main$deletePlay = F2(
 		var newPlays = A2(
 			_elm_lang$core$List$filter,
 			function (play) {
-				return (!_elm_lang$core$Native_Utils.eq(play.id, removeplay.id)) ? true : false;
+				return !_elm_lang$core$Native_Utils.eq(play.id, removeplay.id);
 			},
 			model.plays);
 		return _elm_lang$core$Native_Utils.update(
@@ -8475,12 +8475,15 @@ var _user$project$Main$update = F2(
 				return A3(_user$project$Main$score, model, _p1._0, _p1._1);
 			case 'Edit':
 				var _p2 = _p1._0;
-				return _elm_lang$core$Native_Utils.update(
-					model,
-					{
-						name: _p2.name,
-						playerId: _elm_lang$core$Maybe$Just(_p2.id)
-					});
+				return A2(
+					_elm_lang$core$Debug$log,
+					'Edit player ->',
+					_elm_lang$core$Native_Utils.update(
+						model,
+						{
+							name: _p2.name,
+							playerId: _elm_lang$core$Maybe$Just(_p2.id)
+						}));
 			default:
 				return A2(_user$project$Main$deletePlay, model, _p1._0);
 		}
