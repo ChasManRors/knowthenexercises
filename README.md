@@ -1,3 +1,14 @@
+# I cloned courses.knowthen.com repo and worked off of that instead of forking it.  So this is really a fork where I worked through the excersises
+
+## I pushed it up using
+
+
+git remote add neworigin git@github.com:ChasManRors/knowthenexercises.git
+
+git push -u neworigin master
+
+
+
 # Elm For Beginners
 This repo is the source companion to the following course on Learning Elmlang:
 http://courses.knowthen.com/courses/elm-for-beginners
@@ -29,4 +40,3 @@ What can you do to manage the learning challenges facing software developers?
 #### Lean learning
 
 I don't want to waste your time, so you'll learn just what you need to know as quickly as possible. You'll start this course with the end in mind. What do I mean by that? We're going to be building a web application, and you'll learn just what you need to build the app.
-
